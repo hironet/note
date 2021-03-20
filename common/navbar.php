@@ -13,13 +13,13 @@
           <a id="category-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">OS</a>
           <ul class="dropdown-menu" aria-labelledby="category-dropdown">
             <li>
-              <a class="dropdown-item" href=".?p=windows">Windows</a>
+              <a class="dropdown-item" href=".?c=windows">Windows</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=macos">macOS</a>
+              <a class="dropdown-item" href=".?c=macos">macOS</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=linux">Linux</a>
+              <a class="dropdown-item" href=".?c=linux">Linux</a>
             </li>
           </ul>
         </li>
@@ -27,16 +27,16 @@
           <a id="category-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">ミドルウェア</a>
           <ul class="dropdown-menu" aria-labelledby="category-dropdown">
             <li>
-              <a class="dropdown-item" href=".?p=docker">Docker</a>
+              <a class="dropdown-item" href=".?c=docker">Docker</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=nginx">Nginx</a>
+              <a class="dropdown-item" href=".?c=nginx">Nginx</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=apache">Apache</a>
+              <a class="dropdown-item" href=".?c=apache">Apache</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=mysql">MySQL</a>
+              <a class="dropdown-item" href=".?c=mysql">MySQL</a>
             </li>
           </ul>
         </li>
@@ -44,7 +44,7 @@
           <a id="category-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">アプリケーション</a>
           <ul class="dropdown-menu" aria-labelledby="category-dropdown">
             <li>
-              <a class="dropdown-item" href=".?p=wordpress">Wordpress</a>
+              <a class="dropdown-item" href=".?c=wordpress">Wordpress</a>
             </li>
           </ul>
         </li>
@@ -52,22 +52,22 @@
           <a id="category-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">ツール</a>
           <ul class="dropdown-menu" aria-labelledby="category-dropdown">
             <li>
-              <a class="dropdown-item" href=".?p=vim">Vim</a>
+              <a class="dropdown-item" href=".?c=vim">Vim</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=vscode">Visual Studio Code</a>
+              <a class="dropdown-item" href=".?c=vscode">Visual Studio Code</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=office">Microsoft Office</a>
+              <a class="dropdown-item" href=".?c=office">Microsoft Office</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=git">Git</a>
+              <a class="dropdown-item" href=".?c=git">Git</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=vagrant">Vagrant</a>
+              <a class="dropdown-item" href=".?c=vagrant">Vagrant</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=wireshark">Wireshark</a>
+              <a class="dropdown-item" href=".?c=wireshark">Wireshark</a>
             </li>
           </ul>
         </li>
@@ -75,19 +75,19 @@
           <a id="category-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">プログラミング</a>
           <ul class="dropdown-menu" aria-labelledby="category-dropdown">
             <li>
-              <a class="dropdown-item" href=".?p=html">HTML/CSS</a>
+              <a class="dropdown-item" href=".?c=html">HTML/CSS</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=javascript">JavaScript</a>
+              <a class="dropdown-item" href=".?c=javascript">JavaScript</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=php">PHP</a>
+              <a class="dropdown-item" href=".?c=php">PHP</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=ruby">Ruby</a>
+              <a class="dropdown-item" href=".?c=ruby">Ruby</a>
             </li>
             <li>
-              <a class="dropdown-item" href=".?p=bash">Bash</a>
+              <a class="dropdown-item" href=".?c=bash">Bash</a>
             </li>
           </ul>
         </li>

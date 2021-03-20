@@ -5,13 +5,13 @@
         <div class="card-header">OS</div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
-            <a href=".?p=windows">Windows</a>
+            <a href=".?c=windows">Windows</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=macos">macOS</a>
+            <a href=".?c=macos">macOS</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=linux">Linux</a>
+            <a href=".?c=linux">Linux</a>
           </li>
         </ul>
       </div><!-- card -->
@@ -21,16 +21,16 @@
         <div class="card-header">ミドルウェア</div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
-            <a href=".?p=docker">Docker</a>
+            <a href=".?c=docker">Docker</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=nginx">Nginx</a>
+            <a href=".?c=nginx">Nginx</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=apache">Apache</a>
+            <a href=".?c=apache">Apache</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=mysql">MySQL</a>
+            <a href=".?c=mysql">MySQL</a>
           </li>
         </ul>
       </div><!-- card -->
@@ -40,7 +40,7 @@
         <div class="card-header">アプリケーション</div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
-            <a href=".?p=wordpress">Wordpress</a>
+            <a href=".?c=wordpress">Wordpress</a>
           </li>
         </ul>
       </div><!-- card -->
@@ -52,22 +52,22 @@
         <div class="card-header">ツール</div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
-            <a href=".?p=vim">Vim</a>
+            <a href=".?c=vim">Vim</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=vscode">Visual Studio Code</a>
+            <a href=".?c=vscode">Visual Studio Code</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=office">Microsoft Office</a>
+            <a href=".?c=office">Microsoft Office</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=git">Git</a>
+            <a href=".?c=git">Git</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=vagrant">Vagrant</a>
+            <a href=".?c=vagrant">Vagrant</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=wireshark">Wireshark</a>
+            <a href=".?c=wireshark">Wireshark</a>
           </li>
         </ul>
       </div><!-- card -->
@@ -77,19 +77,19 @@
         <div class="card-header">プログラミング</div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
-            <a href=".?p=html">HTML/CSS</a>
+            <a href=".?c=html">HTML/CSS</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=javascript">JavaScript</a>
+            <a href=".?c=javascript">JavaScript</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=php">PHP</a>
+            <a href=".?c=php">PHP</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=ruby">Ruby</a>
+            <a href=".?c=ruby">Ruby</a>
           </li>
           <li class="list-group-item">
-            <a href=".?p=bash">Bash</a>
+            <a href=".?c=bash">Bash</a>
           </li>
         </ul>
       </div><!-- card -->

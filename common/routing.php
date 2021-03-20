@@ -1,65 +1,199 @@
 <?php
-$page= isset($_GET['p']) ? $_GET['p'] : 'top';
-switch ($page) {
+$category= isset($_GET['c']) ? $_GET['c'] : 'top';
+$page= isset($_GET['p']) ? $_GET['p'] : 'list';
+switch ($category) {
   case 'top':
     include_once(__DIR__ . '/../contents/top.php');
     break;
   case 'windows':
-    include_once(__DIR__ . '/../contents/windows/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/windows/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'macos':
-    include_once(__DIR__ . '/../contents/macos/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/macos/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'linux':
-    include_once(__DIR__ . '/../contents/linux/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/linux/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'docker':
-    include_once(__DIR__ . '/../contents/docker/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/docker/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'nginx':
-    include_once(__DIR__ . '/../contents/nginx/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/nginx/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'apache':
-    include_once(__DIR__ . '/../contents/apache/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/apache/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'mysql':
-    include_once(__DIR__ . '/../contents/mysql/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/mysql/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'wordpress':
-    include_once(__DIR__ . '/../contents/wordpress/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/wordpress/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'vim':
-    include_once(__DIR__ . '/../contents/vim/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/vim/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'vscode':
-    include_once(__DIR__ . '/../contents/vscode/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/vscode/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'office':
-    include_once(__DIR__ . '/../contents/office/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/office/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'git':
-    include_once(__DIR__ . '/../contents/git/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/git/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'vagrant':
-    include_once(__DIR__ . '/../contents/vagrant/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/vagrant/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'wireshark':
-    include_once(__DIR__ . '/../contents/wireshark/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/wireshark/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'html':
-    include_once(__DIR__ . '/../contents/html/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/html/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'javascript':
-    include_once(__DIR__ . '/../contents/javascript/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/javascript/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'php':
-    include_once(__DIR__ . '/../contents/php/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/php/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'ruby':
-    include_once(__DIR__ . '/../contents/ruby/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/ruby/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   case 'bash':
-    include_once(__DIR__ . '/../contents/bash/list.php');
+    switch ($page) {
+      case 'list':
+        include_once(__DIR__ . '/../contents/bash/list.php');
+        break;
+      default:
+        include_once(__DIR__ . '/../contents/404.php');
+        break;
+    }
     break;
   default:
     include_once(__DIR__ . '/../contents/404.php');
