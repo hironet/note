@@ -44,7 +44,7 @@
           <a id="category-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">アプリケーション</a>
           <ul class="dropdown-menu" aria-labelledby="category-dropdown">
             <li>
-              <a class="dropdown-item" href=".?c=wordpress">Wordpress</a>
+              <a class="dropdown-item" href=".?c=wordpress">WordPress</a>
             </li>
           </ul>
         </li>

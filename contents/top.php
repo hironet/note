@@ -40,7 +40,7 @@
         <div class="card-header">アプリケーション</div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
-            <a href=".?c=wordpress">Wordpress</a>
+            <a href=".?c=wordpress">WordPress</a>
           </li>
         </ul>
       </div><!-- card -->
