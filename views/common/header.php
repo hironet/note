@@ -21,4 +21,4 @@ foreach ($breadcrumb_list as $breadcrumb => $url) {
   </ol>
 </nav>
 <h1><?= $contents_title ?></h1>
-<p>最終更新日：<?= get_update_date(__FILE__); ?></p>
+<p>最終更新日：<?= get_update_date(__FILE__) ?></p>
