@@ -27,5 +27,6 @@
 <?php include_once(__DIR__ . '/footer.php'); ?>
   </footer>
 <?php include_once(__DIR__ . '/script.php'); ?>
+<?php include_once(__DIR__ . '/analyticstracking.php'); ?>
 </body>
 </html>
