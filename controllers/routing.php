@@ -16,7 +16,7 @@ switch ($category) {
   case 'windows':
     switch ($page) {
       case 'list':
-        $contents_title = 'Windows | ';
+        $contents_title = 'Windows';
         $contents_path = '/contents/windows/list.php';
         $breadcrumb_list = ['Windows' => ''];
         break;
@@ -28,7 +28,7 @@ switch ($category) {
   case 'macos':
     switch ($page) {
       case 'list':
-        $contents_title = 'macOS | ';
+        $contents_title = 'macOS';
         $contents_path = '/contents/macos/list.php';
         $breadcrumb_list = ['macOS' => ''];
         break;
@@ -40,7 +40,7 @@ switch ($category) {
   case 'linux':
     switch ($page) {
       case 'list':
-        $contents_title = 'Linux | ';
+        $contents_title = 'Linux';
         $contents_path = '/contents/linux/list.php';
         $breadcrumb_list = ['Linux' => ''];
         break;
@@ -52,7 +52,7 @@ switch ($category) {
   case 'docker':
     switch ($page) {
       case 'list':
-        $contents_title = 'Docker | ';
+        $contents_title = 'Docker';
         $contents_path = '/contents/docker/list.php';
         $breadcrumb_list = ['Docker' => ''];
         break;
@@ -64,7 +64,7 @@ switch ($category) {
   case 'nginx':
     switch ($page) {
       case 'list':
-        $contents_title = 'Nginx | ';
+        $contents_title = 'Nginx';
         $contents_path = '/contents/nginx/list.php';
         $breadcrumb_list = ['Nginx' => ''];
         break;
@@ -76,7 +76,7 @@ switch ($category) {
   case 'apache':
     switch ($page) {
       case 'list':
-        $contents_title = 'Apache | ';
+        $contents_title = 'Apache';
         $contents_path = '/contents/apache/list.php';
         $breadcrumb_list = ['Apache' => ''];
         break;
@@ -88,7 +88,7 @@ switch ($category) {
   case 'mysql':
     switch ($page) {
       case 'list':
-        $contents_title = 'MySQL | ';
+        $contents_title = 'MySQL';
         $contents_path = '/contents/mysql/list.php';
         $breadcrumb_list = ['MySQL' => ''];
         break;
@@ -100,7 +100,7 @@ switch ($category) {
   case 'wordpress':
     switch ($page) {
       case 'list':
-        $contents_title = 'WordPress | ';
+        $contents_title = 'WordPress';
         $contents_path = '/contents/wordpress/list.php';
         $breadcrumb_list = ['WordPress' => ''];
         break;
@@ -112,7 +112,7 @@ switch ($category) {
   case 'vim':
     switch ($page) {
       case 'list':
-        $contents_title = 'Vim | ';
+        $contents_title = 'Vim';
         $contents_path = '/contents/vim/list.php';
         $breadcrumb_list = ['Vim' => ''];
         break;
@@ -124,7 +124,7 @@ switch ($category) {
   case 'vscode':
     switch ($page) {
       case 'list':
-        $contents_title = 'Visual Studio Code | ';
+        $contents_title = 'Visual Studio Code';
         $contents_path = '/contents/vscode/list.php';
         $breadcrumb_list = ['Visual Studio Code' => ''];
         break;
@@ -136,7 +136,7 @@ switch ($category) {
   case 'office':
     switch ($page) {
       case 'list':
-        $contents_title = 'Microsoft Office | ';
+        $contents_title = 'Microsoft Office';
         $contents_path = '/contents/office/list.php';
         $breadcrumb_list = ['Microsoft Office' => ''];
         break;
@@ -148,7 +148,7 @@ switch ($category) {
   case 'git':
     switch ($page) {
       case 'list':
-        $contents_title = 'Git | ';
+        $contents_title = 'Git';
         $contents_path = '/contents/git/list.php';
         $breadcrumb_list = ['Git' => ''];
         break;
@@ -160,7 +160,7 @@ switch ($category) {
   case 'vagrant':
     switch ($page) {
       case 'list':
-        $contents_title = 'Vagrant | ';
+        $contents_title = 'Vagrant';
         $contents_path = '/contents/vagrant/list.php';
         $breadcrumb_list = ['Vagrant' => ''];
         break;
@@ -172,7 +172,7 @@ switch ($category) {
   case 'wireshark':
     switch ($page) {
       case 'list':
-        $contents_title = 'Wireshark | ';
+        $contents_title = 'Wireshark';
         $contents_path = '/contents/wireshark/list.php';
         $breadcrumb_list = ['Wireshark' => ''];
         break;
@@ -184,7 +184,7 @@ switch ($category) {
   case 'html':
     switch ($page) {
       case 'list':
-        $contents_title = 'HTML/CSS | ';
+        $contents_title = 'HTML/CSS';
         $contents_path = '/contents/html/list.php';
         $breadcrumb_list = ['HTML/CSS' => ''];
         break;
@@ -196,7 +196,7 @@ switch ($category) {
   case 'javascript':
     switch ($page) {
       case 'list':
-        $contents_title = 'JavaScript | ';
+        $contents_title = 'JavaScript';
         $contents_path = '/contents/javascript/list.php';
         $breadcrumb_list = ['JavaScript' => ''];
         break;
@@ -208,7 +208,7 @@ switch ($category) {
   case 'php':
     switch ($page) {
       case 'list':
-        $contents_title = 'PHP | ';
+        $contents_title = 'PHP';
         $contents_path = '/contents/php/list.php';
         $breadcrumb_list = ['PHP' => ''];
         break;
@@ -220,7 +220,7 @@ switch ($category) {
   case 'ruby':
     switch ($page) {
       case 'list':
-        $contents_title = 'Ruby | ';
+        $contents_title = 'Ruby';
         $contents_path = '/contents/ruby/list.php';
         $breadcrumb_list = ['Ruby' => ''];
         break;
@@ -232,7 +232,7 @@ switch ($category) {
   case 'bash':
     switch ($page) {
       case 'list':
-        $contents_title = 'Bash | ';
+        $contents_title = 'Bash';
         $contents_path = '/contents/bash/list.php';
         $breadcrumb_list = ['Bash' => ''];
         break;
