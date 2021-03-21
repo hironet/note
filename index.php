@@ -1,4 +1,6 @@
 <?php
+$meta_description = '';
+$meta_keywords = '';
 $contents_title = '';
 $contents_path = '';
 $breadcrumb_list = [];

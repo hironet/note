@@ -16,6 +16,8 @@ switch ($category) {
   case 'windows':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Windowsに関する情報をまとめています。';
+        $meta_keywords = 'windows';
         $contents_title = 'Windows';
         $contents_path = '/contents/windows/list.php';
         $breadcrumb_list = ['Windows' => ''];
@@ -28,6 +30,8 @@ switch ($category) {
   case 'macos':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、macOSに関する情報をまとめています。';
+        $meta_keywords = 'macos,mac';
         $contents_title = 'macOS';
         $contents_path = '/contents/macos/list.php';
         $breadcrumb_list = ['macOS' => ''];
@@ -40,6 +44,8 @@ switch ($category) {
   case 'linux':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Linuxに関する情報をまとめています。';
+        $meta_keywords = 'linux';
         $contents_title = 'Linux';
         $contents_path = '/contents/linux/list.php';
         $breadcrumb_list = ['Linux' => ''];
@@ -52,6 +58,8 @@ switch ($category) {
   case 'docker':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Dockerに関する情報をまとめています。';
+        $meta_keywords = 'docker';
         $contents_title = 'Docker';
         $contents_path = '/contents/docker/list.php';
         $breadcrumb_list = ['Docker' => ''];
@@ -64,6 +72,8 @@ switch ($category) {
   case 'nginx':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Nginxに関する情報をまとめています。';
+        $meta_keywords = 'nginx';
         $contents_title = 'Nginx';
         $contents_path = '/contents/nginx/list.php';
         $breadcrumb_list = ['Nginx' => ''];
@@ -76,6 +86,8 @@ switch ($category) {
   case 'apache':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Apacheに関する情報をまとめています。';
+        $meta_keywords = 'apache';
         $contents_title = 'Apache';
         $contents_path = '/contents/apache/list.php';
         $breadcrumb_list = ['Apache' => ''];
@@ -88,6 +100,8 @@ switch ($category) {
   case 'mysql':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、MySQLに関する情報をまとめています。';
+        $meta_keywords = 'mysql';
         $contents_title = 'MySQL';
         $contents_path = '/contents/mysql/list.php';
         $breadcrumb_list = ['MySQL' => ''];
@@ -100,6 +114,8 @@ switch ($category) {
   case 'wordpress':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、WordPressに関する情報をまとめています。';
+        $meta_keywords = 'wordpress';
         $contents_title = 'WordPress';
         $contents_path = '/contents/wordpress/list.php';
         $breadcrumb_list = ['WordPress' => ''];
@@ -112,6 +128,8 @@ switch ($category) {
   case 'vim':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Vimに関する情報をまとめています。';
+        $meta_keywords = 'vim,vi';
         $contents_title = 'Vim';
         $contents_path = '/contents/vim/list.php';
         $breadcrumb_list = ['Vim' => ''];
@@ -124,6 +142,8 @@ switch ($category) {
   case 'vscode':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Visual Studio Codeに関する情報をまとめています。';
+        $meta_keywords = 'visual studio code,vscode';
         $contents_title = 'Visual Studio Code';
         $contents_path = '/contents/vscode/list.php';
         $breadcrumb_list = ['Visual Studio Code' => ''];
@@ -136,6 +156,8 @@ switch ($category) {
   case 'office':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Microsoft Officeに関する情報をまとめています。';
+        $meta_keywords = 'microsoft office,ms office,office';
         $contents_title = 'Microsoft Office';
         $contents_path = '/contents/office/list.php';
         $breadcrumb_list = ['Microsoft Office' => ''];
@@ -148,6 +170,8 @@ switch ($category) {
   case 'git':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Gitに関する情報をまとめています。';
+        $meta_keywords = 'git';
         $contents_title = 'Git';
         $contents_path = '/contents/git/list.php';
         $breadcrumb_list = ['Git' => ''];
@@ -160,6 +184,8 @@ switch ($category) {
   case 'vagrant':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Vagrantに関する情報をまとめています。';
+        $meta_keywords = 'vagrant';
         $contents_title = 'Vagrant';
         $contents_path = '/contents/vagrant/list.php';
         $breadcrumb_list = ['Vagrant' => ''];
@@ -172,6 +198,8 @@ switch ($category) {
   case 'wireshark':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Wiresharkに関する情報をまとめています。';
+        $meta_keywords = 'wireshark';
         $contents_title = 'Wireshark';
         $contents_path = '/contents/wireshark/list.php';
         $breadcrumb_list = ['Wireshark' => ''];
@@ -184,6 +212,8 @@ switch ($category) {
   case 'html':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、HTML/CSSに関する情報をまとめています。';
+        $meta_keywords = 'html,css';
         $contents_title = 'HTML/CSS';
         $contents_path = '/contents/html/list.php';
         $breadcrumb_list = ['HTML/CSS' => ''];
@@ -196,6 +226,8 @@ switch ($category) {
   case 'javascript':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、JavaScriptに関する情報をまとめています。';
+        $meta_keywords = 'javascript,js';
         $contents_title = 'JavaScript';
         $contents_path = '/contents/javascript/list.php';
         $breadcrumb_list = ['JavaScript' => ''];
@@ -208,6 +240,8 @@ switch ($category) {
   case 'php':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、PHPに関する情報をまとめています。';
+        $meta_keywords = 'php';
         $contents_title = 'PHP';
         $contents_path = '/contents/php/list.php';
         $breadcrumb_list = ['PHP' => ''];
@@ -220,6 +254,8 @@ switch ($category) {
   case 'ruby':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Rubyに関する情報をまとめています。';
+        $meta_keywords = 'ruby';
         $contents_title = 'Ruby';
         $contents_path = '/contents/ruby/list.php';
         $breadcrumb_list = ['Ruby' => ''];
@@ -232,6 +268,8 @@ switch ($category) {
   case 'bash':
     switch ($page) {
       case 'list':
+        $meta_description = 'このページには、Bashに関する情報をまとめています。';
+        $meta_keywords = 'bash';
         $contents_title = 'Bash';
         $contents_path = '/contents/bash/list.php';
         $breadcrumb_list = ['Bash' => ''];
