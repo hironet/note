@@ -14,7 +14,7 @@
 <?php include_once(__DIR__ . '/common/routing.php'); ?>
         </main>
       </div><!-- col -->
-      <div class="col-12 col-lg-3 ">
+      <div class="col-12 col-lg-3">
         <aside>
 <?php include_once(__DIR__ . '/common/sidebar.php'); ?>
         </aside>
