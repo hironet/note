@@ -1,5 +1,5 @@
 <header>
-<?php include_once(__DIR__ . '/../common/header.php'); ?>
+<?php include_once(__DIR__ . '/common/header.php'); ?>
 </header>
 <div class="row">
 <?php
