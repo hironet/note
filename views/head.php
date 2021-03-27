@@ -8,7 +8,12 @@
   body {
     padding-top: 5.0rem;
   }
+
   #nav {
     opacity: 0.9;
+  }
+
+  pre.prettyprint {
+    font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
   }
 </style>
