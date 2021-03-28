@@ -9,11 +9,20 @@
     padding-top: 5.0rem;
   }
 
-  #nav {
+  nav.navbar {
+    background-color: #5c73b7;
     opacity: 0.9;
+  }
+
+  h3.title {
+    background-color: #5c73b7;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
   }
 
   pre.prettyprint {
     font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
+    padding: 0.2rem 0.5rem;
   }
 </style>
