@@ -56,7 +56,7 @@ $ nmcli c modify [ネットワークインタフェース名] ipv4.dns [DNSサ�
 <pre class="prettyprint">
 $ nmcli c modify [ネットワークインタフェース名] ipv4.method manual
 </pre>
-<p>ネットワークインタフェースを再起動して設定を反映する。</p>
+<p>ネットワークインタフェースを再起動する。</p>
 <pre class="prettyprint">
 $ nmcli c down [ネットワークインタフェース名]
 $ nmcli c up [ネットワークインタフェース名]
@@ -71,16 +71,20 @@ $ nmcli c up [ネットワークインタフェース名]
   </thead>
   <tbody>
     <tr>
-      <td>インストールされているパッケージ一覧を表示する。</td>
-      <td><code>yum list installed</code></td>
+      <td>リポジトリ一覧を表示する。</td>
+      <td><code>yum repolist</code></td>
+    </tr>
+    <tr>
+      <td>パッケージ情報を検索する。</td>
+      <td><code>yum search [キーワード]</code></td>
     </tr>
     <tr>
       <td>インストール可能なパッケージ一覧を表示する。</td>
       <td><code>yum list</code></td>
     </tr>
     <tr>
-      <td>パッケージ情報を検索する。</td>
-      <td><code>yum search [キーワード]</code></td>
+      <td>インストールされているパッケージ一覧を表示する。</td>
+      <td><code>yum list installed</code></td>
     </tr>
     <tr>
       <td>パッケージをインストールする。</td>
@@ -97,10 +101,6 @@ $ nmcli c up [ネットワークインタフェース名]
     <tr>
       <td>インストールされている個別のパッケージを更新する。</td>
       <td><code>yum update [パッケージ名]</code></td>
-    </tr>
-    <tr>
-      <td>リポジトリ一覧を表示する。</td>
-      <td><code>yum repolist</code></td>
     </tr>
   </tbody>
 </table class="table table-striped table-sm">
