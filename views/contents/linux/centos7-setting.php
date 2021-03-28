@@ -62,48 +62,50 @@ $ nmcli c down [ネットワークインタフェース名]
 $ nmcli c up [ネットワークインタフェース名]
 </pre>
 <h3 id="yum" class="title">パッケージの管理（Yum）</h3>
-<table class="table table-striped table-sm">
-  <thead>
-    <tr>
-      <th>操作</th>
-      <th>コマンド</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>リポジトリ一覧を表示する。</td>
-      <td><pre class="prettyprint inline">$ yum repolist</pre></td>
-    </tr>
-    <tr>
-      <td>パッケージ情報を検索する。</td>
-      <td><pre class="prettyprint inline">$ yum search [キーワード]</pre></td>
-    </tr>
-    <tr>
-      <td>インストール可能なパッケージ一覧を表示する。</td>
-      <td><pre class="prettyprint inline">$ yum list</pre></td>
-    </tr>
-    <tr>
-      <td>インストールされているパッケージ一覧を表示する。</td>
-      <td><pre class="prettyprint inline">$ yum list installed</pre></td>
-    </tr>
-    <tr>
-      <td>パッケージをインストールする。</td>
-      <td><pre class="prettyprint inline">$ yum -y install [パッケージ名]</pre></td>
-    </tr>
-    <tr>
-      <td>パッケージをアンインストールする。</td>
-      <td><pre class="prettyprint inline">$ yum remove [パッケージ名]</pre></td>
-    </tr>
-    <tr>
-      <td>インストールされている全てのパッケージを更新する。</td>
-      <td><pre class="prettyprint inline">$ yum update</pre></td>
-    </tr>
-    <tr>
-      <td>インストールされている個別のパッケージを更新する。</td>
-      <td><pre class="prettyprint inline">$ yum update [パッケージ名]</pre></td>
-    </tr>
-  </tbody>
-</table class="table table-striped table-sm">
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>操作</th>
+        <th>コマンド</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>リポジトリ一覧を表示する。</td>
+        <td><pre class="prettyprint inline">$ yum repolist</pre></td>
+      </tr>
+      <tr>
+        <td>パッケージ情報を検索する。</td>
+        <td><pre class="prettyprint inline">$ yum search [キーワード]</pre></td>
+      </tr>
+      <tr>
+        <td>インストール可能なパッケージ一覧を表示する。</td>
+        <td><pre class="prettyprint inline">$ yum list</pre></td>
+      </tr>
+      <tr>
+        <td>インストールされているパッケージ一覧を表示する。</td>
+        <td><pre class="prettyprint inline">$ yum list installed</pre></td>
+      </tr>
+      <tr>
+        <td>パッケージをインストールする。</td>
+        <td><pre class="prettyprint inline">$ yum -y install [パッケージ名]</pre></td>
+      </tr>
+      <tr>
+        <td>パッケージをアンインストールする。</td>
+        <td><pre class="prettyprint inline">$ yum remove [パッケージ名]</pre></td>
+      </tr>
+      <tr>
+        <td>インストールされている全てのパッケージを更新する。</td>
+        <td><pre class="prettyprint inline">$ yum update</pre></td>
+      </tr>
+      <tr>
+        <td>インストールされている個別のパッケージを更新する。</td>
+        <td><pre class="prettyprint inline">$ yum update [パッケージ名]</pre></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <p>yumでDVDからパッケージをインストールする。</p>
 <pre class="prettyprint block">
 $ mkdir /media/CentOS
@@ -131,44 +133,46 @@ $ yumdownloader --resolve [パッケージ名]
 $ rpm -qf [ファイルパス]
 </pre>
 <h3 id="service" class="title">サービスの操作</h3>
-<table class="table table-striped table-sm">
-  <thead>
-    <tr>
-      <th>操作</th>
-      <th>コマンド</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>サービス一覧を表示する。</td>
-      <td><pre class="prettyprint inline">$ systemctl list-unit-files -t service</pre></td>
-    </tr>
-    <tr>
-      <td>サービスの状態を確認する。</td>
-      <td><pre class="prettyprint inline">$ systemctl status [unit名]</pre></td>
-    </tr>
-    <tr>
-      <td>サービスを起動する。</td>
-      <td><pre class="prettyprint inline">$ systemctl start [unit名]</pre></td>
-    </tr>
-    <tr>
-      <td>サービスを停止する。</td>
-      <td><pre class="prettyprint inline">$ systemctl stop [unit名]</pre></td>
-    </tr>
-    <tr>
-      <td>サービスを再起動する。</td>
-      <td><pre class="prettyprint inline">$ systemctl restart [unit名]</pre></td>
-    </tr>
-    <tr>
-      <td>サービスの自動起動を有効化する。</td>
-      <td><pre class="prettyprint inline">$ systemctl enable [unit名]</pre></td>
-    </tr>
-    <tr>
-      <td>サービスの自動起動を無効化する。</td>
-      <td><pre class="prettyprint inline">$ systemctl disable [unit名]</pre></td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>操作</th>
+        <th>コマンド</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>サービス一覧を表示する。</td>
+        <td><pre class="prettyprint inline">$ systemctl list-unit-files -t service</pre></td>
+      </tr>
+      <tr>
+        <td>サービスの状態を確認する。</td>
+        <td><pre class="prettyprint inline">$ systemctl status [unit名]</pre></td>
+      </tr>
+      <tr>
+        <td>サービスを起動する。</td>
+        <td><pre class="prettyprint inline">$ systemctl start [unit名]</pre></td>
+      </tr>
+      <tr>
+        <td>サービスを停止する。</td>
+        <td><pre class="prettyprint inline">$ systemctl stop [unit名]</pre></td>
+      </tr>
+      <tr>
+        <td>サービスを再起動する。</td>
+        <td><pre class="prettyprint inline">$ systemctl restart [unit名]</pre></td>
+      </tr>
+      <tr>
+        <td>サービスの自動起動を有効化する。</td>
+        <td><pre class="prettyprint inline">$ systemctl enable [unit名]</pre></td>
+      </tr>
+      <tr>
+        <td>サービスの自動起動を無効化する。</td>
+        <td><pre class="prettyprint inline">$ systemctl disable [unit名]</pre></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <h3 id="other" class="title">その他</h3>
 <p>システムの時刻・日付設定を確認する。</p>
 <pre class="prettyprint block">
