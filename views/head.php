@@ -25,7 +25,7 @@
 
   pre.prettyprint {
     font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
-    margin: 0.0rem 0.0rem 1.5rem 0.5rem;
+    margin: 0.0rem 0.0rem 2.0rem 1.0rem;
     padding: 0.2rem 0.5rem;
   }
 </style>
