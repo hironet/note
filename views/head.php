@@ -18,6 +18,7 @@
     background-color: #5c73b7;
     color: #ffffff;
     font-size: 1.5rem;
+    opacity: 0.9;
     padding: 0.2rem 0.5rem;
   }
 
