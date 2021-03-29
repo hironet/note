@@ -449,20 +449,31 @@ switch ($category) {
     break;
   case 'bash':
     $titles = [
+      'technique' => 'Bashシェルスクリプトのテクニック',
     ];
 
     $descriptions = [
+      'technique' => 'Bashシェルスクリプトを作成する際に、知っておくと有用な書き方を紹介しています。',
     ];
 
     $keywords = [
+      'technique' => 'bash,シェルスクリプト',
     ];
 
     $links = [
+      'technique' => '.?c=bash&p=technique',
     ];
 
     switch ($page) {
       case 'list':
         article_list('Bash');
+        break;
+      case 'technique':
+        $contents_title = $titles['technique'];
+        $contents_path = '/contents/bash/technique.php';
+        $meta_description = $descriptions['technique'];
+        $meta_keywords = $keywords['technique'];
+        $breadcrumb_list = ['Bash' => '.?c=bash'];
         break;
       default:
         not_found();
