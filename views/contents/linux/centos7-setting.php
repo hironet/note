@@ -26,7 +26,7 @@ $mtime = get_mtime(__FILE__);
 </ol>
 <h3 id="network" class="title">ネットワーク設定</h3>
 <p>ネットワークインタフェースを有効化する。
-<pre class="block"><code>$ nmcli c m [ネットワークインタフェース名] connection.autoconnect yes
+<pre class="block"><code>$ nmcli c modify [ネットワークインタフェース名] connection.autoconnect yes
 </code></pre>
 <p>IPアドレスとサブネットマスクを設定する。</p>
 <pre class="block"><code>$ nmcli c modify [ネットワークインタフェース名] ipv4.addresses [IPアドレス]/[サブネットマスク]
