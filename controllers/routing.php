@@ -119,20 +119,31 @@ switch ($category) {
     break;
   case 'docker':
     $titles = [
+      'operation' => 'Dockerの操作方法',
     ];
 
     $descriptions = [
+      'operation' => 'Dockerの基本的な操作方法を紹介しています。',
     ];
 
     $keywords = [
+      'operation' => 'docker',
     ];
 
     $links = [
+      'operation' => '.?c=docker&p=operation',
     ];
 
     switch ($page) {
       case 'list':
         article_list('Docker');
+        break;
+      case 'operation':
+        $contents_title = $titles['operation'];
+        $contents_path = '/contents/docker/operation.php';
+        $meta_description = $descriptions['operation'];
+        $meta_keywords = $keywords['operation'];
+        $breadcrumb_list = ['Docker' => '.?c=docker'];
         break;
       default:
         not_found();
