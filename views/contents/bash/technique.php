@@ -94,7 +94,7 @@ var=${var:='/tmp'}</code></pre>
 <ul>
   <li>読み込むファイルには、スペースで区切られた1行の文字列が格納されている想定。</li>
 </ul>
-<pre class="block"><code>array=($(cat &lt;ファイルパス&gt;))</code></pre>
+<pre class="block"><code>array=($(cat [ファイルパス]))</code></pre>
 <p>配列をコピーする。</p>
 <pre class="block"><code>array_new=(${array[@]})</code></pre>
 <p>配列の先頭にデータを追加する。</p>
@@ -134,7 +134,7 @@ www</code></pre>
 </ul>
 <pre class="block"><code>ls -t test_*.log | tail -n+4 | xargs rm -f</code></pre>
 <p>更新日時が3日前以前（72時間前～過去）のファイルを削除する。</p>
-<pre class="block"><code>find &lt;ディレクトリパス&gt; -type f -mtime +3 -exec rm -f {} \;</code></pre>
+<pre class="block"><code>find [ディレクトリパス] -type f -mtime +3 -exec rm -f {} \;</code></pre>
 <p>更新日時が新しい2つのファイルについて、差分を確認する。</p>
 <pre class="block"><code>ls -t test_*.log | head -2 | xargs diff</code></pre>
 <p>ファイルの末尾100行のみ残し、それ以前の行を削除する。</p>
@@ -190,11 +190,11 @@ expect \"${username}@${hostname}'s password:\" {
         }
     }
 } \"Permission denied\" {
-    exit &lt;ステータスコード&gt;
+    exit [ステータスコード]
 } \"Connection refused\" {
-    exit &lt;ステータスコード&gt;
+    exit [ステータスコード]
 } \"Operation timed out\" {
-    exit &lt;ステータスコード&gt;
+    exit [ステータスコード]
 }
 interact
 "</code></pre>
@@ -244,7 +244,7 @@ case "$1" in
         status ${PROGNAME}
         ;;
     *)
-        echo "Usage: $(basename $0) {start|stop|restart|reload|status}" &gt;&amp;2
+        echo "Usage: $(basename $0) [start|stop|restart|reload|status]" &gt;&amp;2
         exit 1
         ;;
 esac
