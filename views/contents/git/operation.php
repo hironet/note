@@ -18,7 +18,7 @@ $mtime = get_mtime(__FILE__);
     <a href="#remote-repo">リモートリポジトリに対する操作</a>
   </li>
 </ul>
-<h3 id="create-repo" class="title">リポジトリ作成</h3>
+<h2 id="create-repo" class="title">リポジトリ作成</h2>
 <p>ローカルにリポジトリを新規作成する。</p>
 <pre class="block"><code>$ cd [リポジトリのパス]
 $ git init [リポジトリ名]</code></pre>
@@ -28,7 +28,7 @@ $ git init --bare [リポジトリ名]
 $ chown -R apache:apache [リポジトリ名]
 $ cd [リポジトリ名]
 $ git update-server-info</code></pre>
-<h3 id="local-repo" class="title">ローカルリポジトリに対する操作</h3>
+<h2 id="local-repo" class="title">ローカルリポジトリに対する操作</h2>
 <p>リポジトリと作業ディレクトリの差分を確認する。</p>
 <ul>
   <li><code>[ファイルパス]</code>を省略すると、全てのファイルについて確認する。</li>
@@ -60,7 +60,7 @@ $ git update-server-info</code></pre>
     else
         git commit-tree "$@";
     fi' HEAD</code></pre>
-<h3 id="remote-repo" class="title">リモートリポジトリに対する操作</h3>
+<h2 id="remote-repo" class="title">リモートリポジトリに対する操作</h2>
 <p>originのURLを確認する。</p>
 <ul>
   <li>以下のどちらかのコマンドを実行する。</li>
