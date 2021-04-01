@@ -29,7 +29,7 @@ $ chown -R apache:apache [リポジトリ名]
 $ cd [リポジトリ名]
 $ git update-server-info</code></pre>
 <h2 id="local-repo" class="title">ローカルリポジトリに対する操作</h2>
-<p>リポジトリと作業ディレクトリの差分を確認する。</p>
+<p>ローカルリポジトリと作業ディレクトリの差分を確認する。</p>
 <ul>
   <li><code>[ファイルパス]</code>を省略すると、全てのファイルについて確認する。</li>
 </ul>
@@ -43,7 +43,7 @@ $ git update-server-info</code></pre>
 <pre class="block"><code>$ git commit -am "[メッセージ]"</code></pre>
 <p>直前のコミットメッセージを変更する。</p>
 <ul>
-  <li>push実行前に実行する必要がある。</li>
+  <li><code>git push</code>実行前に実行する必要がある。</li>
 </ul>
 <pre class="block"><code>$ git commit --amend -m "[メッセージ]"</code></pre>
 <p>過去のコミットメッセージにおけるCOMMITER・AUTHOR・メールアドレスを変更する。</p>
@@ -69,14 +69,14 @@ $ git update-server-info</code></pre>
 <pre class="block"><code>$ git remote -v</code></pre>
 <p>originのURLを変更する。</p>
 <pre class="block"><code>$ git remote set-url origin [URL]</code></pre>
-<p>push実行時に<code>origin master</code>を省略する。</p>
+<p><code>git push</code>実行時に<code>origin master</code>を省略する。</p>
 <ul>
-  <li><code>-u</code>オプションを付けると、次回以降は<code>git push</code>だけで<code>origin master</code>にpushするようになる。</li>
+  <li><code>-u</code>オプションを付けると、次回以降は<code>git push</code>だけで<code>origin master</code>にプッシュするようになる。</li>
 </ul>
 <pre class="block"><code>$ git push -u origin master
 ...
 $ git push</code></pre>
-<p>push実行時に認証情報（ユーザ名・パスワード）の入力を省略する。</p>
+<p><code>git push</code>実行時に認証情報（ユーザ名・パスワード）の入力を省略する。</p>
 <ul>
   <li><code>git clone</code>実行時にリモートリポジトリの認証情報（ユーザ名・パスワード）をURLに埋め込む。</li>
   <li>ユーザ名に<code>@</code>を含む場合は、それを<code>%40</code>に置き換える。</li>
