@@ -53,39 +53,32 @@ switch ($category) {
     break;
   case 'macos':
     $titles = [
-      'homebrew' => 'Homebrewの操作方法',
       'command' => 'macOSコマンドの便利な使い方',
       'keyboard' => 'macOSの便利なショートカットキー',
+      'homebrew' => 'Homebrewの操作方法',
     ];
 
     $descriptions = [
-      'homebrew' => 'Homebrewの基本的な操作方法を紹介しています。',
       'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
       'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
+      'homebrew' => 'Homebrewの基本的な操作方法を紹介しています。',
     ];
 
     $keywords = [
-      'homebrew' => 'mac,homebrew',
       'command' => 'mac,command',
       'keyboard' => 'mac,ショートカットキー',
+      'homebrew' => 'mac,homebrew',
     ];
 
     $links = [
-      'homebrew' => '.?c=macos&p=homebrew',
       'command' => '.?c=macos&p=command',
       'keyboard' => '.?c=macos&p=keyboard',
+      'homebrew' => '.?c=macos&p=homebrew',
     ];
 
     switch ($page) {
       case 'list':
         article_list('macOS');
-        break;
-      case 'homebrew':
-        $contents_title = $titles['homebrew'];
-        $contents_path = '/contents/macos/homebrew.php';
-        $meta_description = $descriptions['homebrew'];
-        $meta_keywords = $keywords['homebrew'];
-        $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       case 'command':
         $contents_title = $titles['command'];
@@ -99,6 +92,13 @@ switch ($category) {
         $contents_path = '/contents/macos/keyboard.php';
         $meta_description = $descriptions['keyboard'];
         $meta_keywords = $keywords['keyboard'];
+        $breadcrumb_list = ['macOS' => '.?c=macos'];
+        break;
+      case 'homebrew':
+        $contents_title = $titles['homebrew'];
+        $contents_path = '/contents/macos/homebrew.php';
+        $meta_description = $descriptions['homebrew'];
+        $meta_keywords = $keywords['homebrew'];
         $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       default:
