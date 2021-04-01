@@ -82,21 +82,21 @@ switch ($category) {
         break;
       case 'homebrew':
         $contents_title = $titles['homebrew'];
-        $contents_path = '/contents/linux/homebrew.php';
+        $contents_path = '/contents/macos/homebrew.php';
         $meta_description = $descriptions['homebrew'];
         $meta_keywords = $keywords['homebrew'];
         $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       case 'command':
         $contents_title = $titles['command'];
-        $contents_path = '/contents/linux/command.php';
+        $contents_path = '/contents/macos/command.php';
         $meta_description = $descriptions['command'];
         $meta_keywords = $keywords['command'];
         $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       case 'keyboard':
         $contents_title = $titles['keyboard'];
-        $contents_path = '/contents/linux/keyboard.php';
+        $contents_path = '/contents/macos/keyboard.php';
         $meta_description = $descriptions['keyboard'];
         $meta_keywords = $keywords['keyboard'];
         $breadcrumb_list = ['macOS' => '.?c=macos'];
