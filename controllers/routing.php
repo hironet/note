@@ -307,18 +307,22 @@ switch ($category) {
   case 'git':
     $titles = [
       'trivia' => 'Gitの豆知識',
+      'branch' => 'ブランチの操作方法'
     ];
 
     $descriptions = [
       'trivia' => '知っておくと便利なGitの豆知識を紹介しています。',
+      'branch' => 'ブランチの操作方法を紹介しています。',
     ];
 
     $keywords = [
       'trivia' => 'git',
+      'branch' => 'git',
     ];
 
     $links = [
       'trivia' => '.?c=git&p=trivia',
+      'branch' => '.?c=git&p=branch',
     ];
 
     switch ($page) {
@@ -330,6 +334,13 @@ switch ($category) {
         $contents_path = '/contents/git/trivia.php';
         $meta_description = $descriptions['trivia'];
         $meta_keywords = $keywords['trivia'];
+        $breadcrumb_list = ['Git' => '.?c=git'];
+        break;
+      case 'branch':
+        $contents_title = $titles['branch'];
+        $contents_path = '/contents/git/branch.php';
+        $meta_description = $descriptions['branch'];
+        $meta_keywords = $keywords['branch'];
         $breadcrumb_list = ['Git' => '.?c=git'];
         break;
       default:
