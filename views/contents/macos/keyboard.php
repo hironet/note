@@ -16,15 +16,15 @@ $mtime = get_mtime(__FILE__);
   </thead>
   <tbody>
     <tr>
-      <td>画面全体を撮る</td>
+      <td>画面全体を撮る。</td>
       <td><kbd>shift + command + 3</kbd></td>
     </tr>
     <tr>
-      <td>画面の一部を撮る</td>
+      <td>画面の一部を撮る。</td>
       <td><kbd>shift + command + 4</kbd></td>
     </tr>
     <tr>
-      <td>ウィンドウを撮る</td>
+      <td>ウィンドウを撮る。</td>
       <td><kbd>shift + command + 4 + space</kbd></td>
     </tr>
   </tbody>
@@ -39,7 +39,7 @@ $mtime = get_mtime(__FILE__);
   </thead>
   <tbody>
     <tr>
-      <td>アプリを強制終了する</td>
+      <td>アプリを強制終了する。</td>
       <td><kbd>option + command + esc</kbd></td>
     </tr>
   </tbody>
