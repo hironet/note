@@ -493,20 +493,31 @@ switch ($category) {
     break;
   case 'vagrant':
     $titles = [
+      'operation' => 'Vagrantの操作方法',
     ];
 
     $descriptions = [
+      'operation' => 'Vagrantの基本的な操作方法を紹介しています。',
     ];
 
     $keywords = [
+      'operation' => 'vagrant',
     ];
 
     $links = [
+      'operation' => '.?c=vagrant&p=operation',
     ];
 
     switch ($page) {
       case 'list':
         article_list('Vagrant');
+        break;
+      case 'operation':
+        $contents_title = $titles['operation'];
+        $contents_path = '/contents/vagrant/operation.php';
+        $meta_description = $descriptions['operation'];
+        $meta_keywords = $keywords['operation'];
+        $breadcrumb_list = ['Vagrant' => '.?c=vagrant'];
         break;
       default:
         not_found();
