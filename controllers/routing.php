@@ -559,30 +559,30 @@ switch ($category) {
     break;
   case 'html':
     $titles = [
-      'http-trivia' => 'HTMLの豆知識',
+      'html-trivia' => 'HTMLの豆知識',
     ];
 
     $descriptions = [
-      'http-trivia' => '知っておくと便利なHTMLの豆知識を紹介しています。',
+      'html-trivia' => '知っておくと便利なHTMLの豆知識を紹介しています。',
     ];
 
     $keywords = [
-      'http-trivia' => 'html',
+      'html-trivia' => 'html',
     ];
 
     $links = [
-      'http-trivia' => '.?c=html&p=http-trivia',
+      'html-trivia' => '.?c=html&p=html-trivia',
     ];
 
     switch ($page) {
       case 'list':
         article_list('HTML/CSS');
         break;
-      case 'http-trivia':
-        $contents_title = $titles['http-trivia'];
-        $contents_path = '/contents/html/http-trivia.php';
-        $meta_description = $descriptions['http-trivia'];
-        $meta_keywords = $keywords['http-trivia'];
+      case 'html-trivia':
+        $contents_title = $titles['html-trivia'];
+        $contents_path = '/contents/html/html-trivia.php';
+        $meta_description = $descriptions['html-trivia'];
+        $meta_keywords = $keywords['html-trivia'];
         $breadcrumb_list = ['HTML' => '.?c=html'];
         break;
       default:
