@@ -95,18 +95,18 @@ $mtime = get_mtime(__FILE__);
       </tr>
       <tr>
         <td>元に戻す（undo）。</td>
-        <td></td>
+        <td><kbd>Ctrl + Z</kbd></td>
         <td><kbd>command + Z</kbd>
         </td>
       </tr>
       <tr>
         <td>やり直す（redo）。</td>
-        <td></td>
+        <td><kbd>Ctrl + Y</kbd></td>
         <td><kbd>command + shift + Z</kbd></td>
       </tr>
       <tr>
         <td>コメントアウトをオン・オフにする。</td>
-        <td></td>
+        <td><kbd>Ctrl + /</kbd></td>
         <td><kbd>command + /</kbd></td>
       </tr>
       <tr>
