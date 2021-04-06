@@ -49,6 +49,8 @@ switch ($category) {
       'chocolatey' => '.?c=windows&p=chocolatey',
     ];
 
+    $breadcrumb_list = ['Windows' => '.?c=windows'];
+
     switch ($page) {
       case 'list':
         article_list('Windows');
@@ -57,25 +59,21 @@ switch ($category) {
         $contents_title = $titles['setting'];
         $contents_desc = $descs['setting'];
         $contents_path = '/contents/windows/setting.php';
-        $breadcrumb_list = ['Windows' => '.?c=windows'];
         break;
       case 'command':
         $contents_title = $titles['command'];
         $contents_desc = $descs['command'];
         $contents_path = '/contents/windows/command.php';
-        $breadcrumb_list = ['Windows' => '.?c=windows'];
         break;
       case 'keyboard':
         $contents_title = $titles['keyboard'];
         $contents_desc = $descs['keyboard'];
         $contents_path = '/contents/windows/keyboard.php';
-        $breadcrumb_list = ['Windows' => '.?c=windows'];
         break;
       case 'chocolatey':
         $contents_title = $titles['chocolatey'];
         $contents_desc = $descs['chocolatey'];
         $contents_path = '/contents/windows/chocolatey.php';
-        $breadcrumb_list = ['Windows' => '.?c=windows'];
         break;
       default:
         not_found();
@@ -101,6 +99,8 @@ switch ($category) {
       'homebrew' => '.?c=macos&p=homebrew',
     ];
 
+    $breadcrumb_list = ['macOS' => '.?c=macos'];
+
     switch ($page) {
       case 'list':
         article_list('macOS');
@@ -109,19 +109,16 @@ switch ($category) {
         $contents_title = $titles['command'];
         $contents_desc = $descs['command'];
         $contents_path = '/contents/macos/command.php';
-        $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       case 'keyboard':
         $contents_title = $titles['keyboard'];
         $contents_desc = $descs['keyboard'];
         $contents_path = '/contents/macos/keyboard.php';
-        $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       case 'homebrew':
         $contents_title = $titles['homebrew'];
         $contents_desc = $descs['homebrew'];
         $contents_path = '/contents/macos/homebrew.php';
-        $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       default:
         not_found();
@@ -144,6 +141,8 @@ switch ($category) {
       'centos7-setting' => '.?c=linux&p=centos7-setting',
     ];
 
+    $breadcrumb_list = ['Linux' => '.?c=linux'];
+
     switch ($page) {
       case 'list':
         article_list('Linux');
@@ -152,13 +151,11 @@ switch ($category) {
         $contents_title = $titles['command'];
         $contents_desc = $descs['command'];
         $contents_path = '/contents/linux/command.php';
-        $breadcrumb_list = ['Linux' => '.?c=linux'];
         break;
       case 'centos7-setting':
         $contents_title = $titles['centos7-setting'];
         $contents_desc = $descs['centos7-setting'];
         $contents_path = '/contents/linux/centos7-setting.php';
-        $breadcrumb_list = ['Linux' => '.?c=linux'];
         break;
       default:
         not_found();
@@ -178,6 +175,8 @@ switch ($category) {
       'operation' => '.?c=docker&p=operation',
     ];
 
+    $breadcrumb_list = ['Docker' => '.?c=docker'];
+
     switch ($page) {
       case 'list':
         article_list('Docker');
@@ -186,7 +185,6 @@ switch ($category) {
         $contents_title = $titles['operation'];
         $contents_desc = $descs['operation'];
         $contents_path = '/contents/docker/operation.php';
-        $breadcrumb_list = ['Docker' => '.?c=docker'];
         break;
       default:
         not_found();
@@ -244,6 +242,8 @@ switch ($category) {
       'operation' => '.?c=mysql&p=operation',
     ];
 
+    $breadcrumb_list = ['MySQL' => '.?c=mysql'];
+
     switch ($page) {
       case 'list':
         article_list('MySQL');
@@ -252,7 +252,6 @@ switch ($category) {
         $contents_title = $titles['operation'];
         $contents_desc = $descs['operation'];
         $contents_path = '/contents/mysql/operation.php';
-        $breadcrumb_list = ['MySQL' => '.?c=mysql'];
         break;
       default:
         not_found();
@@ -272,6 +271,8 @@ switch ($category) {
       'performance' => '.?c=wordpress&p=performance',
     ];
 
+    $breadcrumb_list = ['WordPress' => '.?c=wordpress'];
+
     switch ($page) {
       case 'list':
         article_list('WordPress');
@@ -280,7 +281,6 @@ switch ($category) {
         $contents_title = $titles['performance'];
         $contents_desc = $descs['performance'];
         $contents_path = '/contents/wordpress/performance.php';
-        $breadcrumb_list = ['WordPress' => '.?c=wordpress'];
         break;
       default:
         not_found();
@@ -300,6 +300,8 @@ switch ($category) {
       'operation' => '.?c=vim&p=operation',
     ];
 
+    $breadcrumb_list = ['Vim' => '.?c=vim'];
+
     switch ($page) {
       case 'list':
         article_list('Vim');
@@ -308,7 +310,6 @@ switch ($category) {
         $contents_title = $titles['operation'];
         $contents_desc = $descs['operation'];
         $contents_path = '/contents/vim/operation.php';
-        $breadcrumb_list = ['Vim' => '.?c=vim'];
         break;
       default:
         not_found();
@@ -331,6 +332,8 @@ switch ($category) {
       'keyboard' => '.?c=vscode&p=keyboard',
     ];
 
+    $breadcrumb_list = ['Visual Studio Code' => '.?c=vscode'];
+
     switch ($page) {
       case 'list':
         article_list('Visual Studio Code');
@@ -339,13 +342,11 @@ switch ($category) {
         $contents_title = $titles['setting'];
         $contents_desc = $descs['setting'];
         $contents_path = '/contents/vscode/setting.php';
-        $breadcrumb_list = ['Visual Studio Code' => '.?c=vscode'];
         break;
       case 'keyboard':
         $contents_title = $titles['keyboard'];
         $contents_desc = $descs['keyboard'];
         $contents_path = '/contents/vscode/keyboard.php';
-        $breadcrumb_list = ['Visual Studio Code' => '.?c=vscode'];
         break;
       default:
         not_found();
@@ -365,6 +366,8 @@ switch ($category) {
       'setting' => '.?c=office&p=setting',
     ];
 
+    $breadcrumb_list = ['Microsoft Office' => '.?c=office'];
+
     switch ($page) {
       case 'list':
         article_list('Microsoft Office');
@@ -373,7 +376,6 @@ switch ($category) {
         $contents_title = $titles['setting'];
         $contents_desc = $descs['setting'];
         $contents_path = '/contents/office/setting.php';
-        $breadcrumb_list = ['Microsoft Office' => '.?c=office'];
         break;
       default:
         not_found();
@@ -396,6 +398,8 @@ switch ($category) {
       'branch' => '.?c=git&p=branch',
     ];
 
+    $breadcrumb_list = ['Git' => '.?c=git'];
+
     switch ($page) {
       case 'list':
         article_list('Git');
@@ -404,13 +408,11 @@ switch ($category) {
         $contents_title = $titles['trivia'];
         $contents_desc = $descs['trivia'];
         $contents_path = '/contents/git/trivia.php';
-        $breadcrumb_list = ['Git' => '.?c=git'];
         break;
       case 'branch':
         $contents_title = $titles['branch'];
         $contents_desc = $descs['branch'];
         $contents_path = '/contents/git/branch.php';
-        $breadcrumb_list = ['Git' => '.?c=git'];
         break;
       default:
         not_found();
@@ -430,6 +432,8 @@ switch ($category) {
       'operation' => '.?c=vagrant&p=operation',
     ];
 
+    $breadcrumb_list = ['Vagrant' => '.?c=vagrant'];
+
     switch ($page) {
       case 'list':
         article_list('Vagrant');
@@ -438,7 +442,6 @@ switch ($category) {
         $contents_title = $titles['operation'];
         $contents_desc = $descs['operation'];
         $contents_path = '/contents/vagrant/operation.php';
-        $breadcrumb_list = ['Vagrant' => '.?c=vagrant'];
         break;
       default:
         not_found();
@@ -458,6 +461,8 @@ switch ($category) {
       'operation' => '.?c=wireshark&p=operation',
     ];
 
+    $breadcrumb_list = ['Wireshark' => '.?c=wireshark'];
+
     switch ($page) {
       case 'list':
         article_list('Wireshark');
@@ -466,7 +471,6 @@ switch ($category) {
         $contents_title = $titles['operation'];
         $contents_desc = $descs['operation'];
         $contents_path = '/contents/wireshark/operation.php';
-        $breadcrumb_list = ['Wireshark' => '.?c=wireshark'];
         break;
       default:
         not_found();
@@ -486,6 +490,8 @@ switch ($category) {
       'html-trivia' => '.?c=html&p=html-trivia',
     ];
 
+    $breadcrumb_list = ['HTML' => '.?c=html'];
+
     switch ($page) {
       case 'list':
         article_list('HTML/CSS');
@@ -494,7 +500,6 @@ switch ($category) {
         $contents_title = $titles['html-trivia'];
         $contents_desc = $descs['html-trivia'];
         $contents_path = '/contents/html/html-trivia.php';
-        $breadcrumb_list = ['HTML' => '.?c=html'];
         break;
       default:
         not_found();
@@ -517,6 +522,8 @@ switch ($category) {
       'technique' => '.?c=javascript&p=technique',
     ];
 
+    $breadcrumb_list = ['JavaScript' => '.?c=javascript'];
+
     switch ($page) {
       case 'list':
         article_list('JavaScript');
@@ -525,13 +532,11 @@ switch ($category) {
         $contents_title = $titles['trivia'];
         $contents_desc = $descs['trivia'];
         $contents_path = '/contents/javascript/trivia.php';
-        $breadcrumb_list = ['JavaScript' => '.?c=javascript'];
         break;
       case 'technique':
         $contents_title = $titles['technique'];
         $contents_desc = $descs['technique'];
         $contents_path = '/contents/javascript/technique.php';
-        $breadcrumb_list = ['JavaScript' => '.?c=javascript'];
         break;
       default:
         not_found();
@@ -576,6 +581,8 @@ switch ($category) {
       'technique' => '.?c=ruby&p=technique',
     ];
 
+    $breadcrumb_list = ['Ruby' => '.?c=ruby'];
+
     switch ($page) {
       case 'list':
         article_list('Ruby');
@@ -584,19 +591,16 @@ switch ($category) {
         $contents_title = $titles['rbenv'];
         $contents_desc = $descs['rbenv'];
         $contents_path = '/contents/ruby/rbenv.php';
-        $breadcrumb_list = ['Ruby' => '.?c=ruby'];
         break;
       case 'rubygems':
         $contents_title = $titles['rubygems'];
         $contents_desc = $descs['rubygems'];
         $contents_path = '/contents/ruby/rubygems.php';
-        $breadcrumb_list = ['Ruby' => '.?c=ruby'];
         break;
       case 'technique':
         $contents_title = $titles['technique'];
         $contents_desc = $descs['technique'];
         $contents_path = '/contents/ruby/technique.php';
-        $breadcrumb_list = ['Ruby' => '.?c=ruby'];
         break;
       default:
         not_found();
@@ -616,6 +620,8 @@ switch ($category) {
       'technique' => '.?c=bash&p=technique',
     ];
 
+    $breadcrumb_list = ['Bash' => '.?c=bash'];
+
     switch ($page) {
       case 'list':
         article_list('Bash');
@@ -624,7 +630,6 @@ switch ($category) {
         $contents_title = $titles['technique'];
         $contents_desc = $descs['technique'];
         $contents_path = '/contents/bash/technique.php';
-        $breadcrumb_list = ['Bash' => '.?c=bash'];
         break;
       default:
         not_found();
