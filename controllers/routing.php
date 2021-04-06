@@ -35,7 +35,7 @@ switch ($category) {
       'chocolatey' => 'Chocolateyの操作方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'setting' => 'Windows 10を便利にするための設定方法を紹介しています。',
       'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
       'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
@@ -56,25 +56,25 @@ switch ($category) {
       case 'setting':
         $contents_title = $titles['setting'];
         $contents_path = '/contents/windows/setting.php';
-        $contents_desc = $descriptions['setting'];
+        $contents_desc = $descs['setting'];
         $breadcrumb_list = ['Windows' => '.?c=windows'];
         break;
       case 'command':
         $contents_title = $titles['command'];
         $contents_path = '/contents/windows/command.php';
-        $contents_desc = $descriptions['command'];
+        $contents_desc = $descs['command'];
         $breadcrumb_list = ['Windows' => '.?c=windows'];
         break;
       case 'keyboard':
         $contents_title = $titles['keyboard'];
         $contents_path = '/contents/windows/keyboard.php';
-        $contents_desc = $descriptions['keyboard'];
+        $contents_desc = $descs['keyboard'];
         $breadcrumb_list = ['Windows' => '.?c=windows'];
         break;
       case 'chocolatey':
         $contents_title = $titles['chocolatey'];
         $contents_path = '/contents/windows/chocolatey.php';
-        $contents_desc = $descriptions['chocolatey'];
+        $contents_desc = $descs['chocolatey'];
         $breadcrumb_list = ['Windows' => '.?c=windows'];
         break;
       default:
@@ -89,7 +89,7 @@ switch ($category) {
       'homebrew' => 'Homebrewの操作方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
       'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
       'homebrew' => 'Homebrewの基本的な操作方法を紹介しています。',
@@ -108,19 +108,19 @@ switch ($category) {
       case 'command':
         $contents_title = $titles['command'];
         $contents_path = '/contents/macos/command.php';
-        $contents_desc = $descriptions['command'];
+        $contents_desc = $descs['command'];
         $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       case 'keyboard':
         $contents_title = $titles['keyboard'];
         $contents_path = '/contents/macos/keyboard.php';
-        $contents_desc = $descriptions['keyboard'];
+        $contents_desc = $descs['keyboard'];
         $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       case 'homebrew':
         $contents_title = $titles['homebrew'];
         $contents_path = '/contents/macos/homebrew.php';
-        $contents_desc = $descriptions['homebrew'];
+        $contents_desc = $descs['homebrew'];
         $breadcrumb_list = ['macOS' => '.?c=macos'];
         break;
       default:
@@ -134,7 +134,7 @@ switch ($category) {
       'centos7-setting' => 'CentOS 7.xの設定方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
       'centos7-setting' => 'CentOS 7.xを使用するにあたって、よく行う設定を紹介しています。',
     ];
@@ -151,13 +151,13 @@ switch ($category) {
       case 'command':
         $contents_title = $titles['command'];
         $contents_path = '/contents/linux/command.php';
-        $contents_desc = $descriptions['command'];
+        $contents_desc = $descs['command'];
         $breadcrumb_list = ['Linux' => '.?c=linux'];
         break;
       case 'centos7-setting':
         $contents_title = $titles['centos7-setting'];
         $contents_path = '/contents/linux/centos7-setting.php';
-        $contents_desc = $descriptions['centos7-setting'];
+        $contents_desc = $descs['centos7-setting'];
         $breadcrumb_list = ['Linux' => '.?c=linux'];
         break;
       default:
@@ -170,7 +170,7 @@ switch ($category) {
       'operation' => 'Dockerの操作方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'operation' => 'Dockerの基本的な操作方法を紹介しています。',
     ];
 
@@ -185,7 +185,7 @@ switch ($category) {
       case 'operation':
         $contents_title = $titles['operation'];
         $contents_path = '/contents/docker/operation.php';
-        $contents_desc = $descriptions['operation'];
+        $contents_desc = $descs['operation'];
         $breadcrumb_list = ['Docker' => '.?c=docker'];
         break;
       default:
@@ -197,7 +197,7 @@ switch ($category) {
     $titles = [
     ];
 
-    $descriptions = [
+    $descs = [
     ];
 
     $links = [
@@ -216,7 +216,7 @@ switch ($category) {
     $titles = [
     ];
 
-    $descriptions = [
+    $descs = [
     ];
 
     $links = [
@@ -236,7 +236,7 @@ switch ($category) {
       'operation' => 'MySQLの操作方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'operation' => 'MySQLの基本的な操作方法を紹介しています。',
     ];
 
@@ -251,7 +251,7 @@ switch ($category) {
       case 'operation':
         $contents_title = $titles['operation'];
         $contents_path = '/contents/mysql/operation.php';
-        $contents_desc = $descriptions['operation'];
+        $contents_desc = $descs['operation'];
         $breadcrumb_list = ['MySQL' => '.?c=mysql'];
         break;
       default:
@@ -264,7 +264,7 @@ switch ($category) {
       'performance' => 'WordPressのパフォーマンスチューニング',
     ];
 
-    $descriptions = [
+    $descs = [
       'performance' => 'WordPressのパフォーマンスチューニング方法について紹介しています。',
     ];
 
@@ -279,7 +279,7 @@ switch ($category) {
       case 'performance':
         $contents_title = $titles['performance'];
         $contents_path = '/contents/wordpress/performance.php';
-        $contents_desc = $descriptions['performance'];
+        $contents_desc = $descs['performance'];
         $breadcrumb_list = ['WordPress' => '.?c=wordpress'];
         break;
       default:
@@ -292,7 +292,7 @@ switch ($category) {
       'operation' => 'Vimの操作方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'operation' => 'Vimの基本的な操作方法を紹介しています。',
     ];
 
@@ -307,7 +307,7 @@ switch ($category) {
       case 'operation':
         $contents_title = $titles['operation'];
         $contents_path = '/contents/vim/operation.php';
-        $contents_desc = $descriptions['operation'];
+        $contents_desc = $descs['operation'];
         $breadcrumb_list = ['Vim' => '.?c=vim'];
         break;
       default:
@@ -321,7 +321,7 @@ switch ($category) {
       'keyboard' => 'Visual Studio Codeの便利なショートカットキー',
     ];
 
-    $descriptions = [
+    $descs = [
       'setting' => 'Visual Studio Codeを便利にするための設定方法を紹介しています。',
       'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
     ];
@@ -338,13 +338,13 @@ switch ($category) {
       case 'setting':
         $contents_title = $titles['setting'];
         $contents_path = '/contents/vscode/setting.php';
-        $contents_desc = $descriptions['setting'];
+        $contents_desc = $descs['setting'];
         $breadcrumb_list = ['Visual Studio Code' => '.?c=vscode'];
         break;
       case 'keyboard':
         $contents_title = $titles['keyboard'];
         $contents_path = '/contents/vscode/keyboard.php';
-        $contents_desc = $descriptions['keyboard'];
+        $contents_desc = $descs['keyboard'];
         $breadcrumb_list = ['Visual Studio Code' => '.?c=vscode'];
         break;
       default:
@@ -357,7 +357,7 @@ switch ($category) {
       'setting' => 'Excel 2019の設定方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'setting' => 'Excel 2019を便利にするための設定方法を紹介しています。',
     ];
 
@@ -372,7 +372,7 @@ switch ($category) {
       case 'setting':
         $contents_title = $titles['setting'];
         $contents_path = '/contents/office/setting.php';
-        $contents_desc = $descriptions['setting'];
+        $contents_desc = $descs['setting'];
         $breadcrumb_list = ['Microsoft Office' => '.?c=office'];
         break;
       default:
@@ -386,7 +386,7 @@ switch ($category) {
       'branch' => 'ブランチの操作方法'
     ];
 
-    $descriptions = [
+    $descs = [
       'trivia' => '知っておくと便利なGitの豆知識を紹介しています。',
       'branch' => 'ブランチの操作方法を紹介しています。',
     ];
@@ -403,13 +403,13 @@ switch ($category) {
       case 'trivia':
         $contents_title = $titles['trivia'];
         $contents_path = '/contents/git/trivia.php';
-        $contents_desc = $descriptions['trivia'];
+        $contents_desc = $descs['trivia'];
         $breadcrumb_list = ['Git' => '.?c=git'];
         break;
       case 'branch':
         $contents_title = $titles['branch'];
         $contents_path = '/contents/git/branch.php';
-        $contents_desc = $descriptions['branch'];
+        $contents_desc = $descs['branch'];
         $breadcrumb_list = ['Git' => '.?c=git'];
         break;
       default:
@@ -422,7 +422,7 @@ switch ($category) {
       'operation' => 'Vagrantの操作方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'operation' => 'Vagrantの基本的な操作方法を紹介しています。',
     ];
 
@@ -437,7 +437,7 @@ switch ($category) {
       case 'operation':
         $contents_title = $titles['operation'];
         $contents_path = '/contents/vagrant/operation.php';
-        $contents_desc = $descriptions['operation'];
+        $contents_desc = $descs['operation'];
         $breadcrumb_list = ['Vagrant' => '.?c=vagrant'];
         break;
       default:
@@ -450,7 +450,7 @@ switch ($category) {
       'operation' => 'Wiresharkの操作方法',
     ];
 
-    $descriptions = [
+    $descs = [
       'operation' => 'Wiresharkの基本的な操作方法を紹介しています。',
     ];
 
@@ -465,7 +465,7 @@ switch ($category) {
       case 'operation':
         $contents_title = $titles['operation'];
         $contents_path = '/contents/wireshark/operation.php';
-        $contents_desc = $descriptions['operation'];
+        $contents_desc = $descs['operation'];
         $breadcrumb_list = ['Wireshark' => '.?c=wireshark'];
         break;
       default:
@@ -478,7 +478,7 @@ switch ($category) {
       'html-trivia' => 'HTMLの豆知識',
     ];
 
-    $descriptions = [
+    $descs = [
       'html-trivia' => '知っておくと便利なHTMLの豆知識を紹介しています。',
     ];
 
@@ -493,7 +493,7 @@ switch ($category) {
       case 'html-trivia':
         $contents_title = $titles['html-trivia'];
         $contents_path = '/contents/html/html-trivia.php';
-        $contents_desc = $descriptions['html-trivia'];
+        $contents_desc = $descs['html-trivia'];
         $breadcrumb_list = ['HTML' => '.?c=html'];
         break;
       default:
@@ -507,7 +507,7 @@ switch ($category) {
       'technique' => 'JavaScriptのテクニック',
     ];
 
-    $descriptions = [
+    $descs = [
       'trivia' => '知っておくと便利なJavaScriptの豆知識を紹介しています。',
       'technique' => 'JavaScriptのコードを作成する際に、知っておくと有用な書き方を紹介しています。',
     ];
@@ -524,13 +524,13 @@ switch ($category) {
       case 'trivia':
         $contents_title = $titles['trivia'];
         $contents_path = '/contents/javascript/trivia.php';
-        $contents_desc = $descriptions['trivia'];
+        $contents_desc = $descs['trivia'];
         $breadcrumb_list = ['JavaScript' => '.?c=javascript'];
         break;
       case 'technique':
         $contents_title = $titles['technique'];
         $contents_path = '/contents/javascript/technique.php';
-        $contents_desc = $descriptions['technique'];
+        $contents_desc = $descs['technique'];
         $breadcrumb_list = ['JavaScript' => '.?c=javascript'];
         break;
       default:
@@ -542,7 +542,7 @@ switch ($category) {
     $titles = [
     ];
 
-    $descriptions = [
+    $descs = [
     ];
 
     $links = [
@@ -564,7 +564,7 @@ switch ($category) {
       'technique' => 'Rubyのテクニック',
     ];
 
-    $descriptions = [
+    $descs = [
       'rbenv' => 'rbenvの基本的な操作方法を紹介しています。',
       'rubygems' => 'RubyGemsの基本的な操作方法を紹介しています。',
       'technique' => 'Rubyのコードを作成する際に、知っておくと有用な書き方を紹介しています。',
@@ -583,19 +583,19 @@ switch ($category) {
       case 'rbenv':
         $contents_title = $titles['rbenv'];
         $contents_path = '/contents/ruby/rbenv.php';
-        $contents_desc = $descriptions['rbenv'];
+        $contents_desc = $descs['rbenv'];
         $breadcrumb_list = ['Ruby' => '.?c=ruby'];
         break;
       case 'rubygems':
         $contents_title = $titles['rubygems'];
         $contents_path = '/contents/ruby/rubygems.php';
-        $contents_desc = $descriptions['rubygems'];
+        $contents_desc = $descs['rubygems'];
         $breadcrumb_list = ['Ruby' => '.?c=ruby'];
         break;
       case 'technique':
         $contents_title = $titles['technique'];
         $contents_path = '/contents/ruby/technique.php';
-        $contents_desc = $descriptions['technique'];
+        $contents_desc = $descs['technique'];
         $breadcrumb_list = ['Ruby' => '.?c=ruby'];
         break;
       default:
@@ -608,7 +608,7 @@ switch ($category) {
       'technique' => 'Bashシェルスクリプトのテクニック',
     ];
 
-    $descriptions = [
+    $descs = [
       'technique' => 'Bashシェルスクリプトを作成する際に、知っておくと有用な書き方を紹介しています。',
     ];
 
@@ -623,7 +623,7 @@ switch ($category) {
       case 'technique':
         $contents_title = $titles['technique'];
         $contents_path = '/contents/bash/technique.php';
-        $contents_desc = $descriptions['technique'];
+        $contents_desc = $descs['technique'];
         $breadcrumb_list = ['Bash' => '.?c=bash'];
         break;
       default:
