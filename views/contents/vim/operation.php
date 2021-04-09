@@ -38,6 +38,10 @@ $mtime = get_mtime(__FILE__);
         <td><kbd>:sort u</kbd></td>
       </tr>
       <tr>
+        <td>空行を削除する。</td>
+        <td><kbd>:v/./d</kbd></td>
+      </tr>
+      <tr>
         <td>数値をインクリメントする。</td>
         <td><kbd>Ctrl + a</kbd></td>
       </tr>
