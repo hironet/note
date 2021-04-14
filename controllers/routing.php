@@ -27,135 +27,48 @@ switch ($category) {
     $contents_title = '';
     $contents_path = '/contents/top.php';
     break;
-  case 'windows':
+  case 'apache':
     $titles = [
-      'setting' => 'Windows 10の設定方法',
-      'command' => 'Windows 10コマンドの便利な使い方',
-      'keyboard' => 'Windows 10の便利なショートカットキー',
-      'chocolatey' => 'Chocolateyの操作方法',
     ];
 
     $descs = [
-      'setting' => 'Windows 10を便利にするための設定方法を紹介しています。',
-      'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
-      'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
-      'chocolatey' => 'Chocolateyの基本的な操作方法を紹介しています。',
     ];
 
     $links = [
-      'setting' => '.?c=windows&p=setting',
-      'command' => '.?c=windows&p=command',
-      'keyboard' => '.?c=windows&p=keyboard',
-      'chocolatey' => '.?c=windows&p=chocolatey',
     ];
-
-    $breadcrumb_list = ['Windows' => '.?c=windows'];
 
     switch ($page) {
       case 'list':
-        article_list('Windows');
-        break;
-      case 'setting':
-        $contents_title = $titles['setting'];
-        $contents_desc = $descs['setting'];
-        $contents_path = '/contents/windows/setting.php';
-        break;
-      case 'command':
-        $contents_title = $titles['command'];
-        $contents_desc = $descs['command'];
-        $contents_path = '/contents/windows/command.php';
-        break;
-      case 'keyboard':
-        $contents_title = $titles['keyboard'];
-        $contents_desc = $descs['keyboard'];
-        $contents_path = '/contents/windows/keyboard.php';
-        break;
-      case 'chocolatey':
-        $contents_title = $titles['chocolatey'];
-        $contents_desc = $descs['chocolatey'];
-        $contents_path = '/contents/windows/chocolatey.php';
+        article_list('Apache');
         break;
       default:
         not_found();
         break;
     }
     break;
-  case 'macos':
+  case 'bash':
     $titles = [
-      'command' => 'macOSコマンドの便利な使い方',
-      'keyboard' => 'macOSの便利なショートカットキー',
-      'homebrew' => 'Homebrewの操作方法',
+      'technique' => 'Bashシェルスクリプトのテクニック',
     ];
 
     $descs = [
-      'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
-      'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
-      'homebrew' => 'Homebrewの基本的な操作方法を紹介しています。',
+      'technique' => 'Bashシェルスクリプトを作成する際に、知っておくと有用な書き方を紹介しています。',
     ];
 
     $links = [
-      'command' => '.?c=macos&p=command',
-      'keyboard' => '.?c=macos&p=keyboard',
-      'homebrew' => '.?c=macos&p=homebrew',
+      'technique' => '.?c=bash&p=technique',
     ];
 
-    $breadcrumb_list = ['macOS' => '.?c=macos'];
+    $breadcrumb_list = ['Bash' => '.?c=bash'];
 
     switch ($page) {
       case 'list':
-        article_list('macOS');
+        article_list('Bash');
         break;
-      case 'command':
-        $contents_title = $titles['command'];
-        $contents_desc = $descs['command'];
-        $contents_path = '/contents/macos/command.php';
-        break;
-      case 'keyboard':
-        $contents_title = $titles['keyboard'];
-        $contents_desc = $descs['keyboard'];
-        $contents_path = '/contents/macos/keyboard.php';
-        break;
-      case 'homebrew':
-        $contents_title = $titles['homebrew'];
-        $contents_desc = $descs['homebrew'];
-        $contents_path = '/contents/macos/homebrew.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'linux':
-    $titles = [
-      'command' => 'Linuxコマンドの便利な使い方',
-      'centos7-setting' => 'CentOS 7.xの設定方法',
-    ];
-
-    $descs = [
-      'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
-      'centos7-setting' => 'CentOS 7.xを使用するにあたって、よく行う設定を紹介しています。',
-    ];
-
-    $links = [
-      'command' => '.?c=linux&p=command',
-      'centos7-setting' => '.?c=linux&p=centos7-setting',
-    ];
-
-    $breadcrumb_list = ['Linux' => '.?c=linux'];
-
-    switch ($page) {
-      case 'list':
-        article_list('Linux');
-        break;
-      case 'command':
-        $contents_title = $titles['command'];
-        $contents_desc = $descs['command'];
-        $contents_path = '/contents/linux/command.php';
-        break;
-      case 'centos7-setting':
-        $contents_title = $titles['centos7-setting'];
-        $contents_desc = $descs['centos7-setting'];
-        $contents_path = '/contents/linux/centos7-setting.php';
+      case 'technique':
+        $contents_title = $titles['technique'];
+        $contents_desc = $descs['technique'];
+        $contents_path = '/contents/bash/technique.php';
         break;
       default:
         not_found();
@@ -185,197 +98,6 @@ switch ($category) {
         $contents_title = $titles['operation'];
         $contents_desc = $descs['operation'];
         $contents_path = '/contents/docker/operation.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'nginx':
-    $titles = [
-    ];
-
-    $descs = [
-    ];
-
-    $links = [
-    ];
-
-    switch ($page) {
-      case 'list':
-        article_list('Nginx');
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'apache':
-    $titles = [
-    ];
-
-    $descs = [
-    ];
-
-    $links = [
-    ];
-
-    switch ($page) {
-      case 'list':
-        article_list('Apache');
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'mysql':
-    $titles = [
-      'operation' => 'MySQLの操作方法',
-    ];
-
-    $descs = [
-      'operation' => 'MySQLの基本的な操作方法を紹介しています。',
-    ];
-
-    $links = [
-      'operation' => '.?c=mysql&p=operation',
-    ];
-
-    $breadcrumb_list = ['MySQL' => '.?c=mysql'];
-
-    switch ($page) {
-      case 'list':
-        article_list('MySQL');
-        break;
-      case 'operation':
-        $contents_title = $titles['operation'];
-        $contents_desc = $descs['operation'];
-        $contents_path = '/contents/mysql/operation.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'wordpress':
-    $titles = [
-      'performance' => 'WordPressのパフォーマンスチューニング',
-    ];
-
-    $descs = [
-      'performance' => 'WordPressのパフォーマンスチューニング方法について紹介しています。',
-    ];
-
-    $links = [
-      'performance' => '.?c=wordpress&p=performance',
-    ];
-
-    $breadcrumb_list = ['WordPress' => '.?c=wordpress'];
-
-    switch ($page) {
-      case 'list':
-        article_list('WordPress');
-        break;
-      case 'performance':
-        $contents_title = $titles['performance'];
-        $contents_desc = $descs['performance'];
-        $contents_path = '/contents/wordpress/performance.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'vim':
-    $titles = [
-      'operation' => 'Vimの操作方法',
-    ];
-
-    $descs = [
-      'operation' => 'Vimの基本的な操作方法を紹介しています。',
-    ];
-
-    $links = [
-      'operation' => '.?c=vim&p=operation',
-    ];
-
-    $breadcrumb_list = ['Vim' => '.?c=vim'];
-
-    switch ($page) {
-      case 'list':
-        article_list('Vim');
-        break;
-      case 'operation':
-        $contents_title = $titles['operation'];
-        $contents_desc = $descs['operation'];
-        $contents_path = '/contents/vim/operation.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'vscode':
-    $titles = [
-      'setting' => 'Visual Studio Codeの設定方法',
-      'keyboard' => 'Visual Studio Codeの便利なショートカットキー',
-    ];
-
-    $descs = [
-      'setting' => 'Visual Studio Codeを便利にするための設定方法を紹介しています。',
-      'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
-    ];
-
-    $links = [
-      'setting' => '.?c=vscode&p=setting',
-      'keyboard' => '.?c=vscode&p=keyboard',
-    ];
-
-    $breadcrumb_list = ['Visual Studio Code' => '.?c=vscode'];
-
-    switch ($page) {
-      case 'list':
-        article_list('Visual Studio Code');
-        break;
-      case 'setting':
-        $contents_title = $titles['setting'];
-        $contents_desc = $descs['setting'];
-        $contents_path = '/contents/vscode/setting.php';
-        break;
-      case 'keyboard':
-        $contents_title = $titles['keyboard'];
-        $contents_desc = $descs['keyboard'];
-        $contents_path = '/contents/vscode/keyboard.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'office':
-    $titles = [
-      'setting' => 'Excel 2019の設定方法',
-    ];
-
-    $descs = [
-      'setting' => 'Excel 2019を便利にするための設定方法を紹介しています。',
-    ];
-
-    $links = [
-      'setting' => '.?c=office&p=setting',
-    ];
-
-    $breadcrumb_list = ['Microsoft Office' => '.?c=office'];
-
-    switch ($page) {
-      case 'list':
-        article_list('Microsoft Office');
-        break;
-      case 'setting':
-        $contents_title = $titles['setting'];
-        $contents_desc = $descs['setting'];
-        $contents_path = '/contents/office/setting.php';
         break;
       default:
         not_found();
@@ -413,64 +135,6 @@ switch ($category) {
         $contents_title = $titles['branch'];
         $contents_desc = $descs['branch'];
         $contents_path = '/contents/git/branch.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'vagrant':
-    $titles = [
-      'operation' => 'Vagrantの操作方法',
-    ];
-
-    $descs = [
-      'operation' => 'Vagrantの基本的な操作方法を紹介しています。',
-    ];
-
-    $links = [
-      'operation' => '.?c=vagrant&p=operation',
-    ];
-
-    $breadcrumb_list = ['Vagrant' => '.?c=vagrant'];
-
-    switch ($page) {
-      case 'list':
-        article_list('Vagrant');
-        break;
-      case 'operation':
-        $contents_title = $titles['operation'];
-        $contents_desc = $descs['operation'];
-        $contents_path = '/contents/vagrant/operation.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
-  case 'wireshark':
-    $titles = [
-      'operation' => 'Wiresharkの操作方法',
-    ];
-
-    $descs = [
-      'operation' => 'Wiresharkの基本的な操作方法を紹介しています。',
-    ];
-
-    $links = [
-      'operation' => '.?c=wireshark&p=operation',
-    ];
-
-    $breadcrumb_list = ['Wireshark' => '.?c=wireshark'];
-
-    switch ($page) {
-      case 'list':
-        article_list('Wireshark');
-        break;
-      case 'operation':
-        $contents_title = $titles['operation'];
-        $contents_desc = $descs['operation'];
-        $contents_path = '/contents/wireshark/operation.php';
         break;
       default:
         not_found();
@@ -543,6 +207,165 @@ switch ($category) {
         break;
     }
     break;
+  case 'linux':
+    $titles = [
+      'command' => 'Linuxコマンドの便利な使い方',
+      'centos7-setting' => 'CentOS 7.xの設定方法',
+    ];
+
+    $descs = [
+      'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
+      'centos7-setting' => 'CentOS 7.xを使用するにあたって、よく行う設定を紹介しています。',
+    ];
+
+    $links = [
+      'command' => '.?c=linux&p=command',
+      'centos7-setting' => '.?c=linux&p=centos7-setting',
+    ];
+
+    $breadcrumb_list = ['Linux' => '.?c=linux'];
+
+    switch ($page) {
+      case 'list':
+        article_list('Linux');
+        break;
+      case 'command':
+        $contents_title = $titles['command'];
+        $contents_desc = $descs['command'];
+        $contents_path = '/contents/linux/command.php';
+        break;
+      case 'centos7-setting':
+        $contents_title = $titles['centos7-setting'];
+        $contents_desc = $descs['centos7-setting'];
+        $contents_path = '/contents/linux/centos7-setting.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'macos':
+    $titles = [
+      'command' => 'macOSコマンドの便利な使い方',
+      'keyboard' => 'macOSの便利なショートカットキー',
+      'homebrew' => 'Homebrewの操作方法',
+    ];
+
+    $descs = [
+      'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
+      'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
+      'homebrew' => 'Homebrewの基本的な操作方法を紹介しています。',
+    ];
+
+    $links = [
+      'command' => '.?c=macos&p=command',
+      'keyboard' => '.?c=macos&p=keyboard',
+      'homebrew' => '.?c=macos&p=homebrew',
+    ];
+
+    $breadcrumb_list = ['macOS' => '.?c=macos'];
+
+    switch ($page) {
+      case 'list':
+        article_list('macOS');
+        break;
+      case 'command':
+        $contents_title = $titles['command'];
+        $contents_desc = $descs['command'];
+        $contents_path = '/contents/macos/command.php';
+        break;
+      case 'keyboard':
+        $contents_title = $titles['keyboard'];
+        $contents_desc = $descs['keyboard'];
+        $contents_path = '/contents/macos/keyboard.php';
+        break;
+      case 'homebrew':
+        $contents_title = $titles['homebrew'];
+        $contents_desc = $descs['homebrew'];
+        $contents_path = '/contents/macos/homebrew.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'mysql':
+    $titles = [
+      'operation' => 'MySQLの操作方法',
+    ];
+
+    $descs = [
+      'operation' => 'MySQLの基本的な操作方法を紹介しています。',
+    ];
+
+    $links = [
+      'operation' => '.?c=mysql&p=operation',
+    ];
+
+    $breadcrumb_list = ['MySQL' => '.?c=mysql'];
+
+    switch ($page) {
+      case 'list':
+        article_list('MySQL');
+        break;
+      case 'operation':
+        $contents_title = $titles['operation'];
+        $contents_desc = $descs['operation'];
+        $contents_path = '/contents/mysql/operation.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'nginx':
+    $titles = [
+    ];
+
+    $descs = [
+    ];
+
+    $links = [
+    ];
+
+    switch ($page) {
+      case 'list':
+        article_list('Nginx');
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'office':
+    $titles = [
+      'setting' => 'Excel 2019の設定方法',
+    ];
+
+    $descs = [
+      'setting' => 'Excel 2019を便利にするための設定方法を紹介しています。',
+    ];
+
+    $links = [
+      'setting' => '.?c=office&p=setting',
+    ];
+
+    $breadcrumb_list = ['Microsoft Office' => '.?c=office'];
+
+    switch ($page) {
+      case 'list':
+        article_list('Microsoft Office');
+        break;
+      case 'setting':
+        $contents_title = $titles['setting'];
+        $contents_desc = $descs['setting'];
+        $contents_path = '/contents/office/setting.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
   case 'php':
     $titles = [
     ];
@@ -607,29 +430,206 @@ switch ($category) {
         break;
     }
     break;
-  case 'bash':
+  case 'vagrant':
     $titles = [
-      'technique' => 'Bashシェルスクリプトのテクニック',
+      'operation' => 'Vagrantの操作方法',
     ];
 
     $descs = [
-      'technique' => 'Bashシェルスクリプトを作成する際に、知っておくと有用な書き方を紹介しています。',
+      'operation' => 'Vagrantの基本的な操作方法を紹介しています。',
     ];
 
     $links = [
-      'technique' => '.?c=bash&p=technique',
+      'operation' => '.?c=vagrant&p=operation',
     ];
 
-    $breadcrumb_list = ['Bash' => '.?c=bash'];
+    $breadcrumb_list = ['Vagrant' => '.?c=vagrant'];
 
     switch ($page) {
       case 'list':
-        article_list('Bash');
+        article_list('Vagrant');
         break;
-      case 'technique':
-        $contents_title = $titles['technique'];
-        $contents_desc = $descs['technique'];
-        $contents_path = '/contents/bash/technique.php';
+      case 'operation':
+        $contents_title = $titles['operation'];
+        $contents_desc = $descs['operation'];
+        $contents_path = '/contents/vagrant/operation.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'vim':
+    $titles = [
+      'operation' => 'Vimの操作方法',
+    ];
+
+    $descs = [
+      'operation' => 'Vimの基本的な操作方法を紹介しています。',
+    ];
+
+    $links = [
+      'operation' => '.?c=vim&p=operation',
+    ];
+
+    $breadcrumb_list = ['Vim' => '.?c=vim'];
+
+    switch ($page) {
+      case 'list':
+        article_list('Vim');
+        break;
+      case 'operation':
+        $contents_title = $titles['operation'];
+        $contents_desc = $descs['operation'];
+        $contents_path = '/contents/vim/operation.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'vscode':
+    $titles = [
+      'setting' => 'Visual Studio Codeの設定方法',
+      'keyboard' => 'Visual Studio Codeの便利なショートカットキー',
+    ];
+
+    $descs = [
+      'setting' => 'Visual Studio Codeを便利にするための設定方法を紹介しています。',
+      'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
+    ];
+
+    $links = [
+      'setting' => '.?c=vscode&p=setting',
+      'keyboard' => '.?c=vscode&p=keyboard',
+    ];
+
+    $breadcrumb_list = ['Visual Studio Code' => '.?c=vscode'];
+
+    switch ($page) {
+      case 'list':
+        article_list('Visual Studio Code');
+        break;
+      case 'setting':
+        $contents_title = $titles['setting'];
+        $contents_desc = $descs['setting'];
+        $contents_path = '/contents/vscode/setting.php';
+        break;
+      case 'keyboard':
+        $contents_title = $titles['keyboard'];
+        $contents_desc = $descs['keyboard'];
+        $contents_path = '/contents/vscode/keyboard.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'windows':
+    $titles = [
+      'setting' => 'Windows 10の設定方法',
+      'command' => 'Windows 10コマンドの便利な使い方',
+      'keyboard' => 'Windows 10の便利なショートカットキー',
+      'chocolatey' => 'Chocolateyの操作方法',
+    ];
+
+    $descs = [
+      'setting' => 'Windows 10を便利にするための設定方法を紹介しています。',
+      'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
+      'keyboard' => '知っておくと色んな場面で便利になるショートカットキーの使い方を紹介しています。',
+      'chocolatey' => 'Chocolateyの基本的な操作方法を紹介しています。',
+    ];
+
+    $links = [
+      'setting' => '.?c=windows&p=setting',
+      'command' => '.?c=windows&p=command',
+      'keyboard' => '.?c=windows&p=keyboard',
+      'chocolatey' => '.?c=windows&p=chocolatey',
+    ];
+
+    $breadcrumb_list = ['Windows' => '.?c=windows'];
+
+    switch ($page) {
+      case 'list':
+        article_list('Windows');
+        break;
+      case 'setting':
+        $contents_title = $titles['setting'];
+        $contents_desc = $descs['setting'];
+        $contents_path = '/contents/windows/setting.php';
+        break;
+      case 'command':
+        $contents_title = $titles['command'];
+        $contents_desc = $descs['command'];
+        $contents_path = '/contents/windows/command.php';
+        break;
+      case 'keyboard':
+        $contents_title = $titles['keyboard'];
+        $contents_desc = $descs['keyboard'];
+        $contents_path = '/contents/windows/keyboard.php';
+        break;
+      case 'chocolatey':
+        $contents_title = $titles['chocolatey'];
+        $contents_desc = $descs['chocolatey'];
+        $contents_path = '/contents/windows/chocolatey.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'wireshark':
+    $titles = [
+      'operation' => 'Wiresharkの操作方法',
+    ];
+
+    $descs = [
+      'operation' => 'Wiresharkの基本的な操作方法を紹介しています。',
+    ];
+
+    $links = [
+      'operation' => '.?c=wireshark&p=operation',
+    ];
+
+    $breadcrumb_list = ['Wireshark' => '.?c=wireshark'];
+
+    switch ($page) {
+      case 'list':
+        article_list('Wireshark');
+        break;
+      case 'operation':
+        $contents_title = $titles['operation'];
+        $contents_desc = $descs['operation'];
+        $contents_path = '/contents/wireshark/operation.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
+  case 'wordpress':
+    $titles = [
+      'performance' => 'WordPressのパフォーマンスチューニング',
+    ];
+
+    $descs = [
+      'performance' => 'WordPressのパフォーマンスチューニング方法について紹介しています。',
+    ];
+
+    $links = [
+      'performance' => '.?c=wordpress&p=performance',
+    ];
+
+    $breadcrumb_list = ['WordPress' => '.?c=wordpress'];
+
+    switch ($page) {
+      case 'list':
+        article_list('WordPress');
+        break;
+      case 'performance':
+        $contents_title = $titles['performance'];
+        $contents_desc = $descs['performance'];
+        $contents_path = '/contents/wordpress/performance.php';
         break;
       default:
         not_found();
