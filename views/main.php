@@ -3,6 +3,7 @@
 <html lang="ja">
 <head>
 <?php include_once(__DIR__ . '/analyticstracking.php'); ?>
+<?php include_once(__DIR__ . '/adsense.php'); ?>
 <?php include_once(__DIR__ . '/head.php'); ?>
 </head>
 <body>
