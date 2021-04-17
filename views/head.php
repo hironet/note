@@ -54,6 +54,13 @@
     font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
   }
 
+  div.profile-box {
+    border: solid 1px #000;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    position: relative;
+  }
+
   div.box {
     border: solid 3px #95ccff;
     border-radius: 8px;
