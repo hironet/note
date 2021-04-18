@@ -86,12 +86,6 @@ $mtime = get_mtime(__FILE__);
         </td>
       </tr>
       <tr>
-        <td>現在のデータベース名を表示する。</td>
-        <td>
-          <pre class="inline"><code>SELECT database();</code></pre>
-        </td>
-      </tr>
-      <tr>
         <td>現在のユーザ名を表示する。</td>
         <td>
           <pre class="inline"><code>SELECT user();</code></pre>
@@ -101,6 +95,18 @@ $mtime = get_mtime(__FILE__);
         <td>ユーザ一覧を表示する。</td>
         <td>
           <pre class="inline"><code>SELECT user, host FROM mysql.user;</code></pre>
+        </td>
+      </tr>
+      <tr>
+        <td>ユーザの権限を表示する。</td>
+        <td>
+          <pre class="inline"><code>SHOW GRANTS FOR [ユーザ名];</code></pre>
+        </td>
+      </tr>
+      <tr>
+        <td>現在のデータベース名を表示する。</td>
+        <td>
+          <pre class="inline"><code>SELECT database();</code></pre>
         </td>
       </tr>
       <tr>
