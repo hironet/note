@@ -209,16 +209,19 @@ switch ($category) {
     break;
   case 'linux':
     $titles = [
+      'amzn2-setting' => 'Amazon Linux 2の設定方法',
       'centos7-setting' => 'CentOS 7.xの設定方法',
       'command' => 'Linuxコマンドの便利な使い方',
     ];
 
     $descs = [
+      'amzn2-setting' => 'Amazon Linux 2を使用するにあたって、よく行う設定を紹介しています。',
       'centos7-setting' => 'CentOS 7.xを使用するにあたって、よく行う設定を紹介しています。',
       'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
     ];
 
     $links = [
+      'amzn2-setting' => '.?c=linux&p=amzn2-setting',
       'centos7-setting' => '.?c=linux&p=centos7-setting',
       'command' => '.?c=linux&p=command',
     ];
@@ -228,6 +231,11 @@ switch ($category) {
     switch ($page) {
       case 'list':
         article_list('Linux');
+        break;
+      case 'amzn2-setting':
+        $contents_title = $titles['amzn2-setting'];
+        $contents_desc = $descs['amzn2-setting'];
+        $contents_path = '/contents/linux/amzn2-setting.php';
         break;
       case 'centos7-setting':
         $contents_title = $titles['centos7-setting'];
