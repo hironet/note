@@ -209,18 +209,18 @@ switch ($category) {
     break;
   case 'linux':
     $titles = [
-      'command' => 'Linuxコマンドの便利な使い方',
       'centos7-setting' => 'CentOS 7.xの設定方法',
+      'command' => 'Linuxコマンドの便利な使い方',
     ];
 
     $descs = [
-      'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
       'centos7-setting' => 'CentOS 7.xを使用するにあたって、よく行う設定を紹介しています。',
+      'command' => '知っておくと色んな場面で便利になるコマンドの使い方を紹介しています。',
     ];
 
     $links = [
-      'command' => '.?c=linux&p=command',
       'centos7-setting' => '.?c=linux&p=centos7-setting',
+      'command' => '.?c=linux&p=command',
     ];
 
     $breadcrumb_list = ['Linux' => '.?c=linux'];
@@ -229,15 +229,15 @@ switch ($category) {
       case 'list':
         article_list('Linux');
         break;
-      case 'command':
-        $contents_title = $titles['command'];
-        $contents_desc = $descs['command'];
-        $contents_path = '/contents/linux/command.php';
-        break;
       case 'centos7-setting':
         $contents_title = $titles['centos7-setting'];
         $contents_desc = $descs['centos7-setting'];
         $contents_path = '/contents/linux/centos7-setting.php';
+        break;
+      case 'command':
+        $contents_title = $titles['command'];
+        $contents_desc = $descs['command'];
+        $contents_path = '/contents/linux/command.php';
         break;
       default:
         not_found();
