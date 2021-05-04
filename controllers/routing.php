@@ -483,35 +483,6 @@ switch ($category) {
         break;
     }
     break;
-  case 'vagrant':
-    $titles = [
-      'operation' => 'Vagrantの操作方法',
-    ];
-
-    $descs = [
-      'operation' => 'Vagrantの基本的な操作方法について書いています。',
-    ];
-
-    $links = [
-      'operation' => '.?c=vagrant&p=operation',
-    ];
-
-    $breadcrumb_list = ['Vagrant' => '.?c=vagrant'];
-
-    switch ($page) {
-      case 'list':
-        article_list('Vagrant');
-        break;
-      case 'operation':
-        $contents_title = $titles['operation'];
-        $contents_desc = $descs['operation'];
-        $contents_path = '/contents/vagrant/operation.php';
-        break;
-      default:
-        not_found();
-        break;
-    }
-    break;
   case 'vim':
     $titles = [
       'operation' => 'Vimの操作方法',
