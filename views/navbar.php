@@ -10,6 +10,14 @@
           <a class="nav-link" href=".">ホーム</a>
         </li>
         <li class="nav-item dropdown">
+          <a id="category-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">クラウド</a>
+          <ul class="dropdown-menu" aria-labelledby="category-dropdown">
+            <li>
+              <a class="dropdown-item" href=".?c=aws">AWS</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
           <a id="category-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">OS</a>
           <ul class="dropdown-menu" aria-labelledby="category-dropdown">
             <li>
