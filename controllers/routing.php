@@ -46,6 +46,33 @@ switch ($category) {
         break;
     }
     break;
+  case 'aws':
+    $titles = [
+      's3' => 'S3の操作方法',
+    ];
+
+    $descs = [
+      's3' => 'S3の基本的な操作方法を書いています。',
+    ];
+
+    $links = [
+      's3' => '.?c=aws&p=s3',
+    ];
+
+    switch ($page) {
+      case 'list':
+        article_list('AWS');
+        break;
+      case 's3':
+        $contents_title = $titles['s3'];
+        $contents_desc = $descs['s3'];
+        $contents_path = '/contents/aws/s3.php';
+        break;
+      default:
+        not_found();
+        break;
+    }
+    break;
   case 'bash':
     $titles = [
       'technique' => 'Bashシェルスクリプトのテクニック',
