@@ -19,19 +19,19 @@ $mtime = get_mtime(__FILE__);
   </li>
 </ul>
 <h2 id="1dime-array" class="title">1次元配列の基本操作</h2>
-<h3 class="title">配列の作成</h3>
+<h3 class="title">空の配列の作成</h3>
 <p>array()で空の配列を作成する。</p>
 <pre class="block"><code class="php">$colors = array();</code></pre>
 <p>短縮構文で空の配列を作成する。</p>
 <pre class="block"><code class="php">$colors = [];</code></pre>
-<h3 class="title">添字配列の初期化</h3>
+<h3 class="title">配列の作成・初期化（添字配列の場合）</h3>
 <p>array()で添字配列を初期化する。</p>
 <pre class="block"><code class="php">$colors = array('red', 'green', 'blue');
 echo $colors[0];  # red</code></pre>
 <p>短縮構文で添字配列を初期化する。</p>
 <pre class="block"><code class="php">$colors = ['red', 'green', 'blue'];
 echo $colors[2];  # blue</code></pre>
-<h3 class="title">連想配列の初期化</h3>
+<h3 class="title">配列の作成・初期化（連想配列の場合）</h3>
 <p>array()で連想配列を初期化する。</p>
 <pre class="block"><code class="php">$product = array('product_no' => 10, 'product_name' => 'iPhone 12', 'price' => 94380);
 echo $product['product_name'];  # iPhone 12</code></pre>
@@ -59,7 +59,7 @@ echo "製品名は$product[product_name]です。";  # 製品名はiPhone12で�
 ];
 echo "製品名は{$products[1][product_name]}です。";  # 製品名はiPhone12 Proです。</code></pre>
 <h2 id="convenient" class="title">配列の便利な操作</h2>
-<h3 class="title">配列の分解（list構文）</h3>
+<h3 class="title">配列の分解（list構文の場合）</h3>
 <p>配列から複数の変数に代入する。</p>
 <pre class="block"><code class="php">$colors = ['red', 'green', 'blue'];
 list($color_1, $color_2, $color_3) = $colors;
@@ -76,7 +76,7 @@ echo "{$color_1}, {$color_3}";  # red, blue</code></pre>
 <pre class="block"><code class="php">$colors = ['red', 'green', 'blue'];
 list(, , $color_3) = $colors;
 echo "{$color_3}";  # blue</code></pre>
-<h3 class="title">配列の分解（短縮構文）</h3>
+<h3 class="title">配列の分解（短縮構文の場合）</h3>
 <p>配列から複数の変数に代入する。</p>
 <pre class="block"><code class="php">$colors = ['red', 'green', 'blue'];
 [$color_1, $color_2, $color_3] = $colors;
