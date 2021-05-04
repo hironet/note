@@ -1,1 +1,1 @@
-https://hironet.org/tech-note/sitemap.xml
+Sitemap: https://hironet.org/tech-note/sitemap.xml
