@@ -6,6 +6,7 @@ $mtime = get_mtime(__FILE__);
 <?php include_once(__DIR__ . '/../common/header.php'); ?>
 <?php include_once(__DIR__ . '/../common/date.php'); ?>
 </header>
+<h2 class="title">S3のコマンド</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
