@@ -10,5 +10,5 @@ $mtime = get_mtime(__FILE__);
 <p>新しいプロジェクトを作成する。</p>
 <pre class="block"><code class="shell">$ cd [プロジェクトを配置するディレクトリ]
 $ composer create-project laravel/laravel [プロジェクト名] --prefer-dist
-$ chown -R [Webサーバのユーザ名]:[Webサーバのユーザが所属するグループ名] [プロジェクト名]/storage/</code></pre>
+$ chown -R [Webサーバのユーザ名]:[Webサーバのユーザが所属するグループ名] [プロジェクト名]/storage/
 $ chown -R [Webサーバのユーザ名]:[Webサーバのユーザが所属するグループ名] [プロジェクト名]/bootstrap/cache/</code></pre>
