@@ -236,14 +236,17 @@ switch ($category) {
     break;
   case 'laravel':
     $titles = [
+      'setting' => 'Laravelの設定方法',
       'operation' => 'Laravelの操作方法',
     ];
 
     $descs = [
+      'setting' => 'Laravelの設定方法について書いています。',
       'operation' => 'Laravelの基本的な操作方法について書いています。',
     ];
 
     $links = [
+      'setting' => '.?c=laravel&p=setting',
       'operation' => '.?c=laravel&p=operation',
     ];
 
@@ -252,6 +255,11 @@ switch ($category) {
     switch ($page) {
       case 'list':
         article_list('Laravel');
+        break;
+      case 'setting':
+        $contents_title = $titles['setting'];
+        $contents_desc = $descs['setting'];
+        $contents_path = '/contents/laravel/setting.php';
         break;
       case 'operation':
         $contents_title = $titles['operation'];
