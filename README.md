@@ -7,7 +7,7 @@
 
 ## サイト
 
-https://engineer-hiro.com/tech-note/
+https://engineer-hiro.com
 
 ## 技術要素
 
