@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class TechNoteController extends Controller
 {
-    const SITE_NAME = 'Hiroのポータルサイト';
+    const SITE_NAME = "Hiro's tech note";
 
     const CATEGORY_NAMES = [
         'cloud' => ['/cloud', 'クラウド'],
