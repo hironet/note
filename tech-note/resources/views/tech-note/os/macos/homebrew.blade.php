@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-04-01 00:00:00';
+$description = 'macOSのパッケージ管理ツールであるHomebrewの基本的な操作方法について書いています。';
 @endphp
 
 @section('contents')

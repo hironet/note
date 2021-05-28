@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-04-03 00:00:00';
+$description = 'Excel 2019を便利にするための設定方法について書いています。';
 @endphp
 
 @section('contents')

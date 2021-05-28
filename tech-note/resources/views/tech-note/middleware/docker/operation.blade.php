@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-03-30 00:00:00';
+$description = 'Dockerの基本的な操作方法について書いています。';
 @endphp
 
 @section('contents')

@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-05-05 00:00:00';
+$description = 'Laravelの基本的な操作方法について書いています。';
 @endphp
 
 @section('contents')

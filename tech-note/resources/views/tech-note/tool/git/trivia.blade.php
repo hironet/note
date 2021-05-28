@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-03-31 00:00:00';
+$description = '知っておくと便利なGitの豆知識について書いています。';
 @endphp
 
 @section('contents')

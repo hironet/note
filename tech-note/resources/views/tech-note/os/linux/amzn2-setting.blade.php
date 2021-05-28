@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-05-02 00:00:00';
+$description = 'Amazon Linux 2を使用するにあたって、よく行う設定について書いています。';
 @endphp
 
 @section('contents')

@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-04-18 00:00:00';
+$description = 'MySQLのデータベースとユーザの管理方法について書いています。';
 @endphp
 
 @section('contents')

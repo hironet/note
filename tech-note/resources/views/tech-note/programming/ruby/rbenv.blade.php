@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-04-05 00:00:00';
+$description = 'Rubyのバージョン管理ツールであるrbenvの基本的な操作方法について書いています。';
 @endphp
 
 @section('contents')

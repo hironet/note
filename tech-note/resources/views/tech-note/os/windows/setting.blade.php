@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-04-02 00:00:00';
+$description = 'Windows 10を便利にするための設定方法について書いています。';
 @endphp
 
 @section('contents')

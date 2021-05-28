@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-05-04 00:00:00';
+$description = 'PHPの配列の操作方法について書いています。';
 @endphp
 
 @section('contents')

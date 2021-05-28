@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-03-29 00:00:00';
+$description = 'Bashシェルスクリプトを作成する際に、知っておくと有用な書き方について書いています。';
 @endphp
 
 @section('contents')

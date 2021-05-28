@@ -2,6 +2,7 @@
 
 @php
 $mtime = '2021-04-02 00:00:00';
+$description = '知っておくと色んな場面で便利になるショートカットキーの使い方について書いています。';
 @endphp
 
 @section('contents')
