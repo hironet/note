@@ -44,7 +44,8 @@ class TechNoteController extends Controller
             'wireshark' => ['/tool/wireshark', 'Wireshark'],
         ],
         'programming' => [
-            'html' => ['/programming/html', 'HTML/CSS'],
+            'html' => ['/programming/html', 'HTML'],
+            'css' => ['/programming/css', 'CSS'],
             'javascript' => ['/programming/javascript', 'JavaScript'],
             'php' => ['/programming/php', 'PHP'],
             'ruby' => ['/programming/ruby', 'Ruby'],
@@ -120,7 +121,10 @@ class TechNoteController extends Controller
         ],
         'programming' => [
             'html' => [
-                'html-trivia' => ['/programming/html/html-trivia', 'HTMLの豆知識'],
+                'trivia' => ['/programming/html/trivia', 'HTMLの豆知識'],
+            ],
+            'css' => [
+                '' => ['', ''],
             ],
             'javascript' => [
                 'trivia' => ['/programming/javascript/trivia', 'JavaScriptの豆知識'],
