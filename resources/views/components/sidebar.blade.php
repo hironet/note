@@ -3,5 +3,7 @@
   <div class="text-center mb-2">
     <span class="fw-bold">ITエンジニア Hiro</span>
   </div>
-  <p>このサイトは、ITエンジニアHiroのテクノロジーノートです。私の学習や実践のために、今までに調査したことを残しています。私のプロフィールは、<a href="https://engineer-hiro.com">こちら</a>をご覧ください。</p>
+  <p>このサイトは、ITエンジニアHiroのテクノロジーノートです。私の学習や実践のために、今までに調査したことを残しています。</p>
+  <p>このサイトの制作にはPHP (Laravel) を使用しており、ソースコードは<a href="https://github.com/hironet/tech-note" target="_blank" rel="noreferrer noopener">GitHub</a>で公開しています。</p>
+  <p>私のプロフィールは、<a href="https://engineer-hiro.com" target="_blank" rel="noreferrer noopener">こちら</a>をご覧ください。</p>
 </div>
