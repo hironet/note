@@ -15,7 +15,7 @@
 @endforeach
     </ol>
   </nav>
-  <h1>{{ $page_title }}</h1>
+  <h1>{{ $article_title }}</h1>
 @if (isset($mtime))
   <p>更新日：
     <time itemprop="dateModified" datetime="{{ (new DateTime($mtime))->format(DateTime::ATOM) }}">

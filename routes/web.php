@@ -63,7 +63,7 @@ const SUBCATEGORY_NAMES = [
     ],
 ];
 
-const PAGE_TITLES = [
+const ARTICLE_TITLES = [
     'cloud' => [
         'aws' => [
             's3' => ['/cloud/aws/s3', 'S3の操作方法'],
@@ -157,7 +157,7 @@ const PAGE_TITLES = [
     ],
 ];
 
-Route::get('/{category?}/{subcategory?}/{page?}', function($category_id = '', $subcategory_id = '', $page_id = '') {
+Route::get('/{category?}/{subcategory?}/{article?}', function($category_id = '', $subcategory_id = '', $article_id = '') {
     $data['site_name'] = SITE_NAME;
     $data['category_names'] = CATEGORY_NAMES;
     $data['subcategory_names'] = SUBCATEGORY_NAMES;
@@ -171,30 +171,30 @@ Route::get('/{category?}/{subcategory?}/{page?}', function($category_id = '', $s
             $data['breadcrumb'] = [
                 CATEGORY_NAMES[$category_id][1] => '',
             ];
-            $data['page_title'] = CATEGORY_NAMES[$category_id][1];
-            $data['page_titles'] = PAGE_TITLES[$category_id];
+            $data['article_title'] = CATEGORY_NAMES[$category_id][1];
+            $data['article_titles'] = ARTICLE_TITLES[$category_id];
             return view('tech-note.category', $data);
         } else if (array_key_exists($subcategory_id, SUBCATEGORY_NAMES[$category_id])) {
-            if (empty($page_id)) {
+            if (empty($article_id)) {
                 /* サブカテゴリ画面 */
                 $data['breadcrumb'] = [
                     CATEGORY_NAMES[$category_id][1] => CATEGORY_NAMES[$category_id][0],
                     SUBCATEGORY_NAMES[$category_id][$subcategory_id][1] => '',
                 ];
-                $data['page_title'] = SUBCATEGORY_NAMES[$category_id][$subcategory_id][1];
-                $data['page_titles'] = PAGE_TITLES[$category_id][$subcategory_id];
+                $data['article_title'] = SUBCATEGORY_NAMES[$category_id][$subcategory_id][1];
+                $data['article_titles'] = ARTICLE_TITLES[$category_id][$subcategory_id];
                 return view('tech-note.subcategory', $data);
-            } else if (array_key_exists($page_id, PAGE_TITLES[$category_id][$subcategory_id])) {
+            } else if (array_key_exists($article_id, ARTICLE_TITLES[$category_id][$subcategory_id])) {
                 /* 個別画面 */
                 $data['breadcrumb'] = [
                     CATEGORY_NAMES[$category_id][1] => CATEGORY_NAMES[$category_id][0],
                     SUBCATEGORY_NAMES[$category_id][$subcategory_id][1] => SUBCATEGORY_NAMES[$category_id][$subcategory_id][0],
                 ];
-                $data['page_title'] = PAGE_TITLES[$category_id][$subcategory_id][$page_id][1];
-                return view("tech-note.{$category_id}.{$subcategory_id}.{$page_id}", $data);
+                $data['article_title'] = ARTICLE_TITLES[$category_id][$subcategory_id][$article_id][1];
+                return view("tech-note.{$category_id}.{$subcategory_id}.{$article_id}", $data);
             }
         }
     }
-    $data['page_title'] = 'Not Found';
+    $data['article_title'] = 'Not Found';
     return view('tech-note.404', $data);
 });

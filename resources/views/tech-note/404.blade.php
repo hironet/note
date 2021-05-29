@@ -2,6 +2,6 @@
 
 @section('contents')
 <header>
-  <h1>{{ $page_title }}</h1>
+  <h1>{{ $article_title }}</h1>
 </header>
 @endsection
