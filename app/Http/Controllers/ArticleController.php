@@ -7,10 +7,6 @@ use Illuminate\Http\Request;
 class ArticleController extends Controller
 {
     public function __invoke($category = '', $subcategory = '', $article = '') {
-        $data['site_name'] = config('const.SITE_NAME');
-        $data['category_names'] = config('const.CATEGORY_NAMES');
-        $data['subcategory_names'] = config('const.SUBCATEGORY_NAMES');
-
         if (array_key_exists($category, config('const.CATEGORY_NAMES'))) {
             if (empty($subcategory)) {
                 /* カテゴリ画面 */
