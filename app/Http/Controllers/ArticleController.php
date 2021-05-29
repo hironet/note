@@ -38,6 +38,6 @@ class ArticleController extends Controller
             }
         }
         $data['article_title'] = 'Not Found';
-        return view('article.404', $data);
+        return view('404', $data);
     }
 }
