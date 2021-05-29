@@ -13,9 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
 
 use App\Http\Controllers\ArticleController;
 Route::get('/article/{category?}/{subcategory?}/{article?}', ArticleController::class);
+
+Route::fallback(function () {
+    $data['article_title'] = 'Not Found';
+    return view('404', $data);
+});
