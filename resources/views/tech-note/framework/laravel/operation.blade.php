@@ -13,10 +13,13 @@ $description = 'Laravelの基本的な操作方法について書いています
 <pre class="block"><code class="shell">$ php artisan --version</code></pre>
 <h3 class="title">プロジェクト作成</h3>
 <p>新しいプロジェクトを作成する。</p>
+<ul>
+  <li><code>www-data</code>は、Apacheの実行ユーザ・グループ。</li>
+</ul>
 <pre class="block"><code class="shell">$ cd [プロジェクトを配置するディレクトリ]
 $ composer create-project laravel/laravel [プロジェクト名] --prefer-dist
-$ chown -R [Webサーバのユーザ名]:[Webサーバのユーザが所属するグループ名] [プロジェクト名]/bootstrap/cache/
-$ chown -R [Webサーバのユーザ名]:[Webサーバのユーザが所属するグループ名] [プロジェクト名]/storage/</code></pre>
+$ chown -R www-data:www-data [プロジェクト名]/bootstrap/cache/
+$ chown -R www-data:www-data [プロジェクト名]/storage/</code></pre>
 <h3 class="title">コントローラ作成</h3>
 <p>コントローラの雛形ファイルを作成する。</p>
 <pre class="block"><code class="shell">$ cd [プロジェクト名]
