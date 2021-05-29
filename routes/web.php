@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function() {
+Route::get('/', function () {
     $data['site_name'] = config('const.SITE_NAME');
     $data['category_names'] = config('const.CATEGORY_NAMES');
     $data['subcategory_names'] = config('const.SUBCATEGORY_NAMES');
