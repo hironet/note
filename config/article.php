@@ -117,7 +117,7 @@ return [
         'programming' => [
             'html' => [
                 'trivia' => ['/article/programming/html/trivia', 'HTMLの豆知識'],
-                'char-reference' => ['/article/programming/html/char-reference', '文字参照'],
+                'char-reference' => ['/article/programming/html/char-reference', 'HTMLにおける文字参照'],
             ],
             'css' => [
                 '' => ['', ''],
