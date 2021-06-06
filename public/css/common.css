@@ -24,14 +24,14 @@ h4.title {
 }
 
 a:link, a:visited {
-  text-decoration:none;
-  outline:none;
+  outline: none;
+  text-decoration: none;
 }
 
 a:hover {
-  color:#000000;
-  text-decoration:none;
-  outline:none;
+  color: #000000;
+  outline: none;
+  text-decoration: none;
 }
 
 p, ul, ol, li {
