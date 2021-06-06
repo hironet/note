@@ -1,7 +1,7 @@
 @extends('layouts/app')
 
 @php
-$mtime = '2021-05-15 00:00:00';
+$mtime = '2021-06-06 00:00:00';
 $description = 'Laravelの設定方法について書いています。';
 @endphp
 
@@ -9,9 +9,9 @@ $description = 'Laravelの設定方法について書いています。';
 @include('components.header')
 <h2 class="title">設定方法</h2>
 <h3 class="title">プロジェクトの初期設定</h3>
-<h4><code>config/app.php</code></h4>
+<h4><code>config/app.php</code>の設定変更</h4>
 <h5>修正前</h5>
-<pre class="block"><code class="apache">&hellip;
+<pre class="block"><code class="php">&hellip;
     'name' => env('APP_NAME', 'Laravel'),
 &hellip;
     'timezone' => 'UTC',
@@ -20,7 +20,7 @@ $description = 'Laravelの設定方法について書いています。';
 &hellip;
 </code></pre>
 <h5>修正後</h5>
-<pre class="block"><code class="apache">&hellip;
+<pre class="block"><code class="php">&hellip;
     'name' => env('APP_NAME', '[アプリケーション名]'),
 &hellip;
     'timezone' => 'Asia/Tokyo',
@@ -28,16 +28,16 @@ $description = 'Laravelの設定方法について書いています。';
     'locale' => 'ja',
 &hellip;
 </code></pre>
-<h4><code>.env</code></h4>
+<h4><code>.env</code>の設定変更</h4>
 <h5>修正前</h5>
-<pre class="block"><code class="apache">&hellip;
+<pre class="block"><code>&hellip;
 APP_NAME=Laravel
 &hellip;
 APP_URL=http://localhost
 &hellip;
 </code></pre>
 <h5>修正後</h5>
-<pre class="block"><code class="apache">&hellip;
+<pre class="block"><code>&hellip;
 APP_NAME=[アプリケーション名]
 &hellip;
 APP_URL=[URL]
