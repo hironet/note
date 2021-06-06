@@ -44,5 +44,5 @@ $ git merge [マージ元のブランチ名]</code></pre></td>
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 @endsection

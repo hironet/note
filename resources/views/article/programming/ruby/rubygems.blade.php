@@ -55,5 +55,5 @@ $description = 'Rubyのパッケージ管理ツールであるRubyGemsの基本�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 @endsection

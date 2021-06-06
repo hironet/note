@@ -61,7 +61,7 @@ $description = 'MySQLの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <pre class="block"><code class="sql">prompt [プロンプトとして表示する文字列]</code></pre>
 <p>入力中の命令を<code>;</code>で実行する前にキャンセルする。</p>
 <pre class="block"><code class="sql">SELECT * FROM user
@@ -148,5 +148,5 @@ $description = 'MySQLの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 @endsection

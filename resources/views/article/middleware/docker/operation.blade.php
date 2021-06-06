@@ -48,7 +48,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">イメージ作成</h3>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -73,7 +73,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">イメージ削除</h3>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -98,7 +98,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">Docker Hubへのイメージ登録</h3>
 <p>1. Docker Hubにログインする。</p>
 <pre class="block"><code class="shell">$ docker login</code></pre>
@@ -125,7 +125,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">コンテナ作成・起動</h3>
 <pre class="block"><code class="shell">$ docker run -itd --name [コンテナ名] [イメージ名]</code></pre>
 <h3 class="title">コンテナ削除</h3>
@@ -160,7 +160,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">コンテナへのログイン</h3>
 <pre class="block"><code class="shell">$ docker exec -it [コンテナID] bash</code></pre>
 <h3 class="title">コンテナ起動・停止・再起動</h3>
@@ -187,7 +187,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">コンテナのログ確認</h3>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -216,7 +216,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">コンテナの情報表示</h3>
 <pre class="block"><code class="shell">$ docker inspect [コンテナID]</code></pre>
 <h2 id="docker-compose" class="title">Docker Compose</h2>
@@ -242,7 +242,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">コンテナの稼働状態確認</h3>
 <pre class="block"><code class="shell">$ docker-compose ps</code></pre>
 <h3 class="title">コンテナ作成・起動・停止・再起動</h3>
@@ -273,7 +273,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">コンテナ削除</h3>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -294,7 +294,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">コンテナのログ確認</h3>
 <pre class="block"><code class="shell">$ docker-compose logs</code></pre>
 <h2 id="docker-network" class="title">ネットワーク管理</h2>
@@ -355,7 +355,7 @@ $description = 'Dockerの基本的な操作方法について書いています�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <p class="title">コンテナのリソース使用状況をライブで表示し続ける。</p>
 <pre class="block"><code class="shell">$ docker stats</code></pre>
 <p class="title">コンテナで実行しているプロセスを確認する。</p>

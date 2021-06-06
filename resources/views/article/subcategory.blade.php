@@ -10,9 +10,9 @@
         <a href="{{ $_article_info[0] }}" class="card-link">
           <h5 class="card-title">{{ $_article_info[1] }}</h5>
         </a>
-      </div>
-    </div><!-- card -->
-  </div><!-- col -->
+      </div><!-- /.card-body -->
+    </div><!-- /.card -->
+  </div><!-- /.col -->
 @endforeach
-</div><!-- row -->
+</div><!-- /.row -->
 @endsection

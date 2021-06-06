@@ -62,7 +62,7 @@ $description = 'Windowsのソフトウェア管理ツールであるChocolatey�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h2 id="chocolate-other" class="title">その他</h2>
 <p>パッケージ情報を記載したXMLファイルを読み込ませてインストールする。</p>
 <pre class="block"><code class="shell">&gt; choco install -y choco.config</code></pre>

@@ -75,5 +75,5 @@ $description = 'S3の基本的な操作方法を書いています。';
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 @endsection

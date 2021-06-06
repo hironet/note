@@ -23,7 +23,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -63,7 +63,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">フォルダ・ファイル操作</h3>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -88,7 +88,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">文字入力</h3>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -105,7 +105,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">スクリーンショット</h3>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -138,5 +138,5 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 @endsection

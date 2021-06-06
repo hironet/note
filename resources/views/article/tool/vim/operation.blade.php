@@ -52,7 +52,7 @@ $description = 'Vimの基本的な操作方法について書いています。'
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h3 class="title">文字コード・改行コード操作</h3>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -81,7 +81,7 @@ $description = 'Vimの基本的な操作方法について書いています。'
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <ul>
   <li>文字コードには、以下を指定できる。</li>
 </ul>
@@ -112,7 +112,7 @@ $description = 'Vimの基本的な操作方法について書いています。'
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <ul>
   <li>改行コードには、以下を指定できる。</li>
 </ul>
@@ -139,7 +139,7 @@ $description = 'Vimの基本的な操作方法について書いています。'
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h2 id="macro" class="title">マクロ</h2>
 <h3 class="title">マクロの登録</h3>
 <p>1. <code>[登録するアルファベット1文字]</code>に対してマクロの登録を開始する。</p>

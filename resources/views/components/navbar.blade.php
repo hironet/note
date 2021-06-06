@@ -22,6 +22,6 @@
         </li>
 @endforeach
       </ul>
-    </div>
-  </div><!-- container-fluid -->
+    </div><!-- /#navbarNav --> 
+  </div><!-- /.container-fluid -->
 </nav>

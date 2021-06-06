@@ -15,8 +15,8 @@
         </li>
 @endforeach
       </ul>
-    </div><!-- card -->
-  </div><!-- col -->
+    </div><!-- /.card -->
+  </div><!-- /.col -->
 @endforeach
-</div><!-- row -->
+</div><!-- /.row -->
 @endsection

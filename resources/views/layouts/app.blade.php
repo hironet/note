@@ -28,14 +28,14 @@
         <main>
 @yield('contents')
         </main>
-      </div><!-- col -->
+      </div><!-- /.col -->
       <div class="col-12 col-lg-3">
         <aside>
 @include('components.sidebar')
         </aside>
-      </div><!-- col -->
-    </div><!-- row -->
-  </div><!-- container -->
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
   <hr class="featurette-divider">
   <footer>
     <div class="container text-center my-3">

@@ -78,7 +78,7 @@ $description = 'Amazon Linux 2を使用するにあたって、よく行う設�
       </tr>
     </tbody>
   </table>
-</div><!-- table-responsive -->
+</div><!-- /.table-responsive -->
 <p>yumでインストールされたファイル一覧を表示する。</p>
 <ul>
   <li>事前に、<code>yum-utils</code>パッケージをインストールしておく必要がある。</li>
@@ -132,7 +132,7 @@ $description = 'Amazon Linux 2を使用するにあたって、よく行う設�
       </tr>
     </tbody>
   </table>
-</div><!-- table-responsive -->
+</div><!-- /.table-responsive -->
 <h2 id="swap" class="title">スワップ領域の設定</h2>
 <p>1. 2GB（128MB×16）のスワップファイル（<code>/swapfile</code>）を作成する。</p>
 <pre class="block"><code class="shell"># dd if=/dev/zero of=/swapfile bs=128M count=16</code></pre>

@@ -111,5 +111,5 @@ $description = 'HTMLの文字参照について書いています。';
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 @endsection

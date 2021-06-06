@@ -340,7 +340,7 @@ $ expr 400 / 2
       </tr>
     </tbody>
   </table>
-</div><!-- table-responsive -->
+</div><!-- /.table-responsive -->
 <h3 id="view" class="title">view</h3>
 <p>viをreadonlyモードで起動する（<code>vi -R</code>と同じ）。</p>
 <pre class="block"><code class="shell">$ view [ファイルパス]</code></pre>

@@ -90,7 +90,7 @@ $description = 'CentOS 7.xを使用するにあたって、よく行う設定に
       </tr>
     </tbody>
   </table>
-</div><!-- table-responsive -->
+</div><!-- /.table-responsive -->
 <p>yumでDVDからパッケージをインストールする。</p>
 <pre class="block"><code class="shell"># mkdir /media/CentOS
 # mount -t iso9660 /dev/cdrom /media/CentOS
@@ -149,7 +149,7 @@ $description = 'CentOS 7.xを使用するにあたって、よく行う設定に
       </tr>
     </tbody>
   </table>
-</div><!-- table-responsive -->
+</div><!-- /.table-responsive -->
 <h2 id="other" class="title">その他</h2>
 <p>システムの時刻・日付設定を確認する。</p>
 <pre class="block"><code class="shell"># timedatectl status</code></pre>

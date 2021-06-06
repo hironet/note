@@ -35,7 +35,7 @@ $description = '知っておくと便利なHTMLの豆知識について書いて
       </ul>
     </li>
   </ul>
-</div>
+</div><!-- /.box -->
 <ul>
   <li>以下の書き方は、<code>&lt;ul&gt;...&lt;/ul&gt;</code>が<code>&lt;li&gt;...&lt;/li&gt;</code>の中に入っていないため、誤っている。</li>
 </ul>
@@ -79,5 +79,5 @@ $description = '知っておくと便利なHTMLの豆知識について書いて
       <p>UNIX系オペレーティングシステムの1つ</p>
     </li>
   </ul>
-</div>
+</div><!-- /.box -->
 @endsection

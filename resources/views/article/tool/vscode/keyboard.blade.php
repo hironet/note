@@ -57,7 +57,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h2 id="file" class="title">ファイル編集</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -117,7 +117,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h2 id="tab" class="title">タブ操作</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -141,7 +141,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h2 id="cursor" class="title">カーソル操作</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -180,7 +180,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h2 id="search" class="title">検索</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -204,7 +204,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h2 id="sort" class="title">並び替え</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
@@ -228,7 +228,7 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 <h2 id="emmet" class="title">Emmet</h2>
 <p>HTML5の雛形を入力する。</p>
 <ul>
@@ -274,5 +274,5 @@ $description = '知っておくと色んな場面で便利になるショート�
       </tr>
     </tbody>
   </table>
-</div>
+</div><!-- /.table-responsive -->
 @endsection
