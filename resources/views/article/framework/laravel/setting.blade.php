@@ -9,25 +9,6 @@ $description = 'Laravelの設定方法について書いています。';
 @include('components.header')
 <h2 class="title">設定方法</h2>
 <h3 class="title">プロジェクトの初期設定</h3>
-<h4><code>config/app.php</code>の設定変更</h4>
-<h5>修正前</h5>
-<pre class="block"><code class="php">&hellip;
-    'name' => env('APP_NAME', 'Laravel'),
-&hellip;
-    'timezone' => 'UTC',
-&hellip;
-    'locale' => 'en',
-&hellip;
-</code></pre>
-<h5>修正後</h5>
-<pre class="block"><code class="php">&hellip;
-    'name' => env('APP_NAME', '[アプリケーション名]'),
-&hellip;
-    'timezone' => 'Asia/Tokyo',
-&hellip;
-    'locale' => 'ja',
-&hellip;
-</code></pre>
 <h4><code>.env</code>の設定変更</h4>
 <h5>修正前</h5>
 <pre class="block"><code>&hellip;
@@ -45,6 +26,21 @@ APP_NAME=[アプリケーション名]
 APP_ENV=production
 &hellip;
 APP_URL=[URL]
+&hellip;
+</code></pre>
+<h4><code>config/app.php</code>の設定変更</h4>
+<h5>修正前</h5>
+<pre class="block"><code class="php">&hellip;
+    'timezone' => 'UTC',
+&hellip;
+    'locale' => 'en',
+&hellip;
+</code></pre>
+<h5>修正後</h5>
+<pre class="block"><code class="php">&hellip;
+    'timezone' => 'Asia/Tokyo',
+&hellip;
+    'locale' => 'ja',
 &hellip;
 </code></pre>
 <h3 class="title">URLからpublicを除外する方法</h3>
