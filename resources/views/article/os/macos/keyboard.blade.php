@@ -18,15 +18,15 @@ $description = '知っておくと色んな場面で便利になるショート�
   <tbody>
     <tr>
       <td>画面全体を撮る。</td>
-      <td><kbd>shift + command + 3</kbd></td>
+      <td><kbd>&#8679; + &#8984; + 3</kbd></td>
     </tr>
     <tr>
       <td>画面の一部を撮る。</td>
-      <td><kbd>shift + command + 4</kbd></td>
+      <td><kbd>&#8679; + &#8984; + 4</kbd></td>
     </tr>
     <tr>
       <td>ウィンドウを撮る。</td>
-      <td><kbd>shift + command + 4 + space</kbd></td>
+      <td><kbd>&#8679; + &#8984; + 4 + space</kbd></td>
     </tr>
   </tbody>
 </table>
@@ -41,7 +41,7 @@ $description = '知っておくと色んな場面で便利になるショート�
   <tbody>
     <tr>
       <td>アプリを強制終了する。</td>
-      <td><kbd>option + command + esc</kbd></td>
+      <td><kbd>&#8997; + &#8984; + &#9099;</kbd></td>
     </tr>
   </tbody>
 </table>
