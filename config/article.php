@@ -6,31 +6,31 @@ return [
     'CATEGORY_NAMES' => [
         'cloud' => [
             '/article/cloud',
-            'クラウド'
+            'クラウド',
         ],
         'os' => [
             '/article/os',
-            'OS'
+            'OS',
         ],
         'middleware' => [
             '/article/middleware',
-            'ミドルウェア'
+            'ミドルウェア',
         ],
         'application' => [
             '/article/application',
-            'アプリケーション'
+            'アプリケーション',
         ],
         'tool' => [
             '/article/tool',
-            'ツール'
+            'ツール',
         ],
         'programming' => [
             '/article/programming',
-            'プログラミング'
+            'プログラミング',
         ],
         'framework' => [
             '/article/framework',
-            'フレームワーク'
+            'フレームワーク',
         ],
     ],
   
@@ -38,99 +38,99 @@ return [
         'cloud' => [
             'aws' => [
                 '/article/cloud/aws',
-                'AWS'
+                'AWS',
             ],
         ],
         'os' => [
             'windows' => [
                 '/article/os/windows',
-                'Windows'
+                'Windows',
             ],
             'macos' => [
                 '/article/os/macos',
-                'macOS'
+                'macOS',
             ],
             'linux' => [
                 '/article/os/linux',
-                'Linux'
+                'Linux',
             ],
         ],
         'middleware' => [
             'docker' => [
                 '/article/middleware/docker',
-                'Docker'
+                'Docker',
             ],
             'nginx' => [
                 '/article/middleware/nginx',
-                'Nginx'
+                'Nginx',
             ],
             'apache' => [
                 '/article/middleware/apache',
-                'Apache'
+                'Apache',
             ],
             'mysql' => [
                 '/article/middleware/mysql',
-                'MySQL'
+                'MySQL',
             ],
         ],
         'application' => [
             'wordpress' => [
                 '/article/application/wordpress',
-                'WordPress'
+                'WordPress',
             ],
         ],
         'tool' => [
             'vim' => [
                 '/article/tool/vim',
-                'Vim'
+                'Vim',
             ],
             'vscode' => [
                 '/article/tool/vscode',
-                'Visual Studio Code'
+                'Visual Studio Code',
             ],
             'office' => [
                 '/article/tool/office',
-                'Microsoft Office'
+                'Microsoft Office',
             ],
             'git' => [
                 '/article/tool/git',
-                'Git'
+                'Git',
             ],
             'wireshark' => [
                 '/article/tool/wireshark',
-                'Wireshark'
+                'Wireshark',
             ],
         ],
         'programming' => [
             'html' => [
                 '/article/programming/html',
-                'HTML'
+                'HTML',
             ],
             'css' => [
                 '/article/programming/css',
-                'CSS'
+                'CSS',
             ],
             'javascript' => [
                 '/article/programming/javascript',
-                'JavaScript'
+                'JavaScript',
             ],
             'php' => [
                 '/article/programming/php',
-                'PHP'
+                'PHP',
             ],
             'ruby' => [
                 '/article/programming/ruby',
-                'Ruby'
+                'Ruby',
             ],
             'bash' => [
                 '/article/programming/bash',
-                'Bash'
+                'Bash',
             ],
         ],
         'framework' => [
             'laravel' => [
                 '/article/framework/laravel',
-                'Laravel'
+                'Laravel',
             ],
         ],
     ],
@@ -140,7 +140,9 @@ return [
             'aws' => [
                 's3' => [
                     '/article/cloud/aws/s3',
-                    'S3の操作方法'
+                    'S3の操作方法',
+                    'S3の基本的な操作方法を書いています。',
+                    '2021-05-04',
                 ],
             ],
         ],
@@ -148,47 +150,67 @@ return [
             'windows' => [
                 'setting' => [
                     '/article/os/windows/setting',
-                    'Windows 10の設定方法'
+                    'Windows 10の設定方法',
+                    'Windows 10を便利にするための設定方法について書いています。',
+                    '2021-04-02',
                 ],
                 'command' => [
                     '/article/os/windows/command',
-                    'Windows 10コマンドの便利な使い方'
+                    'Windows 10コマンドの便利な使い方',
+                    '知っておくと色んな場面で便利になるコマンドの使い方について書いています。',
+                    '2021-04-02',
                 ],
                 'keyboard' => [
                     '/article/os/windows/keyboard',
-                    'Windows 10の便利なショートカットキー'
+                    'Windows 10の便利なショートカットキー',
+                    '知っておくと色んな場面で便利になるショートカットキーの使い方について書いています。',
+                    '2021-04-02',
                 ],
                 'chocolatey' => [
                     '/article/os/windows/chocolatey',
-                    'Chocolateyの操作方法'
+                    'Chocolateyの操作方法',
+                    'Windowsのソフトウェア管理ツールであるChocolateyの基本的な操作方法について書いています。',
+                    '2021-04-02',
                 ],
             ],
             'macos' => [
                 'command' => [
                     '/article/os/macos/command',
-                    'macOSコマンドの便利な使い方'
+                    'macOSコマンドの便利な使い方',
+                    '知っておくと色んな場面で便利になるコマンドの使い方について書いています。',
+                    '2021-04-01',
                 ],
                 'keyboard' => [
                     '/article/os/macos/keyboard',
-                    'macOSの便利なショートカットキー'
+                    'macOSの便利なショートカットキー',
+                    '知っておくと色んな場面で便利になるショートカットキーの使い方について書いています。',
+                    '2021-04-01',
                 ],
                 'homebrew' => [
                     '/article/os/macos/homebrew',
-                    'Homebrewの操作方法'
+                    'Homebrewの操作方法',
+                    'macOSのパッケージ管理ツールであるHomebrewの基本的な操作方法について書いています。',
+                    '2021-04-01',
                 ],
             ],
             'linux' => [
                 'amzn2-setting' => [
                     '/article/os/linux/amzn2-setting',
-                    'Amazon Linux 2の設定方法'
+                    'Amazon Linux 2の設定方法',
+                    'Amazon Linux 2を使用するにあたって、よく行う設定について書いています。',
+                    '2021-05-02',
                 ],
                 'centos7-setting' => [
                     '/article/os/linux/centos7-setting',
-                    'CentOS 7.xの設定方法'
+                    'CentOS 7.xの設定方法',
+                    'CentOS 7.xを使用するにあたって、よく行う設定について書いています。',
+                    '2021-03-25',
                 ],
                 'command' => [
                     '/article/os/linux/command',
-                    'Linuxコマンドの便利な使い方'
+                    'Linuxコマンドの便利な使い方',
+                    '知っておくと色んな場面で便利になるコマンドの使い方について書いています。',
+                    '2021-03-25',
                 ],
             ],
         ],
@@ -196,29 +218,39 @@ return [
             'docker' => [
                 'operation' => [
                     '/article/middleware/docker/operation',
-                    'Dockerの操作方法'
+                    'Dockerの操作方法',
+                    'Dockerの基本的な操作方法について書いています。',
+                    '2021-03-30',
                 ],
             ],
             'nginx' => [
                 '' => [
                     '/',
-                    ''
+                    '',
+                    '',
+                    '',
                 ],
             ],
             'apache' => [
                 '' => [
                     '/',
-                    ''
+                    '',
+                    '',
+                    '',
                 ],
             ],
             'mysql' => [
                 'operation' => [
                     '/article/middleware/mysql/operation',
-                    'MySQLの操作方法'
+                    'MySQLの操作方法',
+                    'MySQLの基本的な操作方法について書いています。',
+                    '2021-04-03',
                 ],
                 'db-and-user' => [
                     '/article/middleware/mysql/db-and-user',
-                    'MySQLのデータベース・ユーザ管理'
+                    'MySQLのデータベース・ユーザ管理',
+                    'MySQLのデータベースとユーザの管理方法について書いています。',
+                    '2021-04-18',
                 ],
             ],
         ],
@@ -226,7 +258,9 @@ return [
             'wordpress' => [
                 'performance' => [
                     '/article/application/wordpress/performance',
-                    'WordPressのパフォーマンスチューニング'
+                    'WordPressのパフォーマンスチューニング',
+                    'WordPressのパフォーマンスチューニング方法について書いています。',
+                    '2021-04-03',
                 ],
             ],
         ],
@@ -234,39 +268,53 @@ return [
             'vim' => [
                 'operation' => [
                     '/article/tool/vim/operation',
-                    'Vimの操作方法'
+                    'Vimの操作方法',
+                    'Vimの基本的な操作方法について書いています。',
+                    '2021-04-03',
                 ],
             ],
             'vscode' => [
                 'setting' => [
                     '/article/tool/vscode/setting',
-                    'Visual Studio Codeの設定方法'
+                    'Visual Studio Codeの設定方法',
+                    'Visual Studio Codeを便利にするための設定方法について書いています。',
+                    '2021-04-03',
                 ],
                 'keyboard' => [
                     '/article/tool/vscode/keyboard',
-                    'Visual Studio Codeの便利なショートカットキー'
+                    'Visual Studio Codeの便利なショートカットキー',
+                    '知っておくと色んな場面で便利になるショートカットキーの使い方について書いています。',
+                    '2021-04-03',
                 ],
             ],
             'office' => [
                 'setting' => [
                     '/article/tool/office/setting',
-                    'Excel 2019の設定方法'
+                    'Excel 2019の設定方法',
+                    'Excel 2019を便利にするための設定方法について書いています。',
+                    '2021-04-03',
                 ],
             ],
             'git' => [
                 'trivia' => [
                     '/article/tool/git/trivia',
-                    'Gitの豆知識'
+                    'Gitの豆知識',
+                    '知っておくと便利なGitの豆知識について書いています。',
+                    '2021-03-31',
                 ],
                 'branch' => [
                     '/article/tool/git/branch',
-                    'ブランチの操作方法'
+                    'ブランチの操作方法',
+                    'Gitを使った開発で必須となるブランチの操作方法について書いています。',
+                    '2021-04-01',
                 ],
             ],
             'wireshark' => [
                 'operation' => [
                     '/article/tool/wireshark/operation',
-                    'Wiresharkの操作方法'
+                    'Wiresharkの操作方法',
+                    'パケットキャプチャソフトであるWiresharkの基本的な操作方法について書いています。',
+                    '2021-04-03',
                 ],
             ],
         ],
@@ -274,53 +322,73 @@ return [
             'html' => [
                 'trivia' => [
                     '/article/programming/html/trivia',
-                    'HTMLの豆知識'
+                    'HTMLの豆知識',
+                    '知っておくと便利なHTMLの豆知識について書いています。',
+                    '2021-04-05',
                 ],
                 'char-reference' => [
                     '/article/programming/html/char-reference',
-                    'HTMLにおける文字参照'
+                    'HTMLにおける文字参照',
+                    'HTMLの文字参照について書いています。',
+                    '2021-06-06',
                 ],
             ],
             'css' => [
                 '' => [
                     '',
-                    ''
+                    '',
+                    '',
+                    '',
                 ],
             ],
             'javascript' => [
                 'trivia' => [
                     '/article/programming/javascript/trivia',
-                    'JavaScriptの豆知識'
+                    'JavaScriptの豆知識',
+                    '知っておくと便利なJavaScriptの豆知識について書いています。',
+                    '2021-04-05',
                 ],
                 'technique' => [
                     '/article/programming/javascript/technique',
-                    'JavaScriptのテクニック'
+                    'JavaScriptのテクニック',
+                    'JavaScriptのコードを作成する際に、知っておくと有用な書き方について書いています。',
+                    '2021-04-05',
                 ],
             ],
             'php' => [
                 'array' => [
                     '/article/programming/php/array',
-                    'PHPの配列の操作方法'
+                    'PHPの配列の操作方法',
+                    'PHPの配列の操作方法について書いています。',
+                    '2021-05-04',
                 ],
             ],
             'ruby' => [
                 'rbenv' => [
                     '/article/programming/ruby/rbenv',
-                    'rbenvの操作方法'
+                    'rbenvの操作方法',
+                    'Rubyのバージョン管理ツールであるrbenvの基本的な操作方法について書いています。',
+                    '2021-04-05',
                 ],
                 'rubygems' => [
                     '/article/programming/ruby/rubygems',
-                    'RubyGemsの操作方法'
+                    'RubyGemsの操作方法',
+                    'Rubyのパッケージ管理ツールであるRubyGemsの基本的な操作方法について書いています。',
+                    '2021-04-05',
                 ],
                 'technique' => [
                     '/article/programming/ruby/technique',
-                    'Rubyのテクニック'
+                    'Rubyのテクニック',
+                    'Rubyのコードを作成する際に、知っておくと有用な書き方について書いています。',
+                    '2021-04-05',
                 ],
             ],
             'bash' => [
                 'technique' => [
                     '/article/programming/bash/technique',
-                    'Bashシェルスクリプトのテクニック'
+                    'Bashシェルスクリプトのテクニック',
+                    'Bashシェルスクリプトを作成する際に、知っておくと有用な書き方について書いています。',
+                    '2021-03-29',
                 ],
             ],
         ],
@@ -328,11 +396,15 @@ return [
             'laravel' => [
                 'setting' => [
                     '/article/framework/laravel/setting',
-                    'Laravelの設定方法'
+                    'Laravelの設定方法',
+                    'Laravelの設定方法について書いています。',
+                    '2021-06-06',
                 ],
                 'operation' => [
                     '/article/framework/laravel/operation',
-                    'Laravelの操作方法'
+                    'Laravelの操作方法',
+                    'Laravelの基本的な操作方法について書いています。',
+                    '2021-05-05',
                 ],
             ],
         ],
