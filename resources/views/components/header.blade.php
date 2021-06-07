@@ -16,10 +16,10 @@
     </ol>
   </nav>
   <h1>{{ $article_title }}</h1>
-@if (isset($mtime))
+@if (isset($article_mtime))
   <p>更新日：
-    <time itemprop="dateModified" datetime="{{ (new DateTime($mtime))->format(DateTime::ATOM) }}">
-      {{ (new DateTime($mtime))->format('Y年m月d日') }}
+    <time itemprop="dateModified" datetime="{{ (new DateTime($article_mtime))->format(DateTime::ATOM) }}">
+      {{ (new DateTime($article_mtime))->format('Y年m月d日') }}
     </time>
   </p>
 @endif
