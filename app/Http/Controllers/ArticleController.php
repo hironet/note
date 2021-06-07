@@ -33,6 +33,8 @@ class ArticleController extends Controller
                         config('article.SUBCATEGORY_NAMES')[$category][$subcategory][1] => config('article.SUBCATEGORY_NAMES')[$category][$subcategory][0],
                     ];
                     $data['article_title'] = config('article.ARTICLE_TITLES')[$category][$subcategory][$article][1];
+                    $data['article_description'] = config('article.ARTICLE_TITLES')[$category][$subcategory][$article][2];
+                    $data['article_mtime'] = config('article.ARTICLE_TITLES')[$category][$subcategory][$article][3];
                     return view("article.{$category}.{$subcategory}.{$article}", $data);
                 }
             }
