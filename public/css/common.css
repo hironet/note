@@ -77,3 +77,43 @@ div.box .box-title {
   position: absolute;
   top: -13px;
 }
+
+/* ボタンのスタイル */
+button#page-top {
+  /* buttonタグのリセットCSS */
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+
+  /* ボタンの装飾 */
+  align-items: center;
+  background-color: #808080;
+  border-radius: 50%;
+  bottom: 15px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: fixed;
+  right: 15px;
+  transition: all 0.3s ease;
+  width: 50px;
+  z-index: 100;
+}
+
+/* 矢印のスタイル */
+button#page-top::before {
+  border-right: solid 3px #fff;
+  border-top: solid 3px #fff;
+  content: "";
+  height: 12px;
+  margin-bottom: -6px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+/* ホバー時のスタイル */
+button#page-top:hover {
+  transform: scale(1.1);
+}
