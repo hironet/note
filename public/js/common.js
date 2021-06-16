@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', function() {
-  // スムーズにスクロールする処理
+  // ページ内リンクまでスムーズにスクロールする処理
   (() => {
     let Ease = {
       easeInOut: (t) => t < .5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2 ) + 1
@@ -32,6 +32,32 @@ window.addEventListener('DOMContentLoaded', function() {
           requestAnimationFrame(loop);
         }
       });
+    });
+  })();
+
+  // ページトップにスムーズにスクロールする処理
+  (() => {
+    let Ease = {
+      easeInOut: (t) => t < .5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2 ) + 1
+    };
+    const duration = 500;
+    const scrollTrigger = document.getElementById('page-top');
+    scrollTrigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const currentPostion = document.documentElement.scrollTop || document.body.scrollTop;  // クロスブラウザ対策
+      const startTime = performance.now();
+      let loop = (nowTime) => {
+        let time = nowTime - startTime;
+        let normalizedTime = time / duration;
+        if (normalizedTime < 1) {
+          window.scrollTo(0, currentPostion + ((0 - currentPostion) * Ease.easeInOut(normalizedTime)));
+          requestAnimationFrame(loop);
+        } else {
+          window.scrollTo(0, 0);
+        }
+      }
+      requestAnimationFrame(loop);
     });
   })();
 });
