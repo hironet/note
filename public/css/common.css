@@ -43,18 +43,51 @@ ul, ol {
   padding-left: 2rem;
 }
 
-pre.block {
-  margin: 0.2rem 0 1rem 1rem;
-  padding: 0.2rem 0.5rem;
+/* 目次（table of contents） */
+ul.toc {
+  border: solid 2px #5c9ee7;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  position: relative;
 }
 
-pre.inline {
-  margin: 0;
-  padding: 0.2rem 0.5rem;
+/* 目次の1行 */
+ul.toc li {
+  border-bottom: dashed 1px silver;
+  line-height: 1.5;
+  list-style-type: none!important;
+  padding: 0.5rem 0 0.5rem 1.4rem;
 }
 
-code {
-  font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
+/* 目次の最後の点線を削除 */
+ul.toc li:last-of-type {
+  border-bottom: none;
+}
+
+/* 目次リストのマーク */
+ul.toc li:before {
+  background: #5c9ee7;
+  border-radius: 50%;
+  content: '';
+  display: inline-block; 
+  height: 0.8rem;
+  margin-right: 8px;
+  vertical-align: middle;
+  width: 0.8rem;
+}
+
+/* 目次のタイトル */
+ul.toc li:after {
+  background: #5c9ee7;
+  bottom: 100%;
+  color: #fff;
+  content: "目次";
+  font-weight: bold;
+  left: -2px;
+  letter-spacing: 0.05rem;
+  padding: 1px 7px;
+  position: absolute;
 }
 
 div.box {
@@ -117,4 +150,18 @@ button#page-top::before {
 /* ページトップに戻るボタン：ホバー時 */
 button#page-top:hover {
   transform: scale(1.1);
+}
+
+pre.block {
+  margin: 0.2rem 0 1rem 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+pre.inline {
+  margin: 0;
+  padding: 0.2rem 0.5rem;
+}
+
+code {
+  font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
 }
