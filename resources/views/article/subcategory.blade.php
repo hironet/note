@@ -1,7 +1,9 @@
 @extends('layouts/app')
 
 @section('contents')
+<header>
 @include('components.header')
+</header>
 <div class="row">
 @foreach ($article_titles as $_article_id => $_article_info)
   <div class="col-12 col-md-6 col-lg-4">
