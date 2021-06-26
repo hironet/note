@@ -32,6 +32,10 @@ return [
             '/article/framework',
             'フレームワーク',
         ],
+        'security' => [
+            '/article/security',
+            'セキュリティ',
+        ],
     ],
   
     'SUBCATEGORY_NAMES' => [
@@ -131,6 +135,12 @@ return [
             'laravel' => [
                 '/article/framework/laravel',
                 'Laravel',
+            ],
+        ],
+        'security' => [
+            'letsencrypt' => [
+                '/article/security/letsencrypt',
+                "Let's Encrypt",
             ],
         ],
     ],
@@ -405,6 +415,16 @@ return [
                     'Laravelの操作方法',
                     'Laravelの基本的な操作方法について書いています。',
                     '2021-05-05',
+                ],
+            ],
+        ],
+        'security' => [
+            'letsencrypt' => [
+                'ssl-cert' => [
+                    '/article/security/letsencrypt/ssl-cert',
+                    'SSLサーバ証明書',
+                    "Let's EncryptでSSLサーバ証明書を作成・更新・削除する方法について書いています。",
+                    '2021-06-26',
                 ],
             ],
         ],
