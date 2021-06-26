@@ -422,7 +422,7 @@ return [
             'letsencrypt' => [
                 'ssl-cert' => [
                     '/article/security/letsencrypt/ssl-cert',
-                    'SSLサーバ証明書',
+                    'SSLサーバ証明書の操作',
                     "Let's EncryptでSSLサーバ証明書を作成・更新・削除する方法について書いています。",
                     '2021-06-26',
                 ],
