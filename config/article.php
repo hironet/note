@@ -276,14 +276,20 @@ return [
             'mysql' => [
                 'operation' => [
                     '/article/middleware/mysql/operation',
-                    'MySQLの操作方法',
+                    'MySQLの基本操作',
                     'MySQLの基本的な操作方法について書いています。',
                     '2021-04-03',
                 ],
-                'db-and-user' => [
-                    '/article/middleware/mysql/db-and-user',
-                    'MySQLのデータベース・ユーザ管理',
-                    'MySQLのデータベースとユーザの管理方法について書いています。',
+                'database' => [
+                    '/article/middleware/mysql/database',
+                    'MySQLのデータベース管理',
+                    'MySQLのデータベース管理方法について書いています。',
+                    '2021-04-18',
+                ],
+                'user' => [
+                    '/article/middleware/mysql/user',
+                    'MySQLのユーザ管理',
+                    'MySQLのユーザ管理方法について書いています。',
                     '2021-04-18',
                 ],
             ],
