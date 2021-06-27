@@ -3,54 +3,31 @@
 @section('contents')
 <header>
 @include('components.header')
+  <nav>
+    <ul class="toc">
+      <li>
+        <a href="#oper">RubyGems操作</a>
+      </li>
+    </ul>
+  </nav>
 </header>
-<h2 class="title">RubyGems操作</h2>
-<div class="table-responsive">
-  <table class="table table-striped table-sm">
-    <thead>
-      <tr>
-        <th>操作</th>
-        <th>コマンド</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>インストールされているパッケージ一覧を表示する。</td>
-        <td><pre class="inline"><code>$ gem list</code></pre></td>
-      </tr>
-      <tr>
-        <td>インストール可能なパッケージ一覧を表示する。</td>
-        <td><pre class="inline"><code>$ gem list -r</code></pre></td>
-      </tr>
-      <tr>
-        <td>パッケージ情報を検索する。</td>
-        <td><pre class="inline"><code>$ gem search [キーワード]</code></pre></td>
-      </tr>
-      <tr>
-        <td>パッケージをインストールする。</td>
-        <td><pre class="inline"><code>$ gem install [パッケージ名]</code></pre></td>
-      </tr>
-      <tr>
-        <td>パッケージをアンインストールする。</td>
-        <td><pre class="inline"><code>$ gem uninstall [パッケージ名]</code></pre></td>
-      </tr>
-      <tr>
-        <td>パッケージ管理システム（RubyGems）のバージョンを確認する。</td>
-        <td><pre class="inline"><code>$ gem -v</code></pre></td>
-      </tr>
-      <tr>
-        <td>パッケージ管理システム（RubyGems）を更新する。</td>
-        <td><pre class="inline"><code>$ gem update --system</code></pre></td>
-      </tr>
-      <tr>
-        <td>インストールされている全てのパッケージを更新する。</td>
-        <td><pre class="inline"><code>$ gem update</code></pre></td>
-      </tr>
-      <tr>
-        <td>インストールされている個別のパッケージを更新する。</td>
-        <td><pre class="inline"><code>$ gem update [パッケージ名]</code></pre></td>
-      </tr>
-    </tbody>
-  </table>
-</div><!-- /.table-responsive -->
+<h2 id="oper" class="title">RubyGems操作</h2>
+<h3 class="oper">インストールされているパッケージ一覧を表示する</h3>
+<pre class="block"><code>$ gem list</code></pre>
+<h3 class="oper">インストール可能なパッケージ一覧を表示する</h3>
+<pre class="block"><code>$ gem list -r</code></pre>
+<h3 class="oper">パッケージ情報を検索する</h3>
+<pre class="block"><code>$ gem search [キーワード]</code></pre>
+<h3 class="oper">パッケージをインストールする</h3>
+<pre class="block"><code>$ gem install [パッケージ名]</code></pre>
+<h3 class="oper">パッケージをアンインストールする</h3>
+<pre class="block"><code>$ gem uninstall [パッケージ名]</code></pre>
+<h3 class="oper">パッケージ管理システム（RubyGems）のバージョンを確認する</h3>
+<pre class="block"><code>$ gem -v</code></pre>
+<h3 class="oper">パッケージ管理システム（RubyGems）を更新する</h3>
+<pre class="block"><code>$ gem update --system</code></pre>
+<h3 class="oper">インストールされている全てのパッケージを更新する</h3>
+<pre class="block"><code>$ gem update</code></pre>
+<h3 class="oper">インストールされている個別のパッケージを更新する</h3>
+<pre class="block"><code>$ gem update [パッケージ名]</code></pre>
 @endsection
