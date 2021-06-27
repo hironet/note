@@ -29,23 +29,23 @@
     </thead>
     <tbody>
       <tr>
-        <td>行をソートする。</td>
+        <td>行をソートする</td>
         <td><kbd>:sort</kbd></td>
       </tr>
       <tr>
-        <td>重複行を削除する。</td>
+        <td>重複行を削除する</td>
         <td><kbd>:sort u</kbd></td>
       </tr>
       <tr>
-        <td>空行を削除する。</td>
+        <td>空行を削除する</td>
         <td><kbd>:v/./d</kbd></td>
       </tr>
       <tr>
-        <td>数値をインクリメントする。</td>
+        <td>数値をインクリメントする</td>
         <td><kbd>Ctrl + a</kbd></td>
       </tr>
       <tr>
-        <td>数値をデクリメントする。</td>
+        <td>数値をデクリメントする</td>
         <td><kbd>Ctrl + x</kbd></td>
       </tr>
     </tbody>
@@ -62,27 +62,25 @@
     </thead>
     <tbody>
       <tr>
-        <td>現在開いているファイルの文字コードを確認する。</td>
+        <td>現在開いているファイルの文字コードを確認する</td>
         <td><kbd>:set fileencoding?</kbd></td>
       </tr>
       <tr>
-        <td>文字コードを変更する。</td>
+        <td>文字コードを変更する</td>
         <td><kbd>:set fileencoding=[文字コード]</kbd></td>
       </tr>
       <tr>
-        <td>現在開いているファイルの改行コードを確認する。</td>
+        <td>現在開いているファイルの改行コードを確認する</td>
         <td><kbd>:set fileformat?</kbd></td>
       </tr>
       <tr>
-        <td>改行コードを変更する。</td>
+        <td>改行コードを変更する</td>
         <td><kbd>:set fileformat=[改行コード]</kbd></td>
       </tr>
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<ul>
-  <li>文字コードには、以下を指定できる。</li>
-</ul>
+<h4 class="left-line">指定できる文字コード</h4>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -111,9 +109,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<ul>
-  <li>改行コードには、以下を指定できる。</li>
-</ul>
+<h4 class="left-line">指定できる改行コード</h4>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -139,24 +135,23 @@
   </table>
 </div><!-- /.table-responsive -->
 <h2 id="macro" class="title">マクロ</h2>
-<h3 class="title">マクロの登録</h3>
+<h3 class="oper">マクロを登録する</h3>
 <p>1. <code>[登録するアルファベット1文字]</code>に対してマクロの登録を開始する。</p>
 <pre class="block"><code class="shell">q [登録するアルファベット1文字]</code></pre>
 <p>2. 登録したい操作を行う。</p>
 <p>3. マクロの登録を終了する。</p>
 <pre class="block"><code class="shell">q</code></pre>
-<h3 class="title">マクロの実行</h3>
-<p>登録したマクロを1回だけ実行する。</p>
+<h3 class="oper">登録したマクロを1回だけ実行する</h3>
 <pre class="block"><code class="shell">@[登録したアルファベット1文字]</code></pre>
-<p>登録したマクロを5回実行する。</p>
+<h3 class="oper">登録したマクロを5回実行する</h3>
 <pre class="block"><code class="shell">5@[登録したアルファベット1文字]</code></pre>
 <h2 id="other" class="title">その他</h2>
-<p>設定ファイル（.vimrcなど）を再読み込みする。</p>
+<h3 class="oper">設定ファイル（.vimrcなど）を再読み込みする</h3>
 <pre class="block"><code class="shell">:source [設定ファイル]</code></pre>
-<p>特定の文字列が含まれる行を削除する。</p>
+<h3 class="oper">特定の文字列が含まれる行を削除する</h3>
 <pre class="block"><code class="shell">:g/[特定の文字列]/d</code></pre>
-<p>数値を別の文字列に置換する。</p>
+<h3 class="oper">数値を別の文字列に置換する</h3>
 <pre class="block"><code class="shell">:%s/\d\+/[置換後の文字列]/g</code></pre>
-<p>100文字で改行する。</p>
+<h3 class="oper">100文字で改行する</h3>
 <pre class="block"><code class="shell">:%s/.\{100}/&amp;\r/g</code></pre>
 @endsection
