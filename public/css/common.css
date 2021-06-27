@@ -2,7 +2,14 @@ body {
   padding-top: 5rem;
 }
 
+nav.navbar {
+  background-color: #5c73b7;
+  opacity: 0.9;
+}
+
 h2.title {
+  background-color: #5c73b7;
+  color: #ffffff;
   font-size: 1.8rem;
   margin: 2rem 0 0.5rem;
   opacity: 0.9;
@@ -10,6 +17,8 @@ h2.title {
 }
 
 h3.title {
+  background-color: #5c73b7;
+  color: #ffffff;
   font-size: 1.6rem;
   margin: 2rem 0 0.5rem;
   opacity: 0.9;
@@ -17,8 +26,26 @@ h3.title {
 }
 
 h4.title {
+  background-color: #5c73b7;
+  color: #ffffff;
   font-size: 1.4rem;
   margin: 2rem 0 0.5rem;
+  opacity: 0.9;
+  padding: 0.2rem 0.5rem;
+}
+
+h3.left-line, h4.left-line {
+  border-left: solid 8px #5c73b7;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  padding: 0.2rem 0.5rem;
+}
+
+h3.oper, h4.oper {
+  border-bottom: solid 3px #5c73b7;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
   opacity: 0.9;
   padding: 0.2rem 0.5rem;
 }
@@ -109,6 +136,13 @@ div.box .box-title {
   padding: 0 9px;
   position: absolute;
   top: -13px;
+}
+
+div.profile-box {
+  border: solid 1px #000;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  position: relative;
 }
 
 /* ページトップに戻るボタン */
