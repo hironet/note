@@ -308,7 +308,7 @@ return [
             'vim' => [
                 'operation' => [
                     '/article/tool/vim/operation',
-                    'Vimの操作方法',
+                    'Vimの基本操作',
                     'Vimの基本的な操作方法について書いています。',
                     '2021-04-03',
                 ],
