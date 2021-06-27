@@ -17,18 +17,17 @@ h2.title {
 }
 
 h3.title {
-  background-color: #5c73b7;
-  color: #ffffff;
-  font-size: 1.6rem;
-  margin: 2rem 0 0.5rem;
-  opacity: 0.9;
-  padding: 0.2rem 0.5rem;
-}
-
-h3.left-line, h4.left-line {
   border-bottom: solid 3px #5c73b7;
   border-left: solid 8px #5c73b7;
   font-size: 1.4rem;
+  margin: 1rem 0;
+  padding: 0.2rem 0.5rem;
+}
+
+h4.title {
+  border-bottom: solid 3px #5c73b7;
+  border-left: solid 8px #5c73b7;
+  font-size: 1.2rem;
   margin: 1rem 0;
   padding: 0.2rem 0.5rem;
 }
