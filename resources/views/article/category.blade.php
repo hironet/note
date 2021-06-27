@@ -11,7 +11,7 @@
     <div class="card my-2">
       <div class="card-body">
         <a href="{{ $_article_info[0] }}" class="card-link">
-          <h5 class="card-title">{{ $_article_info[1] }}</h5>
+          <h3 class="card-title">{{ $_article_info[1] }}</h3>
         </a>
         <p>更新日：
           <time itemprop="dateModified" datetime="{{ (new DateTime($_article_info[3]))->format(DateTime::ATOM) }}">
