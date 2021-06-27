@@ -42,6 +42,10 @@ h3.desc, h4.desc {
   padding: 0.2rem 0.5rem;
 }
 
+h3.card-title {
+  font-size: 1.2rem;
+}
+
 a:link, a:visited {
   outline: none;
   text-decoration: none;
