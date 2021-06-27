@@ -13,16 +13,7 @@ h4.title {
   color: #ffffff;
 }
 
-h3.oper {
-  border-bottom: solid 3px #5c73b7;
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-  margin-top: 1.5rem;
-  opacity: 0.9;
-  padding: 0.2rem 0.5rem;
-}
-
-h4.oper {
+h3.oper, h4.oper {
   border-bottom: solid 3px #5c73b7;
   font-size: 1.2rem;
   margin-bottom: 1rem;
