@@ -22,7 +22,7 @@ h3.oper, h4.oper {
   padding: 0.2rem 0.5rem;
 }
 
-h4.left-line {
+h3.left-line, h4.left-line {
   border-left: solid 8px #5c73b7;
   font-size: 1.2rem;
   margin: 1rem 0;
