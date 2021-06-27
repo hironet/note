@@ -3,8 +3,15 @@
 @section('contents')
 <header>
 @include('components.header')
+  <nav>
+    <ul class="toc">
+      <li>
+        <a href="#list">文字参照一覧</a>
+      </li>
+    </ul>
+  </nav>
 </header>
-<h2 class="title">文字参照一覧</h2>
+<h2 id="list" class="title">文字参照一覧</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
