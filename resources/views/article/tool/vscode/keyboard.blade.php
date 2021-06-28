@@ -36,7 +36,7 @@
       <tr>
         <th>操作</th>
         <th>Windowsの場合</th>
-        <th>macOSの場合</th>
+        <th>Macの場合</th>
       </tr>
     </thead>
     <tbody>
@@ -60,7 +60,7 @@
       <tr>
         <th>操作</th>
         <th>Windowsの場合</th>
-        <th>macOSの場合</th>
+        <th>Macの場合</th>
       </tr>
     </thead>
     <tbody>
@@ -120,7 +120,7 @@
       <tr>
         <th>操作</th>
         <th>Windowsの場合</th>
-        <th>macOSの場合</th>
+        <th>Macの場合</th>
       </tr>
     </thead>
     <tbody>
@@ -144,7 +144,7 @@
       <tr>
         <th>操作</th>
         <th>Windowsの場合</th>
-        <th>macOSの場合</th>
+        <th>Macの場合</th>
       </tr>
     </thead>
     <tbody>
@@ -183,7 +183,7 @@
       <tr>
         <th>操作</th>
         <th>Windowsの場合</th>
-        <th>macOSの場合</th>
+        <th>Macの場合</th>
       </tr>
     </thead>
     <tbody>
@@ -207,7 +207,7 @@
       <tr>
         <th>操作</th>
         <th>Windowsの場合</th>
-        <th>macOSの場合</th>
+        <th>Macの場合</th>
       </tr>
     </thead>
     <tbody>
