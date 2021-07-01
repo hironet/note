@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://tech-note.engineer-hiro.com/sitemap.xml
