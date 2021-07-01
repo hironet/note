@@ -340,7 +340,7 @@ return [
                     '/article/tool/git/trivia',
                     'Gitの豆知識',
                     '知っておくと便利なGitの豆知識について書いています。',
-                    '2021-03-31',
+                    '2021-07-01',
                 ],
                 'branch' => [
                     '/article/tool/git/branch',
