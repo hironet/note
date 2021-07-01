@@ -1,5 +1,9 @@
 @extends('layouts/app')
 
+@section('meta')
+  <meta name="robots" content="noindex">
+@endsection
+
 @section('contents')
 <header>
 @include('components.header')
