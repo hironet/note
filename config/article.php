@@ -230,7 +230,7 @@ return [
                     '/article/middleware/docker/operation',
                     'Dockerの基本操作',
                     'Dockerの基本的な操作方法について書いています。',
-                    '2021-03-30',
+                    '2021-06-26',
                 ],
                 'docker-compose' => [
                     '/article/middleware/docker/docker-compose',
