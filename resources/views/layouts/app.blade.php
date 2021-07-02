@@ -15,9 +15,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 @empty ($article_description)
-  <meta name="description" content="このサイトは、ITエンジニアHiroの技術メモです。">
+  <meta name="description" content="{{ config('article.SITE_DESC') }}">
 @else
-  <meta name="description" content="このサイトは、ITエンジニアHiroの技術メモです。{{ $article_description }}">
+  <meta name="description" content="{{ config('article.SITE_DESC') }}{{ $article_description }}">
 @endempty
 @section('meta')
 @show
