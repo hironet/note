@@ -152,7 +152,7 @@ return [
             'aws' => [
                 's3' => [
                     '/article/cloud/aws/s3',
-                    'S3の操作方法',
+                    'S3の基本操作',
                     'S3の基本的な操作方法を書いています。',
                     '2021-05-04',
                 ],
@@ -162,25 +162,25 @@ return [
             'windows' => [
                 'setting' => [
                     '/article/os/windows/setting',
-                    'Windows 10の設定方法',
-                    'Windows 10を便利にするための設定方法について書いています。',
+                    'Windows 10の設定',
+                    'Windows 10を便利にするための設定について書いています。',
                     '2021-04-02',
                 ],
                 'command' => [
                     '/article/os/windows/command',
-                    'Windows 10コマンドの便利な使い方',
+                    'Windows 10コマンド活用事例',
                     '知っておくと色んな場面で便利になるコマンドの使い方について書いています。',
                     '2021-04-02',
                 ],
                 'keyboard' => [
                     '/article/os/windows/keyboard',
-                    'Windows 10の便利なショートカットキー',
+                    'Windows 10のショートカットキー',
                     '知っておくと色んな場面で便利になるショートカットキーの使い方について書いています。',
                     '2021-04-02',
                 ],
                 'chocolatey' => [
                     '/article/os/windows/chocolatey',
-                    'Chocolateyの操作方法',
+                    'Chocolateyの基本操作',
                     'Windowsのソフトウェア管理ツールであるChocolateyの基本的な操作方法について書いています。',
                     '2021-04-02',
                 ],
@@ -188,19 +188,19 @@ return [
             'macos' => [
                 'command' => [
                     '/article/os/macos/command',
-                    'macOSコマンドの便利な使い方',
+                    'macOSコマンド活用事例',
                     '知っておくと色んな場面で便利になるコマンドの使い方について書いています。',
                     '2021-04-01',
                 ],
                 'keyboard' => [
                     '/article/os/macos/keyboard',
-                    'macOSの便利なショートカットキー',
+                    'macOSのショートカットキー',
                     '知っておくと色んな場面で便利になるショートカットキーの使い方について書いています。',
                     '2021-04-01',
                 ],
                 'homebrew' => [
                     '/article/os/macos/homebrew',
-                    'Homebrewの操作方法',
+                    'Homebrewの基本操作',
                     'macOSのパッケージ管理ツールであるHomebrewの基本的な操作方法について書いています。',
                     '2021-04-01',
                 ],
@@ -208,19 +208,19 @@ return [
             'linux' => [
                 'amzn2-setting' => [
                     '/article/os/linux/amzn2-setting',
-                    'Amazon Linux 2の設定方法',
+                    'Amazon Linux 2の設定',
                     'Amazon Linux 2を使用するにあたって、よく行う設定について書いています。',
                     '2021-05-02',
                 ],
                 'centos7-setting' => [
                     '/article/os/linux/centos7-setting',
-                    'CentOS 7.xの設定方法',
+                    'CentOS 7.xの設定',
                     'CentOS 7.xを使用するにあたって、よく行う設定について書いています。',
                     '2021-03-25',
                 ],
                 'command' => [
                     '/article/os/linux/command',
-                    'Linuxコマンドの便利な使い方',
+                    'Linuxコマンド活用事例',
                     '知っておくと色んな場面で便利になるコマンドの使い方について書いています。',
                     '2021-03-25',
                 ],
@@ -236,7 +236,7 @@ return [
                 ],
                 'docker-compose' => [
                     '/article/middleware/docker/docker-compose',
-                    'Docker Compose',
+                    'Docker Composeの基本操作',
                     'Docker Composeの基本的な操作方法について書いています。',
                     '2021-06-26',
                 ],
@@ -318,13 +318,13 @@ return [
             'vscode' => [
                 'setting' => [
                     '/article/tool/vscode/setting',
-                    'Visual Studio Codeの設定方法',
-                    'Visual Studio Codeを便利にするための設定方法について書いています。',
+                    'Visual Studio Codeの設定',
+                    'Visual Studio Codeを便利にするための設定について書いています。',
                     '2021-04-03',
                 ],
                 'keyboard' => [
                     '/article/tool/vscode/keyboard',
-                    'Visual Studio Codeの便利なショートカットキー',
+                    'Visual Studio Codeのショートカットキー',
                     '知っておくと色んな場面で便利になるショートカットキーの使い方について書いています。',
                     '2021-04-03',
                 ],
@@ -332,8 +332,8 @@ return [
             'office' => [
                 'setting' => [
                     '/article/tool/office/setting',
-                    'Excel 2019の設定方法',
-                    'Excel 2019を便利にするための設定方法について書いています。',
+                    'Excel 2019の設定',
+                    'Excel 2019を便利にするための設定について書いています。',
                     '2021-04-03',
                 ],
             ],
@@ -354,7 +354,7 @@ return [
             'wireshark' => [
                 'operation' => [
                     '/article/tool/wireshark/operation',
-                    'Wiresharkの操作方法',
+                    'Wiresharkの基本操作',
                     'パケットキャプチャソフトであるWiresharkの基本的な操作方法について書いています。',
                     '2021-04-03',
                 ],
@@ -400,7 +400,7 @@ return [
             'php' => [
                 'array' => [
                     '/article/programming/php/array',
-                    'PHPの配列の操作方法',
+                    'PHPの配列操作',
                     'PHPの配列の操作方法について書いています。',
                     '2021-05-04',
                 ],
@@ -408,13 +408,13 @@ return [
             'ruby' => [
                 'rbenv' => [
                     '/article/programming/ruby/rbenv',
-                    'rbenvの操作方法',
+                    'rbenvの基本操作',
                     'Rubyのバージョン管理ツールであるrbenvの基本的な操作方法について書いています。',
                     '2021-04-05',
                 ],
                 'rubygems' => [
                     '/article/programming/ruby/rubygems',
-                    'RubyGemsの操作方法',
+                    'RubyGemsの基本操作',
                     'Rubyのパッケージ管理ツールであるRubyGemsの基本的な操作方法について書いています。',
                     '2021-04-05',
                 ],
@@ -438,13 +438,13 @@ return [
             'laravel' => [
                 'setting' => [
                     '/article/framework/laravel/setting',
-                    'Laravelの設定方法',
-                    'Laravelの設定方法について書いています。',
+                    'Laravelの設定',
+                    'Laravelの設定について書いています。',
                     '2021-06-06',
                 ],
                 'operation' => [
                     '/article/framework/laravel/operation',
-                    'Laravelの操作方法',
+                    'Laravelの基本操作',
                     'Laravelの基本的な操作方法について書いています。',
                     '2021-05-05',
                 ],
