@@ -15,7 +15,7 @@ $noindex = true;
     <div class="card my-2">
       <div class="card-body">
         <a href="{{ $_article_info[0] }}" class="card-link">
-          <h3 class="card-title">{{ $_article_info[1] }}</h3>
+          <h3 class="fs-5">{{ $_article_info[1] }}</h3>
         </a>
         <p>更新日：
           <time itemprop="dateModified" datetime="{{ (new DateTime($_article_info[3]))->format(DateTime::ATOM) }}">

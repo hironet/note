@@ -4,7 +4,7 @@
 <header>
 @include('components.header')
   <nav>
-    <ul class="toc">
+    <ul class="list-box list-box-toc">
       <li>
         <a href="#1dime-array">1次元配列の基本操作</a>
       </li>

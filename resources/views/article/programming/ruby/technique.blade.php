@@ -4,7 +4,7 @@
 <header>
 @include('components.header')
   <nav>
-    <ul class="toc">
+    <ul class="list-box list-box-toc">
       <li>
         <a href="#var">変数</a>
       </li>

@@ -4,7 +4,7 @@
 <header>
 @include('components.header')
   <nav>
-    <ul class="toc">
+    <ul class="list-box list-box-toc">
       <li><a href="#create">SSLサーバ証明書の作成</a></li>
       <li><a href="#update">SSLサーバ証明書の更新</a></li>
       <li><a href="#delete">SSLサーバ証明書の削除</a></li>

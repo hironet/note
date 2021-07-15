@@ -4,7 +4,7 @@
 <header>
 @include('components.header')
   <nav>
-    <ul class="toc">
+    <ul class="list-box list-box-toc">
       <li><a href="#command">S3のコマンド</a></li>
     </ul>
   </nav>
