@@ -7,6 +7,62 @@ nav.navbar {
   opacity: 0.9;
 }
 
+a:link, a:visited {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  outline: none;
+  text-decoration: none;
+}
+
+code {
+  font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
+}
+
+/* ページトップに戻るボタン */
+#page-top {
+  /* buttonタグのリセットCSS */
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+
+  /* ボタンの装飾 */
+  align-items: center;
+  background-color: #212529;
+  border-radius: 50%;
+  bottom: 15px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  opacity: 0.7;
+  position: fixed;
+  right: 15px;
+  transition: all 0.3s ease;
+  width: 50px;
+  z-index: 100;
+}
+
+/* ページトップに戻るボタン：矢印 */
+#page-top::before {
+  border-right: solid 3px #fff;
+  border-top: solid 3px #fff;
+  content: "";
+  height: 12px;
+  margin-bottom: -6px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+/* ページトップに戻るボタン：ホバー時 */
+#page-top:hover {
+  transform: scale(1.1);
+}
+
 h2.title {
   background-color: #5c73b7;
   color: #ffffff;
@@ -41,46 +97,29 @@ h3.desc, h4.desc {
   padding: 0.2rem 0.5rem;
 }
 
-h3.card-title {
-  font-size: 1.2rem;
-}
-
-a:link, a:visited {
-  outline: none;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #000000;
-  outline: none;
-  text-decoration: none;
-}
-
-/* 目次（table of contents） */
-ul.toc {
-  border: solid 2px #5c9ee7;
+/* リストボックス */
+.list-box {
   margin-bottom: 1rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 0.5rem;
   position: relative;
 }
 
-/* 目次の1行 */
-ul.toc li {
+/* リストボックスの1行 */
+.list-box li {
   border-bottom: dashed 1px silver;
   line-height: 1.5;
   list-style-type: none!important;
   padding: 0.5rem 0 0.5rem 1rem;
 }
 
-/* 目次の最後の点線を削除 */
-ul.toc li:last-of-type {
+/* リストボックスの最後の点線を削除 */
+.list-box li:last-of-type {
   border-bottom: none;
 }
 
-/* 目次リストのマーク */
-ul.toc li:before {
-  background: #5c9ee7;
+/* リストボックスのマーク */
+.list-box li:before {
   border-radius: 50%;
   content: '';
   display: inline-block; 
@@ -90,12 +129,10 @@ ul.toc li:before {
   width: 0.8rem;
 }
 
-/* 目次のタイトル */
-ul.toc li:after {
-  background: #5c9ee7;
+/* リストボックスのタイトル */
+.list-box li:after {
   bottom: 100%;
   color: #fff;
-  content: "目次";
   font-weight: bold;
   left: -2px;
   letter-spacing: 0.05rem;
@@ -103,8 +140,24 @@ ul.toc li:after {
   position: absolute;
 }
 
+/* 目次のリストボックス */
+.list-box-toc {
+  border: solid 2px #5c9ee7;
+}
+
+/* 目次のリストボックスのマーク */
+.list-box-toc li::before {
+  background: #5c9ee7;
+}
+
+/* 目次のリストボックスのタイトル */
+.list-box-toc li::after {
+  background: #5c9ee7;
+  content: "目次";
+}
+
 /* HTML表示結果 */
-div.html-result {
+.html-result {
   border-radius: 8px;
   border: solid 3px #95ccff;
   margin: 1.5rem 0.5rem 1rem;
@@ -113,7 +166,7 @@ div.html-result {
 }
 
 /* HTML表示結果のタイトル */
-div.html-result .title {
+.html-result .title {
   background: #fff;
   color: #95ccff;
   display: inline-block;
@@ -126,59 +179,15 @@ div.html-result .title {
   top: -13px;
 }
 
-div.simple-box {
+/* 四角形の枠 */
+.rectangle-box {
   border: solid 1px #000;
   border-radius: 8px;
   padding: 0.5rem 1rem;
   position: relative;
 }
 
-/* ページトップに戻るボタン */
-button#page-top {
-  /* buttonタグのリセットCSS */
-  appearance: none;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  padding: 0;
-
-  /* ボタンの装飾 */
-  align-items: center;
-  background-color: #212529;
-  border-radius: 50%;
-  bottom: 15px;
-  display: flex;
-  height: 50px;
-  justify-content: center;
-  opacity: 0.7;
-  position: fixed;
-  right: 15px;
-  transition: all 0.3s ease;
-  width: 50px;
-  z-index: 100;
-}
-
-/* ページトップに戻るボタン：矢印 */
-button#page-top::before {
-  border-right: solid 3px #fff;
-  border-top: solid 3px #fff;
-  content: "";
-  height: 12px;
-  margin-bottom: -6px;
-  transform: rotate(-45deg);
-  width: 12px;
-}
-
-/* ページトップに戻るボタン：ホバー時 */
-button#page-top:hover {
-  transform: scale(1.1);
-}
-
-pre.block {
+.block {
   margin: 1rem 0;
   padding: 0.2rem 0.5rem;
-}
-
-code {
-  font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
 }
