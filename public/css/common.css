@@ -18,10 +18,6 @@ a:hover {
   text-decoration: none;
 }
 
-code {
-  font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
-}
-
 /* ページトップに戻るボタン */
 #page-top {
   /* buttonタグのリセットCSS */
@@ -187,7 +183,9 @@ h3.desc, h4.desc {
   position: relative;
 }
 
-.block {
+/* ソースコード */
+.code-block {
+  font-family: Monaco, Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
   margin: 1rem 0;
   padding: 0.2rem 0.5rem;
 }
