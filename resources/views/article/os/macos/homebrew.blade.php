@@ -30,10 +30,8 @@
 <h3 class="desc">パッケージをアンインストールする</h3>
 <pre class="code-block"><code class="shell"># brew uninstall [Formula]</code></pre>
 <h3 class="desc">Homebrew本体とFormulaを更新する</h3>
-<pre class="code-block"><code class="shell"># brew outdated --cask --greedy</code></pre>
-<h3 class="desc">バージョンが古くなったパッケージ一覧を表示する</h3>
 <pre class="code-block"><code class="shell"># brew update</code></pre>
-<h3 class="desc">バージョンが古くなったGUIパッケージ一覧を表示する</h3>
+<h3 class="desc">バージョンが古くなったパッケージ一覧を表示する</h3>
 <pre class="code-block"><code class="shell"># brew outdated</code></pre>
 <h3 class="desc">インストールされている全てのパッケージを更新する</h3>
 <pre class="code-block"><code class="shell"># brew upgrade</code></pre>
