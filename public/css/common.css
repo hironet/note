@@ -9,6 +9,18 @@ nav.navbar {
   opacity: 0.9;
 }
 
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
 a:link, a:visited {
   outline: none;
   text-decoration: none;
@@ -72,26 +84,22 @@ a:hover {
 .color-heading {
   background-color: #5c73b7;
   color: #ffffff;
-  font-size: 1.6rem;
 }
 
 /* 左下線付きの見出し */
 .lowerleftline-heading {
   border-bottom: solid 3px #5c73b7;
   border-left: solid 8px #5c73b7;
-  font-size: 1.4rem;
 }
 
 /* 左線付きの見出し */
 .leftline-heading {
   border-left: solid 8px #5c73b7;
-  font-size: 1.2rem;
 }
 
 /* 下線付きの見出し */
 .bottomline-heading {
   border-bottom: solid 2px #5c73b7;
-  font-size: 1.2rem;
 }
 
 /* リストボックス */
