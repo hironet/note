@@ -11,7 +11,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="object" class="heading title-2">オブジェクト</h2>
+<h2 id="object" class="heading color-heading">オブジェクト</h2>
 <h3 class="heading desc">型を示す文字列を取得する</h3>
 <p><code>typeof</code>演算子は、オブジェクト型の場合、いずれも<code>object</code>が返されるが、以下の方法であれば、型を示す文字列を取得できる。</p>
 <pre class="code-block"><code class="javascript">var typeOf = function (obj) {

@@ -17,14 +17,14 @@
     </ul>
   </nav>
 </header>
-<h2 id="install" class="heading title-2">Docker Composeのインストール</h2>
+<h2 id="install" class="heading color-heading">Docker Composeのインストール</h2>
 <p><a href="https://github.com/docker/compose/releases" target="_blank" rel="noreferrer noopener">Composeリポジトリ</a>にアクセスし、ページの指示に従ってインストールする。</p>
-<h2 id="image" class="heading title-2">Dockerイメージの管理</h2>
+<h2 id="image" class="heading color-heading">Dockerイメージの管理</h2>
 <h3 class="heading desc">イメージを作成する</h3>
 <pre class="code-block"><code class="shell">$ docker-compose build</code></pre>
 <h3 class="heading desc">キャッシュを使わないでイメージを作成する</h3>
 <pre class="code-block"><code class="shell">$ docker-compose build --no-cache</code></pre>
-<h2 id="container" class="heading title-2">Dockerコンテナの管理</h2>
+<h2 id="container" class="heading color-heading">Dockerコンテナの管理</h2>
 <h3 class="heading desc">コンテナの稼働状態を確認する</h3>
 <pre class="code-block"><code class="shell">$ docker-compose ps</code></pre>
 <h3 class="heading desc">コンテナを作成する（起動しない）</h3>

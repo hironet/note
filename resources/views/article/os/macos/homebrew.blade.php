@@ -14,9 +14,9 @@
     </ul>
   </nav>
 </header>
-<h2 id="install" class="heading title-2">Homebrewのインストール</h3>
+<h2 id="install" class="heading color-heading">Homebrewのインストール</h3>
 <p><a href="https://brew.sh/index_ja.html" target="_blank" rel="noopener noreferrer">Homebrew</a>の説明に従ってインストールする。</p>
-<h2 id="command" class="heading title-2">Homebrewのコマンド</h3>
+<h2 id="command" class="heading color-heading">Homebrewのコマンド</h3>
 <h3 class="heading desc">インストールされているパッケージ一覧を表示する</h3>
 <pre class="code-block"><code class="shell"># brew list</code></pre>
 <h3 class="heading desc">インストール可能なパッケージ一覧を表示する</h3>

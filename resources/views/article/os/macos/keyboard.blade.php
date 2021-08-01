@@ -14,7 +14,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="screenshot" class="heading title-2">スクリーンショット</h2>
+<h2 id="screenshot" class="heading color-heading">スクリーンショット</h2>
 <table class="table table-striped table-sm">
   <thead>
     <tr>
@@ -41,7 +41,7 @@
     </tr>
   </tbody>
 </table>
-<h2 id="other" class="heading title-2">その他</h2>
+<h2 id="other" class="heading color-heading">その他</h2>
 <table class="table table-striped table-sm">
   <thead>
     <tr>

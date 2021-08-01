@@ -20,7 +20,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="system-info" class="heading title-2">システム情報</h2>
+<h2 id="system-info" class="heading color-heading">システム情報</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -77,7 +77,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="folder" class="heading title-2">フォルダ・ファイル操作</h2>
+<h2 id="folder" class="heading color-heading">フォルダ・ファイル操作</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -102,7 +102,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="input" class="heading title-2">文字入力</h2>
+<h2 id="input" class="heading color-heading">文字入力</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -119,7 +119,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="screenshot" class="heading title-2">スクリーンショット</h2>
+<h2 id="screenshot" class="heading color-heading">スクリーンショット</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>

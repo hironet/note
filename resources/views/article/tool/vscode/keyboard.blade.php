@@ -29,7 +29,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="setting" class="heading title-2">設定</h2>
+<h2 id="setting" class="heading color-heading">設定</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -53,7 +53,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="file" class="heading title-2">ファイル編集</h2>
+<h2 id="file" class="heading color-heading">ファイル編集</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -113,7 +113,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="tab" class="heading title-2">タブ操作</h2>
+<h2 id="tab" class="heading color-heading">タブ操作</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -137,7 +137,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="cursor" class="heading title-2">カーソル操作</h2>
+<h2 id="cursor" class="heading color-heading">カーソル操作</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -176,7 +176,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="search" class="heading title-2">検索</h2>
+<h2 id="search" class="heading color-heading">検索</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -200,7 +200,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="sort" class="heading title-2">並び替え</h2>
+<h2 id="sort" class="heading color-heading">並び替え</h2>
 <div class="table-responsive">
   <table class="table table-striped table-sm">
     <thead>
@@ -224,7 +224,7 @@
     </tbody>
   </table>
 </div><!-- /.table-responsive -->
-<h2 id="emmet" class="heading title-2">Emmet</h2>
+<h2 id="emmet" class="heading color-heading">Emmet</h2>
 <h3 class="heading desc">HTML5の雛形を入力する</h3>
 <p><code>html:5</code>と入力し、<kbd>tab</kbd>を押す、または、<kbd>! tab</kbd>を押すと、以下が自動的に入力される。</p>
 <pre class="code-block"><code>&lt;!DOCTYPE html>

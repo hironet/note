@@ -17,7 +17,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="create-repo" class="heading title-2">リポジトリ作成</h2>
+<h2 id="create-repo" class="heading color-heading">リポジトリ作成</h2>
 <h3 class="heading desc">ローカルにリポジトリを新規作成する</h3>
 <pre class="code-block"><code class="shell">$ cd [リポジトリのパス]
 $ git init [リポジトリ名]</code></pre>
@@ -27,7 +27,7 @@ $ git init --bare [リポジトリ名]
 $ chown -R apache:apache [リポジトリ名]
 $ cd [リポジトリ名]
 $ git update-server-info</code></pre>
-<h2 id="local-repo" class="heading title-2">ローカルリポジトリに対する操作</h2>
+<h2 id="local-repo" class="heading color-heading">ローカルリポジトリに対する操作</h2>
 <h3 class="heading desc">変更履歴を1行で表示する</h3>
 <pre class="code-block"><code class="shell">$ git log --oneline</code></pre>
 <h3 class="heading desc">ワークツリーとステージの差分を確認する</h3>
@@ -79,7 +79,7 @@ $ git update-server-info</code></pre>
 <ul>
   <li><code>[ファイルパス]</code>を省略すると、全てのファイルについて元に戻す。</li>
 </ul>
-<h2 id="remote-repo" class="heading title-2">リモートリポジトリに対する操作</h2>
+<h2 id="remote-repo" class="heading color-heading">リモートリポジトリに対する操作</h2>
 <h3 class="heading desc">originのURLを確認する</h3>
 <p>以下のどちらかのコマンドを実行する。</p>
 <pre class="code-block"><code class="shell">$ git config -l</code></pre>

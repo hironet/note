@@ -14,7 +14,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="pbcopy" class="heading title-2">pbcopy</h2>
+<h2 id="pbcopy" class="heading color-heading">pbcopy</h2>
 <h3 class="heading desc">ターミナルへの入力内容をクリップボードにコピーする</h3>
 <pre class="code-block"><code class="shell">$ pbcopy</code></pre>
 <ul>
@@ -24,7 +24,7 @@
 <pre class="code-block"><code class="shell">$ pbcopy &lt; ~/.ssh/id_rsa.pub</code></pre>
 <h3 class="heading desc">クリップボードを空にする</h3>
 <pre class="code-block"><code class="shell">$ pbcopy &lt; /dev/null</code></pre>
-<h2 id="pbpaste" class="heading title-2">pbpaste</h2>
+<h2 id="pbpaste" class="heading color-heading">pbpaste</h2>
 <h3 class="heading desc">クリップボードからペーストする</h3>
 <pre class="code-block"><code class="shell">$ pbpaste</code></pre>
 <h3 class="heading desc">クリップボードから書式情報を削除する</h3>

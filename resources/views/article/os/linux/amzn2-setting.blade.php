@@ -32,7 +32,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="yum" class="heading title-2">パッケージの管理（Yum）</h2>
+<h2 id="yum" class="heading color-heading">パッケージの管理（Yum）</h2>
 <h3 class="heading desc">リポジトリ一覧を表示する</h3>
 <pre class="code-block"><code class="shell"># yum repolist</code></pre>
 <h3 class="heading desc">パッケージを検索する</h3>
@@ -59,10 +59,10 @@
 <ul>
   <li>事前に、<code>yum-utils</code>パッケージをインストールしておく必要がある。</li>
 </ul>
-<h2 id="rpm" class="heading title-2">パッケージの管理（RPM）</h2>
+<h2 id="rpm" class="heading color-heading">パッケージの管理（RPM）</h2>
 <h3 class="heading desc">ファイルがどのパッケージに含まれるかを確認する</h3>
 <pre class="code-block"><code class="shell"># rpm -qf [ファイルパス]</code></pre>
-<h2 id="service" class="heading title-2">サービスの操作</h2>
+<h2 id="service" class="heading color-heading">サービスの操作</h2>
 <h3 class="heading desc">サービス一覧を表示する</h3>
 <pre class="code-block"><code class="shell"># systemctl list-unit-files -t service</code></pre>
 <h3 class="heading desc">サービスの状態を確認する</h3>
@@ -77,7 +77,7 @@
 <pre class="code-block"><code class="shell"># systemctl enable [unit名]</code></pre>
 <h3 class="heading desc">サービスの自動起動を無効化する</h3>
 <pre class="code-block"><code class="shell"># systemctl disable [unit名]</code></pre>
-<h2 id="swap" class="heading title-2">スワップ領域の設定</h2>
+<h2 id="swap" class="heading color-heading">スワップ領域の設定</h2>
 <h3 class="heading desc">スワップ領域を作成する</h3>
 <p>1. 2GB（128MB×16）のスワップファイル（<code>/swapfile</code>）を作成する。</p>
 <pre class="code-block"><code class="shell"># dd if=/dev/zero of=/swapfile bs=128M count=16</code></pre>
@@ -89,28 +89,28 @@
 <pre class="code-block"><code class="shell"># swapon /swapfile</code></pre>
 <p>5. OS起動時にスワップ領域を有効にする。</p>
 <pre class="code-block"><code class="shell"># echo "/swapfile swap swap defaults 0 0" >> /etc/fstab</code></pre>
-<h2 id="hostname" class="heading title-2">ホスト名の設定</h2>
+<h2 id="hostname" class="heading color-heading">ホスト名の設定</h2>
 <p>1. ホスト名の設定を確認する。</p>
 <pre class="code-block"><code class="shell"># hostnamectl status</code></pre>
 <p>2. ホスト名を<code>hoge.example.com</code>に設定する。</p>
 <pre class="code-block"><code class="shell"># hostnamectl set-hostname hoge.example.com</code></pre>
 <p>3. ホスト名が<code>hoge.example.com</code>に設定されたことを確認する。</p>
 <pre class="code-block"><code class="shell"># hostnamectl status</code></pre>
-<h2 id="locale" class="heading title-2">ロケールの設定</h2>
+<h2 id="locale" class="heading color-heading">ロケールの設定</h2>
 <p>1. ロケールの設定を確認する。</p>
 <pre class="code-block"><code class="shell"># localectl status</code></pre>
 <p>2. ロケールを<code>ja_JP.utf8</code>に設定する。</p>
 <pre class="code-block"><code class="shell"># localectl set-locale LANG=ja_JP.utf8</code></pre>
 <p>3. ロケールが<code>ja_JP.utf8</code>に設定されたことを確認する。</p>
 <pre class="code-block"><code class="shell"># localectl status</code></pre>
-<h2 id="timezone" class="heading title-2">タイムゾーンの設定</h2>
+<h2 id="timezone" class="heading color-heading">タイムゾーンの設定</h2>
 <p>1. タイムゾーンの設定を確認する。</p>
 <pre class="code-block"><code class="shell"># timedatectl status</code></pre>
 <p>2. タイムゾーンを<code>Asia/Tokyo (JST)</code>に設定する。</p>
 <pre class="code-block"><code class="shell"># timedatectl set-timezone Asia/Tokyo</code></pre>
 <p>3. タイムゾーンが<code>Asia/Tokyo (JST)</code>に設定されたことを確認する。</p>
 <pre class="code-block"><code class="shell"># timedatectl status</code></pre>
-<h2 id="other" class="heading title-2">その他</h2>
+<h2 id="other" class="heading color-heading">その他</h2>
 <h3 class="heading desc">OS起動時にコマンドを自動実行する</h3>
 <pre class="code-block"><code class="shell"># cat /etc/rc.d/rc.local
 [実行したいコマンド]

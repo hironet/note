@@ -17,7 +17,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="startup" class="heading title-2">mysqlコマンドラインクライアントの起動</h2>
+<h2 id="startup" class="heading color-heading">mysqlコマンドラインクライアントの起動</h2>
 <h3 class="heading desc">MySQLサーバに接続する</h3>
 <pre class="code-block"><code class="shell">$ mysql -u [ユーザ名] -p -h[ホスト名] [データベース名]</code></pre>
 <h3 class="heading desc">SQL文を実行する</h3>
@@ -25,7 +25,7 @@
 <pre class="code-block"><code class="shell">$ mysql -u [ユーザ名] -p -h[ホスト名] [データベース名] -e "SOURCE [ファイル名]"</code></pre>
 <h3 class="heading desc">使用するデータベースを選択する</h3>
 <pre class="code-block"><code class="sql">use [データベース名]</code></pre>
-<h2 id="operation" class="heading title-2">mysqlコマンドラインクライアントの操作</h2>
+<h2 id="operation" class="heading color-heading">mysqlコマンドラインクライアントの操作</h2>
 <h3 class="heading desc">プロンプトの文字列を変更する</h3>
 <pre class="code-block"><code class="sql">prompt [プロンプトとして表示する文字列]</code></pre>
 <ul>
@@ -68,7 +68,7 @@
 <pre class="code-block"><code class="sql">SELECT * FROM user¥G</code></pre>
 <h3 class="heading desc">SQL文が保存されたテキストファイルを実行する</h3>
 <pre class="code-block"><code class="sql">SOURCE [ファイル名]</code></pre>
-<h2 id="show" class="heading title-2">各種情報の表示</h2>
+<h2 id="show" class="heading color-heading">各種情報の表示</h2>
 <h3 class="heading desc">MySQLサーバのバージョンを表示する</h3>
 <pre class="code-block"><code class="sql">SELECT version();</code></pre>
 <h3 class="heading desc">現在のユーザ名を表示する</h3>
