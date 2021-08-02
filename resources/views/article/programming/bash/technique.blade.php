@@ -32,7 +32,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="coding-rules" class="heading color-heading">コーディングルール</h2>
+<h2 id="coding-rules" class="heading bgcolor-heading">コーディングルール</h2>
 <h3 class="heading bottomline-heading">コーディングルールを決める（以下は一例）</h3>
 <ul>
   <li>定数は<code>readonly</code>を付けて定義する。</li>
@@ -42,7 +42,7 @@
   <li>関数は<code>function</code>を付けて定義する。</li>
   <li>文字列は<code>' '</code>で囲む。文字列内の変数を展開する場合のみ<code>" "</code>で囲む。</li>
 </ul>
-<h2 id="simplified-notation" class="heading color-heading">簡略記法</h2>
+<h2 id="simplified-notation" class="heading bgcolor-heading">簡略記法</h2>
 <h3 class="heading bottomline-heading">条件分岐を1行で書く</h3>
 <pre class="code-block"><code class="bash">[ $? == 0 ] &amp;&amp; [真の場合の処理] || [偽の場合の処理]</code></pre>
 <ul>
@@ -68,7 +68,7 @@ id vagrant &amp;&amp; abort 'vagrant user already exist.'</code></pre>
   <li><code>[コマンド] || [エラー処理]</code>は、コマンドが失敗した場合（<code>$? &gt; 0</code>）にエラー処理が行われる。</li>
   <li><code>[コマンド] &amp;&amp; [エラー処理]</code>は、コマンドが成功した場合（<code>$? = 0</code>）にエラー処理が行われる。</li>
 </ul>
-<h2 id="string-processing" class="heading color-heading">文字列処理</h2>
+<h2 id="string-processing" class="heading bgcolor-heading">文字列処理</h2>
 <h3 class="heading bottomline-heading">コマンドライン引数の数を確認する</h3>
 <pre class="code-block"><code class="bash">[ $# -eq 2 ] || abort "Usage: $(basename $0) [file1] [file2]"</code></pre>
 <h3 class="heading bottomline-heading">オプションを解析する</h3>
@@ -113,7 +113,7 @@ www</code></pre>
 
 var=$(test_func)
 echo ${var}</code></pre>
-<h2 id="array-processing" class="heading color-heading">配列処理</h2>
+<h2 id="array-processing" class="heading bgcolor-heading">配列処理</h2>
 <h3 class="heading bottomline-heading">スペース区切りの文字列を要素とする配列を作成する</h3>
 <pre class="code-block"><code class="bash">array=($(cat [ファイルパス]))</code></pre>
 <ul>
@@ -133,7 +133,7 @@ array+=('world')</code></pre>
 <pre class="code-block"><code class="bash">for val in ${array[@]}; do
     echo ${val}  # 何らかの処理
 done</code></pre>
-<h2 id="date-processing" class="heading color-heading">日付処理</h2>
+<h2 id="date-processing" class="heading bgcolor-heading">日付処理</h2>
 <h3 class="heading bottomline-heading">更新日時が新しいファイルを3世代だけ残し、それ以前のファイルを削除する</h3>
 <pre class="code-block"><code class="bash">ls -t test_*.log | tail -n+4 | xargs rm -f</code></pre>
 <ul>
@@ -145,7 +145,7 @@ done</code></pre>
 <pre class="code-block"><code class="bash">ls -t test_*.log | head -2 | xargs diff</code></pre>
 <h3 class="heading bottomline-heading">今週が第何週目かを求める</h3>
 <pre class="code-block"><code class="bash">expr $(date +%U) - $(date -d "$(date +%m)/1" +%U) + 1</code></pre>
-<h2 id="file-processing" class="heading color-heading">ファイル処理</h2>
+<h2 id="file-processing" class="heading bgcolor-heading">ファイル処理</h2>
 <h3 class="heading bottomline-heading">ファイルから1行ずつ読み込んで処理する</h3>
 <pre class="code-block"><code class="bash">while read line; do
     data=(${line})
@@ -171,7 +171,7 @@ fi</code></pre>
 tmp_file=$(mktemp)
 sort ${target_file} &gt; ${tmp_file}
 mv ${tmp_file} ${target_file}</code></pre>
-<h2 id="automation" class="heading color-heading">自動化</h2>
+<h2 id="automation" class="heading bgcolor-heading">自動化</h2>
 <h3 class="heading bottomline-heading">パスワード認証のSSHでコマンドを実行する</h3>
 <pre class="code-block"><code class="bash">username='[ユーザ名]'
 hostname='[ホスト名またはIPアドレス]'
@@ -263,7 +263,7 @@ case "$1" in
 esac
 
 exit 0</code></pre>
-<h2 id="other" class="heading color-heading">その他</h2>
+<h2 id="other" class="heading bgcolor-heading">その他</h2>
 <h3 class="heading bottomline-heading">スクリプトで実行しているコマンドを表示する</h3>
 <pre class="code-block"><code class="bash">#!/bin/bash -x</code></pre>
 <ul>

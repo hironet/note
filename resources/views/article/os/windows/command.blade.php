@@ -11,7 +11,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="diskpart" class="heading color-heading">diskpart</h2>
+<h2 id="diskpart" class="heading bgcolor-heading">diskpart</h2>
 <h3 class="heading bottomline-heading">ディスク全体を消去する</h3>
 <p>1. diskpartを起動する。</p>
 <pre class="code-block"><code class="shell">&gt; diskpart</code></pre>

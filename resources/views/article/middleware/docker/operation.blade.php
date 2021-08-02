@@ -14,7 +14,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="docker-image" class="heading color-heading">Dockerイメージの管理</h2>
+<h2 id="docker-image" class="heading bgcolor-heading">Dockerイメージの管理</h2>
 <h3 class="heading lowerleftline-heading">イメージ確認</h3>
 <h4 class="heading bottomline-heading">ローカルのイメージを確認する</h4>
 <pre class="code-block"><code class="shell">$ docker images</code></pre>
@@ -40,7 +40,7 @@
 $ docker push [イメージ名]:[タグ]</code></pre>
 <h4 class="heading bottomline-heading">イメージをプルする</h4>
 <pre class="code-block"><code class="shell">$ docker pull [レジストリ]:[タグ]</code></pre>
-<h2 id="docker-container" class="heading color-heading">Dockerコンテナの管理</h2>
+<h2 id="docker-container" class="heading bgcolor-heading">Dockerコンテナの管理</h2>
 <h3 class="heading lowerleftline-heading">コンテナ稼働状態確認</h3>
 <h4 class="heading bottomline-heading">稼働中のコンテナを確認する</h4>
 <pre class="code-block"><code class="shell">$ docker ps</code></pre>

@@ -11,7 +11,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="command" class="heading color-heading">Laravelのコマンド</h2>
+<h2 id="command" class="heading bgcolor-heading">Laravelのコマンド</h2>
 <h3 class="heading lowerleftline-heading">バージョン確認</h3>
 <h4 class="heading bottomline-heading">Laravelのバージョンを確認する</h4>
 <pre class="code-block"><code class="shell">$ php artisan --version</code></pre>

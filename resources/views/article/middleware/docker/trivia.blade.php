@@ -17,7 +17,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="log" class="heading color-heading">コンテナのログ確認</h2>
+<h2 id="log" class="heading bgcolor-heading">コンテナのログ確認</h2>
 <h3 class="heading bottomline-heading">コンテナのログを出力する</h3>
 <pre class="code-block"><code class="shell">$ docker logs [コンテナID]</code></pre>
 <h3 class="heading bottomline-heading">コンテナのログの末尾100行を出力する</h3>
@@ -26,12 +26,12 @@
 <pre class="code-block"><code class="shell">$ docker logs -f [コンテナID]</code></pre>
 <h3 class="heading bottomline-heading">指定した時刻以降のコンテナのログを出力する</h3>
 <pre class="code-block"><code class="shell">$ docker logs --since 2020-01-01T00:00:00 [コンテナID]</code></pre>
-<h2 id="file" class="heading color-heading">ファイルコピー</h2>
+<h2 id="file" class="heading bgcolor-heading">ファイルコピー</h2>
 <h3 class="heading bottomline-heading">コンテナからホストOSにファイルをコピーする</h3>
 <pre class="code-block"><code class="shell">$ docker cp [コンテナID]:[ファイルパス] [ファイルパス]</code></pre>
 <h3 class="heading bottomline-heading">ホストOSからコンテナにファイルをコピーする</h3>
 <pre class="code-block"><code class="shell">$ docker cp [ファイルパス] [コンテナID]:[ファイルパス]</code></pre>
-<h2 id="research" class="heading color-heading">コンテナ関連の調査</h2>
+<h2 id="research" class="heading bgcolor-heading">コンテナ関連の調査</h2>
 <h3 class="heading bottomline-heading">コンテナの情報を表示する</h3>
 <pre class="code-block"><code class="shell">$ docker inspect [コンテナID]</code></pre>
 <h3 class="heading bottomline-heading">Dockerデーモンによって使用されているディスク総容量を表示する</h3>

@@ -14,7 +14,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="branch" class="heading color-heading">ブランチ</h2>
+<h2 id="branch" class="heading bgcolor-heading">ブランチ</h2>
 <h3 class="heading bottomline-heading">ブランチの一覧を確認する</h3>
 <pre class="code-block"><code class="shell">$ git branch</code></pre>
 <h3 class="heading bottomline-heading">ブランチを作成する</h3>
@@ -35,7 +35,7 @@
 <ul>
   <li>masterブランチにマージされていない変更が残っていても削除する。</li>
 </ul>
-<h2 id="merge" class="heading color-heading">マージ</h2>
+<h2 id="merge" class="heading bgcolor-heading">マージ</h2>
 <h3 class="heading bottomline-heading">ブランチをマージする</h3>
 <pre class="code-block"><code class="shell">$ git checkout [マージ先のブランチ名]
 $ git merge [マージ元のブランチ名]</code></pre>

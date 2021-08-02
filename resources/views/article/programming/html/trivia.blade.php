@@ -11,7 +11,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="list" class="heading color-heading">リスト</h2>
+<h2 id="list" class="heading bgcolor-heading">リスト</h2>
 <h3 class="heading bottomline-heading">リストタグを入れ子にする</h3>
 <p><code>&lt;ul&gt;...&lt;/ul&gt;</code>は、<code>&lt;li&gt;...&lt;/li&gt;</code>の中に入れることで、入れ子にできる。</p>
 <pre class="code-block"><code>&lt;ul&gt;

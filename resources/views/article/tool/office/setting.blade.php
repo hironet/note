@@ -11,7 +11,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="option" class="heading color-heading">Excelのオプション</h2>
+<h2 id="option" class="heading bgcolor-heading">Excelのオプション</h2>
 <h3 class="heading bottomline-heading">ユーザー名を設定する</h3>
 <img class="figure-img" src="/img/office/excel2019-username.webp" alt="ユーザー名の設定">
 <h3 class="heading bottomline-heading">オートコレクトを無効にする</h3>

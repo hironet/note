@@ -23,7 +23,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="network" class="heading color-heading">ネットワーク設定</h2>
+<h2 id="network" class="heading bgcolor-heading">ネットワーク設定</h2>
 <h3 class="heading bottomline-heading">ネットワークインタフェースを有効化する</h3>
 <pre class="code-block"><code class="shell"># nmcli c modify [ネットワークインタフェース名] connection.autoconnect yes</code></pre>
 <h3 class="heading bottomline-heading">IPアドレスとサブネットマスクを設定する</h3>
@@ -44,7 +44,7 @@
 <h3 class="heading bottomline-heading">ネットワークインタフェースを再起動する</h3>
 <pre class="code-block"><code class="shell"># nmcli c down [ネットワークインタフェース名]
 # nmcli c up [ネットワークインタフェース名]</code></pre>
-<h2 id="yum" class="heading color-heading">パッケージの管理（Yum）</h2>
+<h2 id="yum" class="heading bgcolor-heading">パッケージの管理（Yum）</h2>
 <h3 class="heading bottomline-heading">リポジトリ一覧を表示する</h3>
 <pre class="code-block"><code class="shell"># yum repolist</code></pre>
 <h3 class="heading bottomline-heading">パッケージを検索する</h3>
@@ -76,10 +76,10 @@
 <ul>
   <li>事前に、<code>yum-utils</code>パッケージをインストールしておく必要がある。</li>
 </ul>
-<h2 id="rpm" class="heading color-heading">パッケージの管理（RPM）</h2>
+<h2 id="rpm" class="heading bgcolor-heading">パッケージの管理（RPM）</h2>
 <h3 class="heading bottomline-heading">ファイルがどのパッケージに含まれるかを確認する</h3>
 <pre class="code-block"><code class="shell"># rpm -qf [ファイルパス]</code></pre>
-<h2 id="service" class="heading color-heading">サービスの操作</h2>
+<h2 id="service" class="heading bgcolor-heading">サービスの操作</h2>
 <h3 class="heading bottomline-heading">サービス一覧を表示する</h3>
 <pre class="code-block"><code class="shell"># systemctl list-unit-files -t service</code></pre>
 <h3 class="heading bottomline-heading">サービスの状態を確認する</h3>
@@ -94,7 +94,7 @@
 <pre class="code-block"><code class="shell"># systemctl enable [unit名]</code></pre>
 <h3 class="heading bottomline-heading">サービスの自動起動を無効化する</h3>
 <pre class="code-block"><code class="shell"># systemctl disable [unit名]</code></pre>
-<h2 id="other" class="heading color-heading">その他</h2>
+<h2 id="other" class="heading bgcolor-heading">その他</h2>
 <h3 class="heading bottomline-heading">システムの時刻・日付設定を確認する</h3>
 <pre class="code-block"><code class="shell"># timedatectl status</code></pre>
 <h3 class="heading bottomline-heading">OS起動時にコマンドを自動実行する</h3>

@@ -26,7 +26,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="1dime-array" class="heading color-heading">1次元配列の基本操作</h2>
+<h2 id="1dime-array" class="heading bgcolor-heading">1次元配列の基本操作</h2>
 <h3 class="heading lowerleftline-heading">空の1次元配列の作成</h3>
 <h4 class="heading bottomline-heading">array()で空の配列を作成する</h4>
 <pre class="code-block"><code class="php">$colors = array();</code></pre>
@@ -46,7 +46,7 @@ echo $product['product_name'], PHP_EOL;  # iPhone 12</code></pre>
 <h4 class="heading bottomline-heading">短縮構文で連想配列を作成・初期化する</h4>
 <pre class="code-block"><code class="php">$product = ['product_no' => 11, 'product_name' => 'iPhone 12', 'price' => 94380];
 echo $product['price'], PHP_EOL;  # 94380</code></pre>
-<h2 id="2dime-array" class="heading color-heading">2次元配列の基本操作</h2>
+<h2 id="2dime-array" class="heading bgcolor-heading">2次元配列の基本操作</h2>
 <h3 class="heading lowerleftline-heading">2次元配列の作成・初期化（添字配列の場合）</h3>
 <h4 class="heading bottomline-heading">array()で添字配列を作成・初期化する</h4>
 <pre class="code-block"><code class="php">$colors = array(
@@ -79,7 +79,7 @@ echo $products[1]['product_name'], PHP_EOL;  # iPhone 12 Pro
 ];
 echo $products[2]['price'], PHP_EOL;  # 129580
 </code></pre>
-<h2 id="string" class="heading color-heading">配列と文字列</h2>
+<h2 id="string" class="heading bgcolor-heading">配列と文字列</h2>
 <h3 class="heading lowerleftline-heading">文字列への展開</h3>
 <h4 class="heading bottomline-heading">添字配列を文字列内に展開する</h4>
 <pre class="code-block"><code class="php">$colors = ['red', 'green', 'blue'];
@@ -93,7 +93,7 @@ echo "製品名は{$product['product_name']}です。", PHP_EOL;  # 製品名は
 <ul>
   <li>配列を<code>{}</code>で囲む。</li>
 </ul>
-<h2 id="function" class="heading color-heading">配列と関数</h2>
+<h2 id="function" class="heading bgcolor-heading">配列と関数</h2>
 <h3 class="heading lowerleftline-heading">関数への参照渡し</h3>
 <h4 class="heading bottomline-heading">配列の参照を関数に渡し、関数内で配列の値を変更する</h4>
 <pre class="code-block"><code class="php">function change_color(&amp;$colors) {
@@ -112,7 +112,7 @@ echo $colors[2], PHP_EOL;  # brue
 <ul>
   <li>関数の引数名の前に<code>&amp;</code>を付ける。</li>
 </ul>
-<h2 id="convenient-oper" class="heading color-heading">配列の便利な操作</h2>
+<h2 id="convenient-oper" class="heading bgcolor-heading">配列の便利な操作</h2>
 <h3 class="heading lowerleftline-heading">配列の分解（list構文の場合）</h3>
 <h4 class="heading bottomline-heading">配列から複数の変数に代入する</h4>
 <pre class="code-block"><code class="php">$colors = ['red', 'green', 'blue'];
@@ -155,7 +155,7 @@ echo $color_3, PHP_EOL;  # blue</code></pre>
 <pre class="code-block"><code class="php">$colors = ['red', 'green', 'blue'];
 [, , $color_3] = $colors;
 echo $color_3, PHP_EOL;  # blue</code></pre>
-<h2 id="convenient-func" class="heading color-heading">配列の便利な関数</h2>
+<h2 id="convenient-func" class="heading bgcolor-heading">配列の便利な関数</h2>
 <h3 class="heading lowerleftline-heading">count関数</h3>
 <h4 class="heading bottomline-heading">配列の要素数をカウントする</h4>
 <pre class="code-block"><code class="php">$colors = ['red', 'green', 'blue'];

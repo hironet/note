@@ -11,7 +11,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="oper" class="heading color-heading">RubyGems操作</h2>
+<h2 id="oper" class="heading bgcolor-heading">RubyGems操作</h2>
 <h3 class="heading bottomline-heading">インストールされているパッケージ一覧を表示する</h3>
 <pre class="code-block"><code>$ gem list</code></pre>
 <h3 class="heading bottomline-heading">インストール可能なパッケージ一覧を表示する</h3>

@@ -11,7 +11,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="filter" class="heading color-heading">フィルタ</h2>
+<h2 id="filter" class="heading bgcolor-heading">フィルタ</h2>
 <h3 class="heading lowerleftline-heading">フレーム</h3>
 <h4 class="heading bottomline-heading">特定の時間でフィルタする</h4>
 <pre class="code-block"><code class="shell">frame.time>="2018-04-01 12:30:00" &amp;&amp; frame.time&lt;="2018-04-01 13:00:00"</code></pre>

@@ -14,7 +14,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="system" class="heading color-heading">システム全体の設定</h2>
+<h2 id="system" class="heading bgcolor-heading">システム全体の設定</h2>
 <h3 class="heading bottomline-heading">CapsLockキーをControlキーに変更する</h3>
 <p>1. ctrl2capをインストールする。</p>
 <pre class="code-block"><code class="shell">&gt; choco install -y ctrl2cap</code></pre>
@@ -26,7 +26,7 @@
 <p>1. エクスプローラーを起動する。</p>
 <p>2. アドレスバーに<code>C:\ProgramData\Microsoft\Windows\Start Menu\Programs</code>を入力し、<kbd>Enter</kbd>を押す。</p>
 <p>3. スタートメニューに表示したいショートカットを配置する、または、非表示にしたいショートカットを削除する。</p>
-<h2 id="user" class="heading color-heading">ユーザ個別の設定</h2>
+<h2 id="user" class="heading bgcolor-heading">ユーザ個別の設定</h2>
 <h3 class="heading bottomline-heading">スタートメニューを設定する</h3>
 <p>1. エクスプローラーを起動する。</p>
 <p>2. アドレスバーに<code>C:\Users\[ユーザ名]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs</code>を入力し、<kbd>Enter</kbd>を押す。</p>

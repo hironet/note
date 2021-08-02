@@ -9,7 +9,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="command" class="heading color-heading">S3のコマンド</h2>
+<h2 id="command" class="heading bgcolor-heading">S3のコマンド</h2>
 <h3 class="heading bottomline-heading">全てのバケットを一覧表示する</h3>
 <pre class="code-block"><code class="shell">$ aws s3 ls</code></pre>
 <h3 class="heading bottomline-heading">バケット内の全てのオブジェクトを一覧表示する</h3>

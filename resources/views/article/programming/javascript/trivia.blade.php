@@ -11,7 +11,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="immediate" class="heading color-heading">即時実行関数</h2>
+<h2 id="immediate" class="heading bgcolor-heading">即時実行関数</h2>
 <h3 class="heading lowerleftline-heading">functionを使用する場合</h3>
 <p>書き方は、以下の2パターンのどちらでもよい。</p>
 <pre class="code-block"><code class="javascript">(function () {

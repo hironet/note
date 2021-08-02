@@ -14,7 +14,7 @@
     </ul>
   </nav>
 </header>
-<h2 id="data-volume" class="heading color-heading">データボリューム</h2>
+<h2 id="data-volume" class="heading bgcolor-heading">データボリューム</h2>
 <h3 class="heading bottomline-heading">データボリュームを確認する</h3>
 <pre class="code-block"><code class="shell">$ docker volume ls</code></pre>
 <h3 class="heading bottomline-heading">データボリュームを削除する</h3>
@@ -26,7 +26,7 @@
 <ul>
   <li>名前が<code>mydata</code>のデータ・ボリュームをコンテナ内の<code>/usr/share/nginx/html</code>にマウントする。</li>
 </ul>
-<h2 id="bind-mount" class="heading color-heading">バインドマウント</h2>
+<h2 id="bind-mount" class="heading bgcolor-heading">バインドマウント</h2>
 <h3 class="heading bottomline-heading">ホストOSのディレクトリをコンテナ内のディレクトリにマウントする</h3>
 <pre class="code-block"><code class="shell">$ docker run -itd --name [コンテナ名] -v /root/data/nginx:/usr/share/nginx/html [イメージ名]</code></pre>
 <ul>

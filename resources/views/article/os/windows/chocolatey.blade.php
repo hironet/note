@@ -20,11 +20,11 @@
     </ul>
   </nav>
 </header>
-<h2 id="install" class="heading color-heading">Chocolateyのインストール</h2>
+<h2 id="install" class="heading bgcolor-heading">Chocolateyのインストール</h2>
 <p><a href="https://chocolatey.org/install" target="_blank" rel="noopener noreferrer">Chocolatey</a>の説明に従ってインストールする。</p>
-<h2 id="verup" class="heading color-heading">Chocolateyのバージョンアップ</h2>
+<h2 id="verup" class="heading bgcolor-heading">Chocolateyのバージョンアップ</h2>
 <pre class="code-block"><code class="shell">&gt; choco upgrade chocolatey</code></pre>
-<h2 id="command" class="heading color-heading">Chocolateyのコマンド</h2>
+<h2 id="command" class="heading bgcolor-heading">Chocolateyのコマンド</h2>
 <h3 class="heading bottomline-heading">インストールされているパッケージ一覧を表示する</h3>
 <pre class="code-block"><code class="shell">&gt; choco list -l</code></pre>
 <h3 class="heading bottomline-heading">パッケージを検索する</h3>
@@ -37,7 +37,7 @@
 <pre class="code-block"><code class="shell">&gt; choco upgrade -y all</code></pre>
 <h3 class="heading bottomline-heading">インストールされている個別のパッケージを更新する</h3>
 <pre class="code-block"><code class="shell">&gt; choco upgrade -y [パッケージ名]</code></pre>
-<h2 id="useful" class="heading color-heading">便利な操作</h2>
+<h2 id="useful" class="heading bgcolor-heading">便利な操作</h2>
 <h3 class="heading bottomline-heading">パッケージ名を記載したXMLファイルからパッケージをインストールする</h3>
 <pre class="code-block"><code class="xml">&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;packages&gt;
