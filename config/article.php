@@ -328,6 +328,12 @@ return [
                     '知っておくと色んな場面で便利になるショートカットキーの使い方について書いています。',
                     '2021-04-03',
                 ],
+                'trivia' => [
+                    '/article/tool/vscode/trivia',
+                    'Visual Studio Codeの豆知識',
+                    '知っておくと便利なVisual Studio Codeの豆知識について書いています。',
+                    '2021-08-09',
+                ],
             ],
             'office' => [
                 'setting' => [
