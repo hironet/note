@@ -93,15 +93,15 @@ $ git push</code></pre>
 <ul>
   <li><code>-u</code>オプションを付けると、次回以降は<code>git push</code>だけで<code>origin master</code>にプッシュするようになる。</li>
 </ul>
-<h3 class="heading bottomline-heading"><code>git push</code>実行時に認証情報（ユーザ名・パスワード）の入力を省略する</h3>
-<pre class="code-block"><code class="shell">$ git clone https://[ユーザ名]:[パスワード]@github.com/hironet/tech-note</code></pre>
+<h3 class="heading bottomline-heading"><code>git push</code>実行時に認証情報（ユーザ名・個人アクセストークン）の入力を省略する</h3>
+<pre class="code-block"><code class="shell">$ git clone https://[ユーザ名]:[個人アクセストークン]@github.com/hironet/tech-note</code></pre>
 <ul>
-  <li><code>git clone</code>実行時にリモートリポジトリの認証情報（ユーザ名・パスワード）をURLに埋め込む。</li>
+  <li><code>git clone</code>実行時にリモートリポジトリの認証情報（ユーザ名・個人アクセストークン）をURLに埋め込む。</li>
   <li>ユーザ名に<code>@</code>を含む場合は、それを<code>%40</code>に置き換える。</li>
 </ul>
 <h3 class="heading bottomline-heading">保存された認証情報を変更する</h3>
-<p>リモートリポジトリの認証情報（ユーザ名・パスワード）を変更した場合、以下のコマンドを実行し、originのURLを変更する。</p>
-<pre class="code-block"><code class="shell">$ git remote set-url origin https://[ユーザ名]:[パスワード]@github.com/hironet/dotfiles</code></pre>
+<p>リモートリポジトリの認証情報（ユーザ名・個人アクセストークン）を変更した場合、以下のコマンドを実行し、originのURLを変更する。</p>
+<pre class="code-block"><code class="shell">$ git remote set-url origin https://[ユーザ名]:[個人アクセストークン]@github.com/hironet/dotfiles</code></pre>
 <h3 class="heading bottomline-heading">オレオレ証明書対策などのため、特定のGitリポジトリにおいて、SSH証明書のチェックを無効にする</h3>
 <pre class="code-block"><code class="shell">$ GIT_SSL_NO_VERIFY=true git clone https://github.com/hironet/tech-note
 $ cd tech-note
