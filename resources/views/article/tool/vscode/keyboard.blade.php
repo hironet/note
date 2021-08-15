@@ -24,6 +24,9 @@
         <a href="#sort">並び替え</a>
       </li>
       <li>
+        <a href="#terminal">ターミナル操作</a>
+      </li>
+      <li>
         <a href="#emmet">Emmet</a>
       </li>
     </ul>
@@ -73,6 +76,11 @@
         <td>ファイルを開く</td>
         <td><kbd>Ctrl + O</kbd></td>
         <td><kbd>&#8984; + O</kbd></td>
+      </tr>
+      <tr>
+        <td>フォルダを閉じる</td>
+        <td></td>
+        <td><kbd>&#8984; + K F</kbd></td>
       </tr>
       <tr>
         <td>カーソルのある行をコピーする</td>
@@ -220,6 +228,25 @@
         <td>選択範囲を降順に並び替える</td>
         <td><kbd>Ctrl + Shift + P</kbd> <code>Sort Lines Descending</code></td>
         <td><kbd>&#8984; + &#8679; + P</kbd> <code>Sort Lines Descending</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div><!-- /.table-responsive -->
+<h2 id="terminal" class="heading bgcolor-heading">ターミナル操作</h2>
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>操作</th>
+        <th>Windowsの場合</th>
+        <th>Macの場合</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>新しいターミナルを開く</td>
+        <td></td>
+        <td><kbd>&#8963; + &#8679; + ^</kbd></td>
       </tr>
     </tbody>
   </table>
