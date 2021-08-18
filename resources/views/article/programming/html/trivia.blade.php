@@ -6,11 +6,23 @@
   <nav>
     <ul class="list-box list-box-toc">
       <li>
+        <a href="#link">リンク</a>
+      </li>
+      <li>
         <a href="#list">リスト</a>
       </li>
     </ul>
   </nav>
 </header>
+<h2 id="link" class="heading bgcolor-heading">リンク</h2>
+<h3 class="heading bottomline-heading">リンクを新しいタブで開く</h3>
+<p><code>a</code>タグの属性に<code>target="_blank" rel="noreferrer noopener"</code>を付ける。</p>
+<pre class="code-block"><code>&lt;a href="https://www.google.com" target="_blank" rel="noreferrer noopener"&gt;Google&lt;/a&gt;
+</code></pre>
+<div class="html-result">
+  <span class="title">表示結果</span>
+  <a href="https://www.google.com" target="_blank" rel="noreferrer noopener">Google</a>
+</div><!-- /.html-result -->
 <h2 id="list" class="heading bgcolor-heading">リスト</h2>
 <h3 class="heading bottomline-heading">リストタグを入れ子にする</h3>
 <p><code>&lt;ul&gt;...&lt;/ul&gt;</code>は、<code>&lt;li&gt;...&lt;/li&gt;</code>の中に入れることで、入れ子にできる。</p>
